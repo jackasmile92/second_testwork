@@ -6,43 +6,109 @@
         <meta name="description" content="Мы создаем контент и обеспечиваем коммуникацию с аудиторией в любой вещательной среде. Сборка и выпуск телеканалов, производство промо, создание трансляций и виртуальных мероприятий, имиджевые и продающие ролики, анализ аудитории и вовлеченности зрителей.">
         <meta name="viewport" content="width=device-width">
         <style type="text/css">
-            body{
+            body, html{
                 margin: 0px;
+                width: 1920px;
             }
-            footer{
+
+            .footer{
+                height: 275px;
+                width: 1918px;
+                padding-left: 240px;                
                 background-color: black;
+            }
+
+            .footer__elements{
+                display: flex;
+                flex-direction: row;
+                justify-content:space-between;
                 color: white;
                 height: 275px;
+                width: 1440px;
+            }
+            .footer__contact{
+                display: flex;
+                flex-direction: row;
+            }
+            .footer__social{
+                display: flex;
+                flex-direction:column;
+                align-items: flex-end;
+            }
+
+            .footer__icons{
+                display: flex;
+                width: 423px;
+                justify-content: space-between;
+                align-items: baseline;
+            }
+
+            .vk {
+                width: 28px;
+                height: 16px;
+                object-fit: contain;
+            }
+
+            .facebook {
+                width: 12px;
+                height: 24px;
+                object-fit: contain;
+            }
+            .insta {
+                width: 20px;
+                height: 20px;
+                object-fit: contain;
+            }
+            .ok {
+                width: 13px;
+                height: 23px;
+                object-fit: contain;
+            }
+            .twitter {
+                width: 23px;
+                height: 20px;
+                object-fit: contain;
+            }
+            .switch {
+                width: 20px;
+                height: 20px;
+                object-fit: contain;
+            }
+            .youtube {
+                width: 29px;
+                height: 20px;
+                object-fit: contain;
             }
         </style>
     </head>
     <body>  
-
-        <footer>
-          <div class="footer__contact">
-              <div class="footer__logo">
-                  <img src="#">
-              </div>
-              <div class="footer__contact-info">
-                  <p>+7 499 322 29 71</p>
-                  <p>hello@pikemedia.ru</p>
-                  <p>115162, Москва, ул. Шухова, 14</p>
-              </div>
-          </div>
-          <div class="footer__social">
-              <div class="footer__icons">
-                  <a><img></a>
-                  <a><img></a>
-                  <a><img></a>
-                  <a><img></a>
-                  <a><img></a>
-                  <a><img></a>
-                  <a><img></a>
+        <div class="footer">
+            <div class="footer__elements">
+                <div class="footer__contact">
+                    <div class="footer__logo">
+                        <img src="./src/img/png/logo-light@2x.png">
+                    </div>
+                    <div class="footer__contact-info">
+                        <p>+7 499 322 29 71</p>
+                        <p>hello@pikemedia.ru</p>
+                        <p>115162, Москва, ул. Шухова, 14</p>
+                    </div>
                 </div>
-              <div class="footer__dev">
-                  <p><a>Redis</a> &mdash; создание сайта</p>
-              </div>
-          </div>    
-        </footer>        
+                <div class="footer__social">
+                    <div class="footer__icons">
+                        <div><a><img src="./src/img/svg/vk.svg" class="vk"></a></div>
+                        <div><a><img src="./src/img/svg/facebook.svg" class="facebook"></a></div>
+                        <div><a><img src="./src/img/svg/insta.svg" class="insta"></a></div>
+                        <div><a><img src="./src/img/svg/ok.svg" class="ok"></a></div>
+                        <div><a><img src="./src/img/svg/twitter.svg" class="twitter"></a></div>
+                        <div><a><img src="./src/img/svg/switch.svg" class="switch"></a></div>
+                        <div><a><img src="./src/img/svg/youtube.svg" class="youtube"></a></div>
+                    </div>
+                    <div class="footer__dev">
+                         <p><a>Redis</a> &mdash; создание сайта</p>
+                    </div>
+                </div> 
+            </div>   
+        </div>        
     </body>
 </html>
