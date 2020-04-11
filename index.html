@@ -6,34 +6,75 @@
         <meta name="description" content="Мы создаем контент и обеспечиваем коммуникацию с аудиторией в любой вещательной среде. Сборка и выпуск телеканалов, производство промо, создание трансляций и виртуальных мероприятий, имиджевые и продающие ролики, анализ аудитории и вовлеченности зрителей.">
         <meta name="viewport" content="width=device-width">
         <style type="text/css">
+            @font-face {
+                font-family: GothamPro;
+                src: url("./src/fonts/GothamPro.woff");
+            }
+
             body, html{
                 margin: 0px;
                 width: 1920px;
+                background-color: black;
+            }
+
+
+            body{
+                padding-left: 240px;
             }
 
             .footer{
                 height: 275px;
                 width: 1918px;
-                padding-left: 240px;                
-                background-color: black;
+                padding-left: 135px;     
             }
+
 
             .footer__elements{
                 display: flex;
                 flex-direction: row;
-                justify-content:space-between;
+                align-items:flex-start;
+
                 color: white;
                 height: 275px;
                 width: 1440px;
             }
-            .footer__contact{
+            .footer__contact{            
                 display: flex;
                 flex-direction: row;
             }
+
+
+            .footer__logo{
+                padding-top: 76px; 
+                height: 275px;
+            }
+
+            .footer__logo img{
+                widows: 169px;
+                height: 52px;
+            }
+
+            .footer__contact-info{
+                margin-left: 113px;
+                padding-top: 77px;
+                height: 24px;
+                font-family: GothamPro;
+                font-size: 16px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 2;
+                letter-spacing: normal;
+                color: #ffffff;
+            }
+
             .footer__social{
                 display: flex;
                 flex-direction:column;
                 align-items: flex-end;
+                margin-left: 380px;
+                padding-top: 76px; 
+                height: 275px;
             }
 
             .footer__icons{
@@ -41,6 +82,25 @@
                 width: 423px;
                 justify-content: space-between;
                 align-items: baseline;
+            }
+
+            .footer__dev{
+                margin-top:42px;
+                width: 195px;
+                height: 15px;
+                font-family: GothamPro;
+                font-size: 16px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: right;
+                color: #7f7f7f;
+            }
+
+            .footer__dev a{
+                color: #f2f2f2;
             }
 
             .vk {
@@ -89,9 +149,9 @@
                         <img src="./src/img/png/logo-light@2x.png">
                     </div>
                     <div class="footer__contact-info">
-                        <p>+7 499 322 29 71</p>
-                        <p>hello@pikemedia.ru</p>
-                        <p>115162, Москва, ул. Шухова, 14</p>
+                        <div>+7 499 322 29 71</div>
+                        <div>hello@pikemedia.ru</div>
+                        <div>115162, Москва, ул. Шухова, 14</div>
                     </div>
                 </div>
                 <div class="footer__social">
@@ -105,7 +165,7 @@
                         <div><a><img src="./src/img/svg/youtube.svg" class="youtube"></a></div>
                     </div>
                     <div class="footer__dev">
-                         <p><a>Redis</a> &mdash; создание сайта</p>
+                        <a>Redis</a> &mdash; создание сайта
                     </div>
                 </div> 
             </div>   
