@@ -14,161 +14,82 @@
             body, html{
                 margin: 0px;
                 width: 1920px;
+                height:calc(1008px + 275px);
                 background-color: black;
             }
 
 
-            body{
-                padding-left: 240px;
+
+            .feedback{
+                background-image: url("./src/img/from_google/black_noise.png");
+                width: 1920px;
+                height: 1008px;
+                background-size: auto;
+                padding-left: 391px;
+                padding-top: 181px;
             }
 
-            .footer{
-                height: 275px;
-                width: 1918px;
-                padding-left: 135px;     
-            }
-
-
-            .footer__elements{
-                display: flex;
-                flex-direction: row;
-                align-items:flex-start;
-
-                color: white;
-                height: 275px;
-                width: 1440px;
-            }
-            .footer__contact{            
-                display: flex;
-                flex-direction: row;
-            }
-
-
-            .footer__logo{
-                padding-top: 76px; 
-                height: 275px;
-            }
-
-            .footer__logo img{
-                widows: 169px;
-                height: 52px;
-            }
-
-            .footer__contact-info{
-                margin-left: 113px;
-                padding-top: 77px;
-                height: 24px;
+            .feedback__title{
+                width: 856px;
+                height: 240px;
                 font-family: GothamPro;
-                font-size: 16px;
-                font-weight: normal;
+                font-size: 80px;
+                font-weight: bold;
                 font-stretch: normal;
                 font-style: normal;
-                line-height: 2;
-                letter-spacing: normal;
+                line-height: 1;
+                letter-spacing: -1.7px;
                 color: #ffffff;
             }
-
-            .footer__social{
-                display: flex;
-                flex-direction:column;
-                align-items: flex-end;
-                margin-left: 380px;
-                padding-top: 76px; 
-                height: 275px;
+            .feedback__dot{
+                color: #01da00;
             }
-
-            .footer__icons{
-                display: flex;
-                width: 423px;
-                justify-content: space-between;
-                align-items: baseline;
-            }
-
-            .footer__dev{
-                margin-top:42px;
-                width: 195px;
-                height: 15px;
-                font-family: GothamPro;
-                font-size: 16px;
-                font-weight: normal;
-                font-stretch: normal;
-                font-style: normal;
-                line-height: normal;
-                letter-spacing: normal;
-                text-align: right;
-                color: #7f7f7f;
-            }
-
-            .footer__dev a{
-                color: #f2f2f2;
-            }
-
-            .vk {
-                width: 28px;
-                height: 16px;
-                object-fit: contain;
-            }
-
-            .facebook {
-                width: 12px;
-                height: 24px;
-                object-fit: contain;
-            }
-            .insta {
-                width: 20px;
-                height: 20px;
-                object-fit: contain;
-            }
-            .ok {
-                width: 13px;
-                height: 23px;
-                object-fit: contain;
-            }
-            .twitter {
-                width: 23px;
-                height: 20px;
-                object-fit: contain;
-            }
-            .switch {
-                width: 20px;
-                height: 20px;
-                object-fit: contain;
-            }
-            .youtube {
-                width: 29px;
-                height: 20px;
-                object-fit: contain;
-            }
-        </style>
+        </style> 
+        <link rel="stylesheet" href="./css/footer-1920.css">
     </head>
     <body>  
-        <div class="footer">
-            <div class="footer__elements">
-                <div class="footer__contact">
-                    <div class="footer__logo">
-                        <img src="./src/img/png/logo-light@2x.png">
-                    </div>
-                    <div class="footer__contact-info">
-                        <div>+7 499 322 29 71</div>
-                        <div>hello@pikemedia.ru</div>
-                        <div>115162, Москва, ул. Шухова, 14</div>
-                    </div>
+
+        <div class="feedback">
+            <div class="feedback__title">
+                Разработаем решение под ваши задачи<span class="feedback__dot">.</span>
+            </div>
+            <div class="feedback__form">
+                <div class="feedback__info">
+                    Возникли вопросы или хотите оценить стоимость проекта? Оставьте заявку и наш менеджер с вами свяжется.
                 </div>
-                <div class="footer__social">
-                    <div class="footer__icons">
-                        <div><a><img src="./src/img/svg/vk.svg" class="vk"></a></div>
-                        <div><a><img src="./src/img/svg/facebook.svg" class="facebook"></a></div>
-                        <div><a><img src="./src/img/svg/insta.svg" class="insta"></a></div>
-                        <div><a><img src="./src/img/svg/ok.svg" class="ok"></a></div>
-                        <div><a><img src="./src/img/svg/twitter.svg" class="twitter"></a></div>
-                        <div><a><img src="./src/img/svg/switch.svg" class="switch"></a></div>
-                        <div><a><img src="./src/img/svg/youtube.svg" class="youtube"></a></div>
-                    </div>
-                    <div class="footer__dev">
-                        <a>Redis</a> &mdash; создание сайта
-                    </div>
-                </div> 
-            </div>   
-        </div>        
+                <div class="feedback__input">
+                    <div class="feedback__field"><input placeholder="Ваше имя"></div>
+                    <div class="feedback__field"><input placeholder="Телефон"></div>
+                    <div class="feedback__field"><input placeholder="Сообщение"></div>
+                </div>
+             </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer__contact">
+                <div class="footer__logo">
+                    <img src="./src/img/png/logo-light@2x.png">
+                </div>
+                <div class="footer__contact-info">
+                    <div>+7 499 322 29 71</div>
+                    <div>hello@pikemedia.ru</div>
+                    <div>115162, Москва, ул. Шухова, 14</div>
+                </div>
+            </div>
+            <div class="footer__social">
+                <div class="footer__icons">
+                    <div><a><img src="./src/img/svg/vk.svg" class="vk"></a></div>
+                    <div><a><img src="./src/img/svg/facebook.svg" class="facebook"></a></div>
+                    <div><a><img src="./src/img/svg/insta.svg" class="insta"></a></div>
+                    <div><a><img src="./src/img/svg/ok.svg" class="ok"></a></div>
+                    <div><a><img src="./src/img/svg/twitter.svg" class="twitter"></a></div>
+                    <div><a><img src="./src/img/svg/switch.svg" class="switch"></a></div>
+                    <div><a><img src="./src/img/svg/youtube.svg" class="youtube"></a></div>
+                </div>
+                <div class="footer__dev">
+                    <a>Redis</a> &mdash; создание сайта
+                </div>
+            </div> 
+        </div>       
     </body>
 </html>
