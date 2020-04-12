@@ -18,13 +18,20 @@
                 background-color: black;
             }
 
+            html {
+                display: table;
+                margin: auto;
+            }
 
+            body {
+                display: table-cell;
+                vertical-align: middle;
+            }
 
             .feedback{
-                background-image: url("./src/img/from_google/black_noise.png");
-                width: 1920px;
-                height: 1008px;
-                background-size: auto;
+                background-image: url("./src/img/gif/Noise-200px.gif");
+                width: 1529px;
+                height: 827px;
                 padding-left: 391px;
                 padding-top: 181px;
             }
@@ -41,9 +48,81 @@
                 letter-spacing: -1.7px;
                 color: #ffffff;
             }
+
             .feedback__dot{
                 color: #01da00;
             }
+
+            .feedback__form{
+                display: flex;
+                flex-direction: row;
+                padding-top: 63px;
+            }
+
+            .feedback__info{
+                width: 361px;
+                height: 72px;
+                font-family: GothamPro;
+                font-size: 16px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.5;
+                letter-spacing: normal;
+                color: #01da00;
+            }
+
+            .feedback__input{
+                margin-left: 144px;
+            }
+
+            .feedback__field input{
+                width:570px;
+                height:20px;
+                border: none;
+                outline:none;
+                background-color:transparent;
+                border-bottom: 2px solid #01da00;
+                color: #ffffff;
+                font-family: GothamPro;
+                font-size: 16px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.5;
+                letter-spacing: normal;
+                padding-bottom: 23px;
+                margin-bottom: 46px;
+            }
+
+            .feedback__field input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                color: #ffffff;
+                opacity: 1; /* Firefox */
+            }
+
+            .feedback__button{
+                margin-top: 9px;
+                width: 169px;
+                height: 50px;
+                background-color: #01da00;
+                border: none;
+                padding-left:0px;
+            }
+
+            .feedback__button div{
+                width: 169px;
+                height: 16px;
+                font-family: GothamPro;
+                font-size: 16px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 1.01px;
+                color: #000000;                
+                text-align: center;
+            }
+
         </style> 
         <link rel="stylesheet" href="./css/footer-1920.css">
     </head>
@@ -61,6 +140,7 @@
                     <div class="feedback__field"><input placeholder="Ваше имя"></div>
                     <div class="feedback__field"><input placeholder="Телефон"></div>
                     <div class="feedback__field"><input placeholder="Сообщение"></div>
+                    <button class="feedback__button"><div>Отправить</div></button>
                 </div>
              </div>
         </div>
