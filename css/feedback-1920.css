@@ -1,5 +1,7 @@
 .feedback{
     background-image: url("../src/img/gif/Noise-200px.gif");
+    background-repeat: repeat-x;;
+    background-size: 1008px 1008px;
     width: 1529px;
     height: 827px;
     padding-left: 391px;
