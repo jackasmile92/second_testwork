@@ -14,7 +14,6 @@
             body, html{
                 margin: 0px;
                 width: 1920px;
-                height:calc(1008px + 275px);
                 background-color: black;
             }
 
@@ -26,6 +25,67 @@
             body {
                 display: table-cell;
                 vertical-align: middle;
+            }
+
+            .services{
+                width: 1920px;
+                height: 3265px;
+                background-color: white;
+                position: relative;
+            }
+
+            .services__background{
+                width: 1920px;
+                height: 3265px;
+                background-image: url("./src/img/gif/Noise-200px.gif");
+                background-repeat: repeat;
+                background-size: 991px 991px;
+                opacity: 0.1;
+                position:absolute;
+            }
+
+            .services__products{
+                width: 1920px;
+                height: 3265px;
+                opacity: 1;
+                position:absolute;  
+            }
+
+            .services__product{
+                display: flex;
+                flex-direction: row;
+            }
+
+            .product__img img{
+                width: 376px;
+            }
+
+            .product__title{
+                width: 826px;
+                height: 256px;
+                font-family: GothamPro;
+                font-size: 61px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.05;
+                letter-spacing: -2px;
+                color: #01da00;
+            }
+
+            .product__title-black{
+                color:#000000;
+            }
+
+            .product__list{
+                font-family: GothamPro;
+                font-size: 16px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.5;
+                letter-spacing: normal;
+                color: #000000;
             }
 
            
@@ -53,6 +113,81 @@
             <div class="header__bottom">
                 <div class="header__pike"><img src="./src/img/svg/pike.svg"></div>
                 <div class="header__media"><img src="./src/img/svg/medialab.svg"></div>
+            </div>
+        </div>
+
+        <div class="services">
+            <div class="services__background"></div>
+            <div class="services__products">
+                <div class="services__product">
+                    <div class="product__text">
+                        <div class="product__title"><span class="product__title-black">МедиаХаб</span>. Конструктор технологических медиауслуг</div>
+                        <div class=product__list>
+                            <ul>
+                                <li>Прием контента и оценка технического качества</li>
+                                <li>Предэфирная подготовка и транскодирование контента</li>
+                                <li>Перспективное и текущее планирование эфира</li>
+                                <li>Управление рекламным трафиком</li>
+                                <li>Архивирование эфирного контента</li>
+                                <li>Отчетность для рекламодателей и правообладателей</li>
+                                <li>Подготовка пакетов контента и расписаний для VOD</li>
+                                <li>Мультиязычная локализация контента</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product__img">
+                        <img src="./src/img/png/hub@3x.png">
+                    </div>
+                </div>
+
+                <div class="services__product">                    
+                    <div class="product__img">
+                        <img  src="./src/img/png/archive@3x.png">
+                    </div>
+                    <div class="product__text">
+                        <div class="product__title"><span class="product__title-black">Цифровой архив</span>. Smart архивирование и надежное хранение исходных медиа- материалов</div>
+                        <div class=product__list>
+                            <ul>
+                                <li>Координация приема и выдачи контента</li>
+                                <li>Оценка технического качества</li>
+                                <li>Емкость библиотеки 2,5 Петабайта</li>
+                                <li>Пакетирование и цифровая доставка контента</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__product">
+                    <div class="product__text">
+                        <div class="product__title"><span class="product__title-black">Создание и доставка сигнала</span>. Выпуск, наземная и спутниковая доставка сигнала телеканалов</div>
+                        <div class=product__list>
+                            <ul>
+                                <li>Мониторинг 24х7х365 в эфирной аппаратной</li>
+                                <li>Эфирный комплекс в России и США</li>
+                                <li>Выпуск телеканалов, мониторинг и технический контроль 24х7</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product__img">
+                        <img src="./src/img/png/signal@3x.png">
+                    </div>
+                </div>
+
+                <div class="services__product">
+                    <div class="product__img">
+                        <img src="./src/img/png/promo@3x.png">
+                    </div>
+                    <div class="product__text">
+                        <div class="product__title"><span class="product__title-black">Создание промо</span>. Разработка фирменного стиля и промокампаний телеканалов</div>
+                        <div class=product__list>
+                            <ul>
+                                <li>Создание брендбуков телеканалов и отдельных элементов оформления</li>
+                                <li>Производство монтажных и постановочных промороликов</li>
+                                <li>Производство внеэфирных промоматериалов</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
