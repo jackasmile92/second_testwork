@@ -1,0 +1,152 @@
+.services{
+    width: 1920px;
+    height: 3265px;
+    background-color: white;
+    position: relative;
+}
+
+.services__background{
+    width: 1920px;
+    height: 3265px;
+    background-image: url("./src/img/gif/Noise-200px.gif");
+    background-repeat: repeat;
+    background-size: 991px 991px;
+    opacity: 0.1;
+    position:absolute;
+}
+
+.services__products{
+    width: 1920px;
+    height: 2883px;
+    opacity: 1;
+    position:absolute;  
+    padding-left:374px;
+    padding-top: 185px;
+    padding-bottom: 197px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.services__product{
+    display: flex;
+    flex-direction: row;
+}
+
+.product__img img{
+    width: 376px;
+}
+
+.product__img{
+    width: 376px;
+}
+
+.product__img.hub{
+    margin-top: 134px;
+    margin-left: -120px;
+}
+
+.product__list li{
+    margin-top: 10px;
+    margin-left: -16px;
+}
+
+.product__title{
+    width: 826px;
+    height: 256px;
+    font-family: GothamPro;
+    font-size: 61px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: -2px;
+    color: #01da00;
+}
+
+.product__title-black{
+    color:#000000;
+}
+
+.product__list{
+    font-family: GothamPro;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: -20px;
+}
+
+.product__img.archive{
+    margin-top: 39px;
+}
+
+.product__text.archive{
+    margin-left: 123px;
+}
+
+.product__title.archive{
+    width:670px;
+}
+
+.product__list.archive{
+    margin-top: 125px;
+}
+
+.product__img.signal{
+    margin-top: 129px;
+    margin-left: -70px;
+}
+
+.product__list.signal{
+    margin-top: 38px;
+    width: 447px;
+}
+
+.product__list.signal li{
+    margin-top: 12px;
+}
+
+.product__text.promo{
+    margin-left: 108px;
+}
+
+.product__list.promo{
+    margin-top: 115px;
+    width: 430px;
+}
+
+.product__title.promo{
+    width:600px;
+}
+
+.servises__stamp{
+    position: absolute;
+    width: 1920px;
+    height: 2883px;
+}
+
+.servises__stamp-text{
+    position:absolute;
+    width:175px;
+}
+
+.servises__rock{
+    position:absolute;
+    width: 54.3px;
+    margin-left: 60px;
+    margin-top: 43px;
+}
+
+.servises__stamp.one{
+    padding-left:1301px;
+    padding-top:1210px;
+}
+
+.servises__stamp.two{
+    padding-left:1316px;
+    padding-top:2748px;
+}
