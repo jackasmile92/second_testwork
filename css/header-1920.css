@@ -75,6 +75,10 @@
     width: 652px;
 }
 
+.header__media{
+    margin-top: 25px;
+}
+
 .header__media img{
     height:184px;
     width: 1409px;

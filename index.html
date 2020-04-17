@@ -26,6 +26,169 @@
                 display: table-cell;
                 vertical-align: middle;
             }
+
+            .clients{
+                width: 1545px;
+                height: 1026px;
+                background-image: url("./src/img/gif/Noise-200px.gif");
+                background-repeat: repeat;
+                background-size: 1008px 1008px;
+
+                padding-left: 375px;
+                padding-top: 186px;
+
+                overflow-x: hidden;
+            }
+
+            .clients__numbers{
+                display: flex;
+                flex-direction: row;              
+            }
+
+            .number__title{  
+                font-family: GothamPro;
+                font-size: 80px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1;
+                letter-spacing: -4.8px;
+                color: #ffffff;
+            }
+
+            .number.second{
+                margin-left: 132px;
+            }
+
+            .number.third{
+                margin-left: 86px;
+            }
+
+            .number.fourth{
+                margin-left: 71px;
+            }
+
+            .number__text{
+                margin-top: 18px;
+                width: 229px;
+                height: 48px;
+                font-family: GothamPro;
+                font-size: 16px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.5;
+                letter-spacing: normal;
+                color: #ffffff;      
+            }
+
+            .clients__title-row{
+                margin-top: 117px;
+                display: flex;
+                flex-direction: row;  
+            }
+
+            .clients__title{
+                display: flex;
+                flex-direction: row;  
+            }
+
+            .clients__tittle-text{
+                width: 356px;
+                height: 80px;
+                font-family: GothamPro;
+                font-size: 80px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1;
+                letter-spacing: -1.7px;
+                color: #ffffff;
+            }
+
+            .clients__rect{
+                margin-top: 52px;
+                width: 16px;
+                height: 16px;
+                background-color: #01da00;
+            }
+
+            .clients_arrows{
+                margin-top: 36px;
+                margin-left: 702px;
+                display: flex;
+                flex-direction: row;  
+            }
+
+            .clients__arrow img{
+                height: 29px;
+            }
+
+            .clients__arrow.left{
+                transform: scaleX(-1);
+                margin-right: 22px;
+                opacity: 0.3;
+            }
+
+            .clients__list{
+                margin-top: 77px;
+                width: 2000px;
+                display: flex;
+                flex-direction: row;  
+            }
+
+            .client{
+                width: 500px;
+                height: 397px;
+                background-color: #01da00;
+                padding-left: 34px;
+                padding-right: 32px;
+
+            }
+
+            .client.white{
+                background-color: #ffffff;
+            }
+
+            .client__bottom{
+                display: flex;
+                flex-direction: row;      
+                justify-content: space-around ;  
+                 
+                margin-top: 170px;        
+            }
+
+            .client__logo img{
+                width: 200px;
+            }
+
+            .client__text{
+                margin-top: 20px;
+                width: 234px;
+                height: 173px;
+                font-family: GothamPro;
+                font-size: 16px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.5;
+                letter-spacing: normal;
+                color: #000000;
+            }
+
+            .client__name{
+                margin-top: 36px;
+                width: 383px;
+                height: 92px;
+                font-family: GothamPro;
+                font-size: 40px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.15;
+                letter-spacing: -0.85px;
+                color: #000000;
+            }
            
         </style> 
         <link rel="stylesheet" href="./css/header-1920.css">
@@ -53,6 +216,55 @@
                 <div class="header__pike"><img src="./src/img/svg/pike.svg"></div>
                 <div class="header__media"><img src="./src/img/svg/medialab.svg"></div>
             </div>
+        </div>
+
+        <div class="clients">
+            <div class="clients__numbers">
+                <div class="number">
+                    <div class="number__title">10 000</div>
+                    <div class="number__text">Часов контента мы обрабатываем ежегодно</div>
+                </div>
+                <div class="number second">
+                    <div class="number__title">20</div>
+                    <div class="number__text">Телеканалов доверяют <br>нам эфирную подготовку</div>
+                </div>
+                <div class="number third">
+                    <div class="number__title">50</div>
+                    <div class="number__text">Телеканалов выпускаются 
+                        в эфирном комплексе</div>
+                </div>
+                <div class="number fourth">
+                    <div class="number__title">20</div>
+                    <div class="number__text">Наград МедиаБренд<br>
+                        и Promax за работы в промо</div>
+                </div>
+            </div>
+
+            <div class="clients__title-row">
+                <div class="clients__title">
+                    <div class="clients__tittle-text">Клиенты</div><div class="clients__rect"></div>
+                </div>
+                <div class="clients_arrows">
+                    <div class="clients__arrow left"><img src="./src/img/png/arrow.png"></div>
+                    <div class="clients__arrow right"><img src="./src/img/png/arrow.png"></div>
+                </div>
+            </div>
+
+            <div class="clients__list">
+                <div class="client">
+                    <div class="client__name">Телеканал <br>
+                        «Звезда»</div>
+                    <div class="client__bottom">
+                        <div class="client__text">Цифровой архив<br>
+                            медиа</div>
+                        <div class="client__logo"><img src="./src/img/png/logo-zvezda@3x.png"></div>
+                    </div>
+                </div>
+                <div class="client white"></div>
+                <div class="client"></div>
+                <div class="client white"></div>
+            </div>
+
         </div>
 
         <div class="services">
@@ -144,7 +356,7 @@
                 <div class="banner01__text"><div>Съемки</div><div class="banner01__dot"></div></div>
                 <div class="banner01__text"><div>Трансляции</div><div class="banner01__dot"></div></div>
                 <div class="banner01__text"><div>Монетизация</div><div class="banner01__dot"></div></div>
-            </div></div>
+            </div>
         </div>
 
         <div class="banner02">

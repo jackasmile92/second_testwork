@@ -8,7 +8,7 @@
 .services__background{
     width: 1920px;
     height: 3265px;
-    background-image: url("./src/img/gif/Noise-200px.gif");
+    background-image: url("../src/img/gif/Noise-200px.gif");
     background-repeat: repeat;
     background-size: 991px 991px;
     opacity: 0.1;
