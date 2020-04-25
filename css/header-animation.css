@@ -97,3 +97,43 @@
       opacity: 0;
     }
   }
+  
+
+  .header.active .header__pike{
+    animation-name: pike-moving-out;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    position: fixed;
+  }
+
+  @keyframes  pike-moving-out{
+    from{
+      top:0;
+    }
+    to{
+      top:-150px;
+      margin-left: 2920px;
+    }
+
+  }
+
+  
+  .header.active .header__media{
+    animation-name: media-moving-out;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    position: fixed;
+  }
+
+  @keyframes  media-moving-out{
+    from{
+      top: 205px;
+    }
+    to{
+      top: 50px;
+      margin-left: -1920px;
+    }
+
+  }

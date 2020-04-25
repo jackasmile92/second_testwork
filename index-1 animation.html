@@ -38,6 +38,8 @@
 
             .header__wriper{
                 position: relative;
+                width: 1920px;
+                height: 1080px;
             }
 
 
@@ -46,7 +48,8 @@
         <link rel="stylesheet" href="./css/header-animation.css">
         <link rel="stylesheet" href="./css/clients-1920.css">
         <link rel="stylesheet" href="./css/services-1920.css">       
-        <link rel="stylesheet" href="./css/banner01-1920.css">
+        <link rel="stylesheet" href="./css/banner01-1920_fa.css">
+        <link rel="stylesheet" href="./css/banner01-animation.css">
         <link rel="stylesheet" href="./css/banner02-1920.css">
         <link rel="stylesheet" href="./css/experience-1920.css">
         <link rel="stylesheet" href="./css/feedback-1920.css">
@@ -75,5 +78,164 @@
             </div>
             <div class="curtain"></div>
         </div>
+
+        <div class="clients">
+            <div class="clients__numbers">
+                <div class="number">
+                    <div class="number__title">10 000</div>
+                    <div class="number__text">Часов контента мы обрабатываем ежегодно</div>
+                </div>
+                <div class="number second">
+                    <div class="number__title">20</div>
+                    <div class="number__text">Телеканалов доверяют <br>нам эфирную подготовку</div>
+                </div>
+                <div class="number third">
+                    <div class="number__title">50</div>
+                    <div class="number__text">Телеканалов выпускаются 
+                        в эфирном комплексе</div>
+                </div>
+                <div class="number fourth">
+                    <div class="number__title">20</div>
+                    <div class="number__text">Наград МедиаБренд<br>
+                        и Promax за работы в промо</div>
+                </div>
+            </div>
+
+            <div class="clients__title-row">
+                <div class="clients__title">
+                    <div class="clients__tittle-text">Клиенты</div><div class="clients__rect"></div>
+                </div>
+                <div class="clients_arrows">
+                    <div class="clients__arrow left"><img src="./src/img/png/arrow.png"></div>
+                    <div class="clients__arrow right"><img src="./src/img/png/arrow.png"></div>
+                </div>
+            </div>
+
+            <div class="clients__list">
+                <div class="client">
+                    <div class="client__name">Телеканал <br>
+                        «Звезда»</div>
+                    <div class="client__bottom">
+                        <div class="client__text">Цифровой архив<br>
+                            медиа</div>
+                        <div class="client__logo"><img src="./src/img/png/logo-zvezda@3x.png"></div>
+                    </div>
+                </div>
+                <div class="client white">
+                     <div class="client__name">0+ Media</div>
+                    <div class="client__bottom white">
+                        <div class="client__text white">Полный технологический цикл сборки телеканалов
+                            Создание промо</div>
+                        <div class="client__logo-white"><img src="./src/img/png/0-media@3x.png"></div>
+                    </div>
+                </div>
+                <div class="client">
+                    <div class="client__name">Цифровое<br>
+                        телевидение<br>
+                        ВГТРК</div>
+                    <div class="client__bottom tv">
+                        <div class="client__text tv">Полный технологический цикл <br>
+                            сборки телеканалов<br>
+                            Медиаархив<br>
+                            Создание промо<br>
+                            Технологический сервис<br>
+                            Выпуск телеканалов в США</div>
+                        <div class="client__logo tv"><img src="./src/img/from_google/xw_1495952.png"></div>
+                    </div>
+                </div>
+                <div class="client white">
+                    <div class="client__name">0+ Media</div>
+                   <div class="client__bottom white">
+                       <div class="client__text white">Полный технологический цикл сборки телеканалов
+                           Создание промо</div>
+                       <div class="client__logo-white"><img src="./src/img/png/0-media@3x.png"></div>
+                   </div>
+               </div>
+            </div>
+
+        </div>
+
+        <div class="banner01">
+            <div class="banner01__content">
+                <div class="banner01_pml"><img src="./src/img/svg/pml-logo.svg"></div>
+                <div class="banner01__text"><div>Съемки</div><div class="banner01__dot"></div></div>
+                <div class="banner01__text"><div>Трансляции</div><div class="banner01__dot"></div></div>
+                <div class="banner01__text"><div>Монетизация</div><div class="banner01__dot"></div></div>
+            </div>
+        </div>
+        <script>
+            var isScrolling = false;
+
+            var step = 0;
+         
+            window.addEventListener("scroll", throttleScroll, false);
+         
+            function throttleScroll(e) {
+              if (isScrolling == false) {
+                window.requestAnimationFrame(function() {
+                  scrolling(e);
+                  isScrolling = false;
+                });
+              }
+              isScrolling = true;
+            }
+         
+            document.addEventListener("DOMContentLoaded", scrolling, false);
+         
+            //var listItems = document.querySelectorAll("#mainContent ol li");
+            var firstBox = document.querySelector(".header");
+            var secondBox = document.querySelector(".banner01");
+         
+            function scrolling(e) {
+         
+              if (isFullyVisible(secondBox)) {
+                secondBox.classList.add("active");
+
+              }
+
+              else {
+                  secondBox.classList.remove("active");
+              }
+
+              if (isFullyVisible(firstBox) ) {
+                firstBox.classList.remove("active");
+                step = 1;
+              }
+              else{
+                firstBox.classList.add("active");
+                if(step == 1 ){
+                window.scrollBy({ 
+                    top: 1080, // could be negative value
+                    left: 0, 
+                    behavior: 'smooth' 
+                });
+                step =2;
+                    }
+                }
+              }
+         
+
+         
+            function isPartiallyVisible(el) {
+              var elementBoundary = el.getBoundingClientRect();
+         
+              var top = elementBoundary.top;
+              var bottom = elementBoundary.bottom;
+              var height = elementBoundary.height;
+         
+              return ((top + height >= 0) && (height + window.innerHeight >= bottom));
+            }
+         
+            function isFullyVisible(el) {
+              var elementBoundary = el.getBoundingClientRect();
+         
+              var top = elementBoundary.top;
+              var bottom = elementBoundary.bottom;
+         
+              return ((top >= 0) && (bottom <= window.innerHeight));
+            }
+            
+          </script>
+
     </body>
     </html>

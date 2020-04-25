@@ -1,0 +1,19 @@
+.banner01.active .banner01__text{
+    animation-name: banner01-moving;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-fill-mode: both;
+    opacity: 1;
+    animation-timing-function: linear;
+}
+
+
+@keyframes  banner01-moving{
+    90%{
+        opacioy: 1;
+    }
+    to {
+        margin-left:-300px;
+        opacity: 0;
+      }
+}
