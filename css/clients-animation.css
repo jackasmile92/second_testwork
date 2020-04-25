@@ -1,0 +1,30 @@
+.clients.active .number{
+    opacity: 1;
+    animation-duration: 3s;
+    animation-name: number_appear;
+    animation-fill-mode:both;
+}
+
+@keyframes number_appear{
+    from {
+        opacity: 0;
+    }
+    to{
+        margin-top: 0px;
+    }
+}
+
+.clients.active .number.second{
+    animation-delay: 150ms;
+    animation-fill-mode:both;
+}
+
+.clients.active .number.third{
+    animation-delay: 300ms;
+    animation-fill-mode: both;
+}
+
+.clients.active .number.fourth{
+    animation-delay: 450ms;
+    animation-fill-mode: both;
+}
