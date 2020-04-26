@@ -1,0 +1,93 @@
+#myVideo{
+    width: 1920px;
+    height: 1080px;
+    position: absolute;;
+}
+
+.header{
+    width: 1853px;
+    height: 1080px;
+    padding-left: 67px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: baseline;
+    position: absolute;
+}
+
+.header__top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 51px;
+    margin-right: 50px;
+}
+
+.header__intro{
+    display: flex;
+    flex-direction: row;
+}
+
+.header__arrow{
+    width: 60px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.header__text{
+    margin-left:61px;
+    width: 504px;
+    height: 128px;
+    font-family: GothamPro;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffffff;    
+}
+
+.header__button{
+    width: 199px;
+    height: 50px;
+    background-color: #01da00;
+    padding-left:0px;
+    border: none;
+}
+
+.header__button div{
+    width: 199px;
+    font-family: GothamPro;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.01px;
+    text-align: center;
+    color: #000000;
+}
+
+.header__bottom{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 71px;
+}
+
+.header__pike img{
+    height: 184px;
+    width: 652px;
+}
+
+.header__media{
+    margin-top: 25px;
+}
+
+.header__media img{
+    height:184px;
+    width: 1409px;
+}
+
+
