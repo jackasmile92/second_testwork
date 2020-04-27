@@ -86,3 +86,17 @@
 }
 
 
+#header_logo_2{
+    visibility: hidden;
+}
+
+#header__media_part1 img{
+    visibility: hidden;
+}
+#header__media_part2 img{
+    visibility: hidden;
+}
+
+#header_telephon{
+    visibility: hidden;
+}
