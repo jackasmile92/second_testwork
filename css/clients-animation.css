@@ -5,6 +5,11 @@
     animation-fill-mode:both;
 }
 
+.number{
+    opacity: 0;
+    margin-top: 500px;
+}
+
 @keyframes number_appear{
     from {
         opacity: 0;

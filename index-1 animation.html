@@ -54,6 +54,7 @@
         <link rel="stylesheet" href="./css/banner02-1920.css">
         <link rel="stylesheet" href="./css/experience-1920.css">
         <link rel="stylesheet" href="./css/feedback-1920.css">
+        <link rel="stylesheet" href="./css/feedback-animation.css">
         <link rel="stylesheet" href="./css/footer-1920.css">
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -171,6 +172,51 @@
             </div>
         </div>
 
+        
+        <div class="feedback">
+            <div class="feedback__title">
+                Разработаем решение под ваши задачи<span class="feedback__dot">.</span>
+            </div>
+            <div class="feedback__form">
+                <div class="feedback__info">
+                    Возникли вопросы или хотите оценить стоимость проекта? Оставьте заявку и наш менеджер с вами свяжется.
+                </div>
+                <div class="feedback__input">
+                    <div class="feedback__field"><input placeholder="Ваше имя"></div>
+                    <div class="feedback__field"><input placeholder="Телефон"></div>
+                    <div class="feedback__field"><input placeholder="Сообщение"></div>
+                    <button class="feedback__button"><div><b>Отправить</b></div></button>
+                </div>
+             </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer__contact">
+                <div class="footer__logo">
+                    <img src="./src/img/png/logo-light@2x.png">
+                </div>
+                <div class="footer__contact-info">
+                    <div>+7 499 322 29 71</div>
+                    <div>hello@pikemedia.ru</div>
+                    <div>115162, Москва, ул. Шухова, 14</div>
+                </div>
+            </div>
+            <div class="footer__social">
+                <div class="footer__icons">
+                    <div><a><img src="./src/img/svg/vk.svg" class="vk"></a></div>
+                    <div><a><img src="./src/img/svg/facebook.svg" class="facebook"></a></div>
+                    <div><a><img src="./src/img/svg/insta.svg" class="insta"></a></div>
+                    <div><a><img src="./src/img/svg/ok.svg" class="ok"></a></div>
+                    <div><a><img src="./src/img/svg/twitter.svg" class="twitter"></a></div>
+                    <div><a><img src="./src/img/svg/switch.svg" class="switch"></a></div>
+                    <div><a><img src="./src/img/svg/youtube.svg" class="youtube"></a></div>
+                </div>
+                <div class="footer__dev">
+                    <a>Redis</a> &mdash; создание сайта
+                </div>
+            </div> 
+        </div>       
+
         <script src="./js/counter_function_jquery.js"></script>
 
 
@@ -201,6 +247,7 @@
             var firstBox = document.querySelector(".header");
             var secondBox = document.querySelector(".banner01");
             var thirdBox = document.querySelector(".clients");
+            var feedbackBox = document.querySelector(".feedback");
          
             function scrolling(e) {
          
@@ -240,6 +287,19 @@
                     }
                     my_jquery_function();
                   } 
+                
+                if (isFullyVisible(feedbackBox)) {
+                    feedbackBox.classList.add("active");
+                    step =3;
+                } 
+                if (isPartiallyVisible(feedbackBox)) {
+                    if(step != 3 ){
+                    window.scrollBy({ 
+                    top: 127, // could be negative value
+                    left: 0, 
+                    behavior: 'smooth' 
+                });}
+                } 
 
               }
          
@@ -252,7 +312,7 @@
               var bottom = elementBoundary.bottom;
               var height = elementBoundary.height;
          
-              return ((top + height >= 0) && (height + window.innerHeight >= bottom));
+              return ((top <=   window.innerHeight - 500 ) && (height + window.innerHeight >= bottom));
             }
          
             function isFullyVisible(el) {

@@ -1,0 +1,47 @@
+.feedback.active .feedback__title{
+    animation-name: feedback-move;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes feedback-move{
+    to  {
+        margin-top: 0px;
+        opacity: 1;
+    }
+
+}
+
+.feedback .feedback__title{
+    margin-top: 200px;
+    opacity: 0.3;
+}
+
+
+.feedback .feedback__form{
+    margin-top: 200px;
+    opacity: 0.3;
+}
+
+.feedback.active .feedback__form{
+    animation-name: feedback-move;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 300ms;
+
+}
+
+
+.feedback .feedback__button{
+    margin-top: 200px;
+    opacity: 0.3;
+}
+
+.feedback.active .feedback__button{
+    animation-name: feedback-move;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 600ms;
+
+}
