@@ -6,6 +6,11 @@ body, html{
     background-color: black;
 }
 
+.body{
+    display: flex;
+    flex-direction: column;    
+}
+
 .header{
     width: 320px;
     height: 568px;
