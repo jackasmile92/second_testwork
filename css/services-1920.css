@@ -150,3 +150,7 @@
     padding-left:1316px;
     padding-top:2748px;
 }
+
+#green_1,#green_2{
+    visibility: hidden;
+}
