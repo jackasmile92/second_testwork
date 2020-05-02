@@ -4,7 +4,7 @@ Redis — Дизайн и разработка digital-продуктов red-is
 
 <h4>Содержание:</h4><br>
 <b>index.html</b> - вариант шириной 1920 без масштабирования и анимации<br>
-<b>index-animation.html<b> - вариант 1920 с анимацией<br>
-<b>index-mobile.html<b> - вариант с масштабированием 1920, 768 и 320<br>
+<b>index-animation.html</b> - вариант 1920 с анимацией<br>
+<b>index-mobile.html</b> - вариант с масштабированием 1920, 768 и 320<br>
 остальные содержат куски с анимациями или демки.<br>
-<b>index animation video<b> - захват экрана
+<b>index animation video</b> - захват экрана
