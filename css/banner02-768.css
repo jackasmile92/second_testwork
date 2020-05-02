@@ -1,13 +1,14 @@
+@media only screen and (max-width: 1000px) and (min-width:321px){
 .banner02{
-    width: 1920px;
-    height: 991px;
+    width: 768px;
+    height: 973px;
     background-color: white;
     position: relative;
 }
 
 .banner02__background{
-    width: 1920px;
-    height: 991px;
+    width: 768px;
+    height: 973px;
     background-image: url("../src/img/gif/Noise-200px.gif");
     background-repeat: repeat-x;
     background-size: 991px 991px;
@@ -16,73 +17,81 @@
 }
 
 .banner02__figures{
-    width: 1920px;
-    height: 991px;
+    width: 346px;
+    height: 664px;
     opacity: 1;
     position:absolute;
-    padding-left: 543px;
-    padding-top: 183px;
+    padding-left: 139px;
+    padding-top: 142px;
 } 
 
 .banner02__text{
     position:absolute;
+    margin-left: 81px;
+    margin-top: 81px;
 }
 
 .banner02__title{
-    margin-left: 375px;
-    margin-top: 265px;
-    width: 688px;
-    height: 80px;
+    margin-left: 0px;
+    margin-top: 106px;
+    width: 238px;
+    height: 46px;
     font-family: GothamPro;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 1;
-    letter-spacing: -1.7px;
+    letter-spacing: -1.28px;
     color: #000000;
 }
 
 .banner02__points{
     display: flex;
-    flex-direction: row;
-    margin-left: 530px;
-    margin-top: 196px;
+    flex-direction: column;
+    margin-left: 134px;
+    margin-top: 0px;
 }
 
 .banner02__point{
     display: flex;
     flex-direction: row;
-    
-    margin-left:50px;
+    margin-top:80px;
+    margin-left:20px;
 }
 
 .banner02__bullet{
-    width: 14px;
-    height: 14px;
+    width: 10px;
+    height: 10px;
     background-color: #000000;
+    margin-top: 7px;
 }
 
 .banner02__point-text{
     margin-left: 20px;
-    width: 250px;
+    width: 398px;
     font-family: GothamPro;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.5;
+    line-height: 1.57;
     letter-spacing: normal;
     color: #000000;
 }
 
 #triangl3{
-    visibility: visible;
+    visibility: hidden;
 }
 #triangl1{
     visibility: hidden;
 }
 
 #triangl12{
-    visibility: hidden;
+    visibility: visible;
+}
+
+#triangl1 svg{
+    margin-top: 40px;
+}
 }

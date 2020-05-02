@@ -47,7 +47,7 @@
     }
 }
 
-.header__top {
+.services .header__top {
     width: 1520px;
     top: 0;
     position: fixed;
@@ -55,6 +55,6 @@
     padding-right: 200px;
   }
 
-  .header__intro img{
+  .services .header__intro img{
       width: 200px;
   }

@@ -85,6 +85,9 @@
 #triangl1{
     visibility: visible;
 }
+#triangl12{
+    visibility: hidden;
+}
 
 #triangl1 svg{
     margin-top: 40px;

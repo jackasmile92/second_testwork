@@ -1,0 +1,148 @@
+@media only screen and (max-width: 1000px) and (min-width:321px){
+
+body, html{
+    margin: 0px;
+    width: 768px;
+    background-color: black;
+}
+
+.body{
+    display: flex;
+    flex-direction: column; 
+    overflow-x: hidden;   
+}
+
+.header{
+    width: 722px;
+    height: 1024px;
+    padding-left: 46px;
+    background-image: url("../src/img/png/01-main.png");
+    background-size: auto 1024px;
+    background-position-x: 770px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: baseline;
+    position: absolute;
+}
+
+.header__top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 51px;
+    margin-right: 46px;
+}
+.header__button_wrap .header__button{
+    visibility: visible;
+}
+
+.header__intro{
+    display: flex;
+    flex-direction: column;
+}
+
+.header__arrow{
+    width: 60px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.header__text{
+    width: 504px;
+    height: 128px;
+    font-family: GothamPro;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-top: 41px;
+    margin-left: 0px;
+  }
+
+.header__button{
+    width: 199px;
+    height: 50px;
+    background-color: hsl(120, 100%, 43%);
+    background-size: 199px auto;
+    padding-left:0px;
+    border: none;
+}
+
+.header__button div{
+    width: 199px;
+    font-family: GothamPro;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.01px;
+    text-align: center;
+    color: #000000;
+}
+
+.header__bottom{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 53px;
+}
+
+.header__pike img{
+    width: 470px;
+    height: 132px;
+}
+
+.header__media{
+    visibility: hidden;
+    margin-top: 0px;
+}
+
+.header__media img{
+    width: 0px;
+    height: 0px;
+}
+
+
+#header_logo_1{
+    visibility: visible;
+}
+
+
+#header_logo_2{
+    visibility: hidden;
+    width: 130px;
+    height: 42px;
+}
+
+#header__media_part1 img{
+    visibility: visible;
+    margin-top: -15px;
+    width: 683px;
+    height: 132px;
+
+}
+#header__media_part2 img{
+    visibility: visible;
+    margin-top: 5px;
+    margin-left: 365px;
+    width: 316px;
+    height: 131px;
+}
+
+#header_telephon{
+    visibility: hidden;
+    width: 29px;
+    height: 35px;
+}
+
+.header__button_wrap{
+    margin-left: -20px;
+    padding-right: 10px;
+}
+
+}
