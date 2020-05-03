@@ -1,3 +1,4 @@
+
 .header{
     animation-duration: 2s;
     animation-name: header_appearing;
@@ -84,6 +85,7 @@
   .curtain{
     animation-duration: 2s;
     animation-name: slidein_top_curtain;
+    animation-fill-mode: forwards;
   }
 
   @keyframes slidein_top_curtain {
@@ -95,6 +97,7 @@
     to {
       height: 0px;
       opacity: 0;
+      appearance: none;
     }
   }
   

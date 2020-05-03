@@ -61,7 +61,17 @@
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     </head>
-    <body>  
+    <body> 
+        <script>
+            function submitGo() {
+                /*console.log(1);
+                window.location='http://red-is.ru/';
+            */console.log(1);
+                var win = window.open('http://red-is.ru/', '_blank');
+                win.focus();
+                
+            }
+        </script> 
         <div class="header__wriper">
             <div class="header__background">
                 <video autoplay muted loop id="myVideo">
@@ -78,7 +88,7 @@
                             и операторов VOD</div>
                     </div>
                     <div class="header__button_wrap">
-                        <button class="header__button"><div><b>Связаться с нами</b></div></button>
+                        <button type="button" onClick="submitGo();"  class="header__button" ><div><b>Связаться с нами</b></div></button>
                     </div>
                 </div>
                 <div class="header__bottom">
@@ -325,145 +335,33 @@
             </div>
             <div class="footer__social">
                 <div class="footer__icons">
-                    <div><a><img src="./src/img/svg/vk.svg" class="vk"></a></div>
-                    <div><a><img src="./src/img/svg/facebook.svg" class="facebook"></a></div>
-                    <div><a><img src="./src/img/svg/insta.svg" class="insta"></a></div>
-                    <div><a><img src="./src/img/svg/ok.svg" class="ok"></a></div>
-                    <div><a><img src="./src/img/svg/twitter.svg" class="twitter"></a></div>
-                    <div><a><img src="./src/img/svg/switch.svg" class="switch"></a></div>
-                    <div><a><img src="./src/img/svg/youtube.svg" class="youtube"></a></div>
+                    <div><a href="http://red-is.ru/"><img src="./src/img/svg/vk.svg" class="vk"></a></div>
+                    <div><a href="http://red-is.ru/"><img src="./src/img/svg/facebook.svg" class="facebook"></a></div>
+                    <div><a href="http://red-is.ru/"><img src="./src/img/svg/insta.svg" class="insta"></a></div>
+                    <div><a href="http://red-is.ru/"><img src="./src/img/svg/ok.svg" class="ok"></a></div>
+                    <div><a href="http://red-is.ru/"><img src="./src/img/svg/twitter.svg" class="twitter"></a></div>
+                    <div><a href="http://red-is.ru/"><img src="./src/img/svg/switch.svg" class="switch"></a></div>
+                    <div><a href="http://red-is.ru/"><img src="./src/img/svg/youtube.svg" class="youtube"></a></div>
                 </div>
                 <div class="footer__dev">
-                    <a>Redis</a> &mdash; создание сайта
+                    <a href="http://red-is.ru/">Redis</a> &mdash; создание сайта
                 </div>
             </div> 
         </div>       
 
         <script src="./js/counter_function_jquery.js"></script>
-
-
+        <script src="./js/scrolling.js"></script>
+        <script src="./js/client_moving.js"></script>
         <script>
-            window.onbeforeunload = function () {
-                window.scrollTo(0, 0);
-            }
-
-            var isScrolling = false;
-
-            var step = 0;
-         
-            window.addEventListener("scroll", throttleScroll, false);
-         
-            function throttleScroll(e) {
-              if (isScrolling == false) {
-                window.requestAnimationFrame(function() {
-                  scrolling(e);
-                  isScrolling = false;
+            jQuery(document).ready(function ($) {
+                $(document).on('click', 'a', function(e){ 
+                    e.preventDefault(); 
+                    var url = $(this).attr('href'); 
+                    window.open(url, '_blank');
                 });
-              }
-              isScrolling = true;
-            }
-         
-            document.addEventListener("DOMContentLoaded", scrolling, false);
-         
-            //var listItems = document.querySelectorAll("#mainContent ol li");
-            var firstBox = document.querySelector(".header");
-            var secondBox = document.querySelector(".banner01");
-            var thirdBox = document.querySelector(".clients");
-            var feedbackBox = document.querySelector(".feedback");
-            var stamp = document.querySelector("#firstStamp");
-            var stamp2 = document.querySelector("#secondStamp");
-         
-            function scrolling(e) {
-         
-              if (isFullyVisible(secondBox)) {
-                secondBox.classList.add("active");
+            });
 
-              }
-
-              else {
-                  secondBox.classList.remove("active");
-              }
-
-              if (isFullyVisible(firstBox) ) {
-                firstBox.classList.remove("active");
-                step = 1;
-              }
-              else{
-                firstBox.classList.add("active");
-                if(step == 1 ){
-                window.scrollBy({ 
-                    top: 1080, // could be negative value
-                    left: 0, 
-                    behavior: 'smooth' 
-                });
-                step =2;
-                    }
-                }
-
-                if (isFullyVisible(thirdBox)) {
-                    thirdBox.classList.add("active");
-                    var elements = document.getElementsByClassName("number__title"),
-                    i,
-                    len;
-                    console.log(elements.length);
-                    for (i = 0, len = elements.length; i < len; i += 1) {
-                        elements[i].className = "number__title active";
-                    }
-                    my_jquery_function();
-                  } 
-                
-                if (isFullyVisible(feedbackBox)) {
-                    feedbackBox.classList.add("active");
-                    step =3;
-                } /*
-                if (isPartiallyVisible(feedbackBox)) {
-                    if(step != 3 ){
-                    window.scrollBy({ 
-                    top: 127, // could be negative value
-                    left: 0, 
-                    behavior: 'smooth' 
-                });}
-                } */
-
-                if(isFullyVisible(stamp)) {
-                    stamp.classList.add("active");
-                }else{
-                    stamp.classList.remove("active"); 
-                }
-
-                if(isFullyVisible(stamp2)) {
-                    stamp2.classList.add("active");
-                }else{
-                    stamp2.classList.remove("active"); 
-                }
-
-
-              }
-         
-
-         
-            function isPartiallyVisible(el) {
-              var elementBoundary = el.getBoundingClientRect();
-         
-              var top = elementBoundary.top;
-              var bottom = elementBoundary.bottom;
-              var height = elementBoundary.height;
-         
-              return ((top <=   window.innerHeight - 500 ) && (height + window.innerHeight >= bottom));
-            }
-         
-            function isFullyVisible(el) {
-              var elementBoundary = el.getBoundingClientRect();
-         
-              var top = elementBoundary.top;
-              var bottom = elementBoundary.bottom;
-         
-              return ((top >= 0) && (bottom <= window.innerHeight));
-            }
-            
-          </script>
-
-            <script src="./js/client_moving.js"></script>
+        </script>
           
     </body>
     </html>
