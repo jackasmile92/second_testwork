@@ -17,3 +17,7 @@
         opacity: 0;
       }
 }
+
+.banner01.active:hover{
+    cursor: pointer;
+}
