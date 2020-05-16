@@ -1,0 +1,8 @@
+@media only screen and (max-width: 1500px){
+    .feedback{
+        width: 1440px;
+        height: 762px;
+        padding-left: 135px;
+        padding-top: 138px;
+    } 
+}

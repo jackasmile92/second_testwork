@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1500px){
+    .banner02{
+        width: 1440px;
+        height: 867px;
+    }
+    
+    .banner02__background{
+        width: 1440px;
+        height: 867px;
+    }
+    
+    .banner02__figures{
+        width: 1440px;
+        height: 867px;
+        padding-left: 304px;
+        padding-top: 127px;
+    } 
+    .banner02__title{
+        margin-left: 140px;
+        margin-top: 209px;
+    }
+
+    .banner02__points{
+        margin-left: 287px;
+        margin-top: 196px;
+    }
+    .banner02__bullet{
+        width: 14px;
+        height: 14px;
+        margin-top: 5px;;
+    }
+    
+}
