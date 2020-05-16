@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Пайк Медиа Лаб | Производство телеканалов, трансляций, телемостов и контента</title>
+        <meta name="description" content="Мы создаем контент и обеспечиваем коммуникацию с аудиторией в любой вещательной среде. Сборка и выпуск телеканалов, производство промо, создание трансляций и виртуальных мероприятий, имиджевые и продающие ролики, анализ аудитории и вовлеченности зрителей.">
+        <meta name="viewport" content="width=device-width">
+        <style type="text/css">
+            @font-face {
+                font-family: GothamPro;
+                src: url("./src/fonts/GothamPro.woff");
+            }
+
+            body, html{
+                margin: 0px;
+                width: 1920px;
+                background-color: black;
+            }
+
+            html {
+                display: table;
+                margin: auto;
+            }
+
+            body {
+                display: table-cell;
+                vertical-align: middle;
+                overflow-x: hidden;
+            }
+
+            .curtain{
+                width: 1920px;
+                height: 1080px;
+                background-color: #01da00;
+                position:absolute;
+                opacity: 0;
+            }
+
+            .header__wriper{
+                position: relative;
+                width: 1920px;
+                height: 1080px;
+            }
+
+
+        </style> 
+        <link rel="stylesheet" href="../css/header-1920_fa.css">
+        <link rel="stylesheet" href="../css/header-animation.css">
+        <link rel="stylesheet" href="../css/clients-1920.css">
+        <link rel="stylesheet" href="../css/clients-animation.css">
+        <link rel="stylesheet" href="../css/services-1920.css">
+        <link rel="stylesheet" href="../css/services-animation.css">       
+        <link rel="stylesheet" href="../css/banner01-1920_fa.css">
+        <link rel="stylesheet" href="../css/banner01-animation.css">
+        <link rel="stylesheet" href="../css/banner02-1920.css">
+        <link rel="stylesheet" href="../css/experience-1920.css">
+        <link rel="stylesheet" href="../css/feedback-1920.css">
+        <link rel="stylesheet" href="../css/feedback-animation.css">
+        <link rel="stylesheet" href="../css/footer-1920.css">
+        <link rel="stylesheet" href="../css/footer-animation.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+    <body> 
+        <script>
+            function submitGo() {
+                /*console.log(1);
+                window.location='http://red-is.ru/';
+            */console.log(1);
+                var win = window.open('http://red-is.ru/', '_blank');
+                win.focus();
+                
+            }
+        </script> 
+        <div class="header__wriper">
+            <div class="header__background">
+                <video autoplay muted loop id="myVideo">
+                    <source src="./src/video/Presentacia_1_hq.mp4" type="video/mp4">
+                  </video>
+            </div>
+            <div class="header">
+                <div class="header__top">
+                    <div class="header__intro">
+                        <div class="header__arrow">
+                            <img src="./src/img/svg/logo-fish.svg">
+                        </div>
+                        <div class="header__text">Создаем телевещание в любой среде. Технологические услуги по подготовке и распространению для телеканалов
+                            и операторов VOD</div>
+                    </div>
+                    <div class="header__button_wrap">
+                        <button type="button" onClick="submitGo();"  class="header__button" ><div><b>Связаться с нами</b></div></button>
+                    </div>
+                </div>
+                <div class="header__bottom">
+                    <div class="header__pike"><img src="./src/img/svg/pike.svg"></div>
+                    <div class="header__media"><img src="./src/img/svg/medialab.svg"></div>
+                </div>
+            </div>
+            <div class="curtain"></div>
+        </div>
+
+        <div class="clients">
+            <div class="clients__numbers">
+                <div class="number">
+                    <div class="number__title" data-num="10000">10 000</div>
+                    <div class="number__text">Часов контента мы обрабатываем ежегодно</div>
+                </div>
+                <div class="number second">
+                    <div class="number__title" data-num="20">20</div>
+                    <div class="number__text">Телеканалов доверяют <br>нам эфирную подготовку</div>
+                </div>
+                <div class="number third">
+                    <div class="number__title" data-num="50">50</div>
+                    <div class="number__text">Телеканалов выпускаются 
+                        в эфирном комплексе</div>
+                </div>
+                <div class="number fourth">
+                    <div class="number__title" data-num="20">20</div>
+                    <div class="number__text">Наград МедиаБренд<br>
+                        и Promax за работы в промо</div>
+                </div>
+            </div>
+
+            <div class="clients__title-row">
+                <div class="clients__title">
+                    <div class="clients__tittle-text">Клиенты</div><div class="clients__rect"></div>
+                </div>
+                <div class="clients_arrows">
+                    <div class="clients__arrow left"><img src="./src/img/png/arrow.png" id="arrow_2"></div>
+                    <div class="clients__arrow right" ><img src="./src/img/png/arrow.png" id="arrow_1"></div>
+                </div>
+            </div>
+
+            <div class="clients__list">
+                <div class="client">
+                    <div class="client__name">Телеканал <br>
+                        «Звезда»</div>
+                    <div class="client__bottom">
+                        <div class="client__text">Цифровой архив<br>
+                            медиа</div>
+                        <div class="client__logo"><img src="./src/img/png/logo-zvezda@3x.png"></div>
+                    </div>
+                </div>
+                <div class="client white">
+                     <div class="client__name">0+ Media</div>
+                    <div class="client__bottom white">
+                        <div class="client__text white">Полный технологический цикл сборки телеканалов
+                            Создание промо</div>
+                        <div class="client__logo-white"><img src="./src/img/png/0-media@3x.png"></div>
+                    </div>
+                </div>
+                <div class="client">
+                    <div class="client__name">Цифровое<br>
+                        телевидение<br>
+                        ВГТРК</div>
+                    <div class="client__bottom tv">
+                        <div class="client__text tv">Полный технологический цикл <br>
+                            сборки телеканалов<br>
+                            Медиаархив<br>
+                            Создание промо<br>
+                            Технологический сервис<br>
+                            Выпуск телеканалов в США</div>
+                        <div class="client__logo tv"><img src="./src/img/from_google/xw_1495952.png"></div>
+                    </div>
+                </div>
+                <div class="client white">
+                    <div class="client__name">0+ Media</div>
+                   <div class="client__bottom white">
+                       <div class="client__text white">Полный технологический цикл сборки телеканалов
+                           Создание промо</div>
+                       <div class="client__logo-white"><img src="./src/img/png/0-media@3x.png"></div>
+                   </div>
+               </div>
+            </div>
+
+        </div>
+
+        <div class="services" >        
+            <div class="services__background"></div>
+            <div class="services__products">
+                <div class="services__product">
+                    <div class="product__text">
+                        <div class="product__title"><span class="product__title-black">МедиаХаб</span>. Конструктор технологических медиауслуг</div>
+                        <div class="product__list">
+                            <ul>
+                                <li>Прием контента и оценка технического качества</li>
+                                <li>Предэфирная подготовка и транскодирование контента</li>
+                                <li>Перспективное и текущее планирование эфира</li>
+                                <li>Управление рекламным трафиком</li>
+                                <li>Архивирование эфирного контента</li>
+                                <li>Отчетность для рекламодателей и правообладателей</li>
+                                <li>Подготовка пакетов контента и расписаний для VOD</li>
+                                <li>Мультиязычная локализация контента</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product__img hub">
+                        <img src="./src/img/png/hub@3x.png">
+                    </div>
+                </div>
+
+                <div class="services__product">                    
+                    <div class="product__img archive">
+                        <img  src="./src/img/png/archive@3x.png">
+                    </div>
+                    <div class="product__text archive">
+                        <div class="product__title archive"><span class="product__title-black">Цифровой архив</span>. Smart архивирование и надежное хранение исходных медиа- материалов</div>
+                        <div class="product__list archive">
+                            <ul>
+                                <li>Координация приема и выдачи контента</li>
+                                <li>Оценка технического качества</li>
+                                <li>Емкость библиотеки 2,5 Петабайта</li>
+                                <li>Пакетирование и цифровая доставка контента</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__product">
+                    <div class="product__text">
+                        <div class="product__title"><span class="product__title-black">Создание и доставка сигнала</span>. Выпуск, наземная и спутниковая доставка сигнала телеканалов</div>
+                        <div class="product__list signal">
+                            <ul>
+                                <li>Мониторинг 24х7х365 в эфирной аппаратной</li>
+                                <li>Эфирный комплекс в России и США</li>
+                                <li>Выпуск телеканалов, мониторинг и технический контроль 24х7</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product__img signal">
+                        <img src="./src/img/png/signal@3x.png">
+                    </div>
+                </div>
+
+                <div class="services__product">
+                    <div class="product__img">
+                        <img src="./src/img/png/promo@3x.png">
+                    </div>
+                    <div class="product__text promo">
+                        <div class="product__title promo"><span class="product__title-black">Создание промо</span>. Разработка фирменного стиля и промокампаний телеканалов</div>
+                        <div class="product__list promo">
+                            <ul>
+                                <li>Создание брендбуков телеканалов и отдельных элементов оформления</li>
+                                <li>Производство монтажных и постановочных промороликов</li>
+                                <li>Производство внеэфирных промоматериалов</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="servises__stamp two">
+                <img class="servises__stamp-text" id ="secondStamp" src="./src/img/png/feature-text@3x.png">
+                <img class="servises__rock" src="./src/img/svg/rock-icon.svg">
+                <div class="round">Наши работы отмечены <br>
+                    номинациями и премиями <br>
+                    Медиабренд <br>
+                    2016/2017/2018 <br>
+                    и ProdaxBDA 2018
+                </div>
+            </div>
+            <div class="servises__stamp one">
+                <img class="servises__stamp-text" id ="firstStamp" src="./src/img/png/feature-text@3x.png">
+                <img class="servises__rock" src="./src/img/svg/rock-icon.svg">
+                <style>
+                    .round {
+                        width: 300px;
+                        height: 210px;
+                        border: 2px solid black;
+                        margin-left: -63px;
+                        margin-top: -63px;
+                        padding-top: 90px;
+                        border-radius: 50%;
+                        text-align: center;  /* выравнять текст по середине по горизонтали */
+                        background: black;
+                        font-family: GothamPro;
+                        font-size: 16px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.5;
+                        letter-spacing: normal;
+                        color: #ffffff;
+
+                    }
+                    </style>
+                    
+                    <div class="round">Интеграционный проект<br>
+                                        медиаархива номинирован<br>
+                                        на соискание премии<br>
+                                        Зворыкина Национальной<br>
+                                        ассоциации<br>
+                                        телевещателей
+                    </div>
+            </div>
+           
+        </div>
+
+        <div class="banner01" onClick="submitGo();">
+            <div class="banner01__content">
+                <div class="banner01_pml"><img src="./src/img/svg/pml-logo.svg"></div>
+                <div class="banner01__text"><div>Съемки</div><div class="banner01__dot"></div></div>
+                <div class="banner01__text"><div>Трансляции</div><div class="banner01__dot"></div></div>
+                <div class="banner01__text"><div>Монетизация</div><div class="banner01__dot"></div></div>
+            </div>
+        </div>
+
+        
+        <div class="feedback">
+            <div class="feedback__title">
+                Разработаем решение под ваши задачи<span class="feedback__dot">.</span>
+            </div>
+            <div class="feedback__form">
+                <div class="feedback__info">
+                    Возникли вопросы или хотите оценить стоимость проекта? Оставьте заявку и наш менеджер с вами свяжется.
+                </div>
+                <div class="feedback__input">
+                    <div class="feedback__field"><input placeholder="Ваше имя"></div>
+                    <div class="feedback__field"><input placeholder="Телефон"></div>
+                    <div class="feedback__field"><input placeholder="Сообщение"></div>
+                    <button class="feedback__button"><div><b>Отправить</b></div></button>
+                </div>
+             </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer__contact">
+                <div class="footer__logo">
+                    <img src="./src/img/png/logo-light@2x.png">
+                </div>
+                <div class="footer__contact-info">
+                    <div>+7 499 322 29 71</div>
+                    <div>hello@pikemedia.ru</div>
+                    <div>115162, Москва, ул. Шухова, 14</div>
+                </div>
+            </div>
+            <div class="footer__social">
+                <div class="footer__icons">
+                    <div><a href="http://red-is.ru/"><img src="./src/img/svg/vk.svg" class="vk"></a></div>
+                    <div><a href="http://red-is.ru/"><img src="./src/img/svg/facebook.svg" class="facebook"></a></div>
+                    <div><a href="http://red-is.ru/"><img src="./src/img/svg/insta.svg" class="insta"></a></div>
+                    <div><a href="http://red-is.ru/"><img src="./src/img/svg/ok.svg" class="ok"></a></div>
+                    <div><a href="http://red-is.ru/"><img src="./src/img/svg/twitter.svg" class="twitter"></a></div>
+                    <div><a href="http://red-is.ru/"><img src="./src/img/svg/switch.svg" class="switch"></a></div>
+                    <div><a href="http://red-is.ru/"><img src="./src/img/svg/youtube.svg" class="youtube"></a></div>
+                </div>
+                <div class="footer__dev">
+                    <a href="http://red-is.ru/">Redis</a> &mdash; создание сайта
+                </div>
+            </div> 
+        </div>       
+
+        <script src="./js/counter_function_jquery.js"></script>
+        <script src="./js/scrolling.js"></script>
+        <script src="./js/client_moving.js"></script>
+        <script>
+            jQuery(document).ready(function ($) {
+                $(document).on('click', 'a', function(e){ 
+                    e.preventDefault(); 
+                    var url = $(this).attr('href'); 
+                    window.open(url, '_blank');
+                });
+            });
+
+        </script>
+          
+    </body>
+    </html>

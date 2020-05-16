@@ -1,0 +1,142 @@
+
+.header{
+    animation-duration: 2s;
+    animation-name: header_appearing;
+}
+
+@keyframes header_appearing{
+    from {
+        opacity: 0.5;
+      }
+    
+      to {
+        opacity: 1;
+      }
+}
+
+.header__pike{
+    animation-duration: 2s;
+    animation-name: slidein_pike;
+}
+
+.header__media{
+    animation-duration: 2s;
+    animation-name: slidein_media;
+}
+
+@keyframes slidein_pike {
+    from {
+      margin-left: 150px;
+      opacity: 0.5;
+    }
+  
+    to {
+      margin-left: 0%;
+      opacity: 1;
+    }
+  }
+
+  @keyframes slidein_media {
+    from {
+      margin-left: -67px;
+      opacity: 0.5;
+    }
+  
+    to {
+      margin-left: 0%;
+      opacity: 1;
+    }
+  }
+
+  .header__top{
+    animation-duration: 2s;
+    animation-name: slidein_top;
+  }
+
+  @keyframes slidein_top {
+    from {
+      margin-top: 80px;
+      opacity: 0.5;
+    }
+  
+    to {
+      margin-top: 51px;
+      opacity: 1;
+    }
+  }
+
+  .header__text{
+    animation-duration: 2s;
+    animation-name: slidein_top_text;
+  }
+
+  @keyframes slidein_top_text {
+    from {
+      margin-top: 20px;
+      opacity: 0.5;
+    }
+  
+    to {
+      margin-top: 0px;
+      opacity: 1;
+    }
+  }
+
+  .curtain{
+    animation-duration: 2s;
+    animation-name: slidein_top_curtain;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slidein_top_curtain {
+    from {
+      height: 1080px;
+      opacity: 1;
+    }
+  
+    to {
+      height: 0px;
+      opacity: 0;
+      appearance: none;
+    }
+  }
+  
+
+  .header.active .header__pike{
+    animation-name: pike-moving-out;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    position: fixed;
+  }
+
+  @keyframes  pike-moving-out{
+    from{
+      top:0;
+    }
+    to{
+      top:-150px;
+      margin-left: 2920px;
+    }
+
+  }
+
+  
+  .header.active .header__media{
+    animation-name: media-moving-out;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    position: fixed;
+  }
+
+  @keyframes  media-moving-out{
+    from{
+      top: 205px;
+    }
+    to{
+      top: 50px;
+      margin-left: -1920px;
+    }
+
+  }

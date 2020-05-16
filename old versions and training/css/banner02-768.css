@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1000px) and (min-width:321px){
+.banner02{
+    width: 768px;
+    height: 973px;
+    background-color: white;
+    position: relative;
+}
+
+.banner02__background{
+    width: 768px;
+    height: 973px;
+    background-image: url("../src/img/gif/Noise-200px.gif");
+    background-repeat: repeat-x;
+    background-size: 991px 991px;
+    opacity: 0.1;
+    position:absolute;
+}
+
+.banner02__figures{
+    width: 346px;
+    height: 664px;
+    opacity: 1;
+    position:absolute;
+    padding-left: 139px;
+    padding-top: 142px;
+} 
+
+.banner02__text{
+    position:absolute;
+    margin-left: 81px;
+    margin-top: 81px;
+}
+
+.banner02__title{
+    margin-left: 0px;
+    margin-top: 106px;
+    width: 238px;
+    height: 46px;
+    font-family: GothamPro;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -1.28px;
+    color: #000000;
+}
+
+.banner02__points{
+    display: flex;
+    flex-direction: column;
+    margin-left: 134px;
+    margin-top: 0px;
+}
+
+.banner02__point{
+    display: flex;
+    flex-direction: row;
+    margin-top:80px;
+    margin-left:20px;
+}
+
+.banner02__bullet{
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+    margin-top: 7px;
+}
+
+.banner02__point-text{
+    margin-left: 20px;
+    width: 398px;
+    font-family: GothamPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+#triangl3{
+    visibility: hidden;
+}
+#triangl1{
+    visibility: hidden;
+}
+
+#triangl12{
+    visibility: visible;
+}
+
+#triangl1 svg{
+    margin-top: 40px;
+}
+}
