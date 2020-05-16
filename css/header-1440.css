@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1500px){
+    .header{
+        width: 1373px;
+        height: 900px;
+    }
+
+    .header__pike img{
+        width: 577px;
+        height: 163px;
+    }
+
+    .header__media img{
+        width: 1246px;
+        height: 163px;
+    }
+
+    .header__bottom{
+        margin-bottom: 69px;
+    }
+
+    .header__text{
+        margin-top:-4px;
+        margin-left: 37px;
+    }
+
+    .header__button{
+        margin-right: 22px;
+        margin-top: -3px;
+    }
+
+    .header__arrow{
+        margin-left: 4px;
+        margin-top:-2px;
+    }
+
+}

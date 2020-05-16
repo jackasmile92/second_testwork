@@ -15,7 +15,7 @@
 }
 
 .experience__title-text{
-    font-family: GothamPro;
+    font-family: GothamPro-Bold;
     font-size: 80px;
     font-weight: bold;
     font-stretch: normal;
@@ -29,22 +29,22 @@
     height: 16px;
     background-color: #01da00;
     margin-top: 132px;
-    margin-left: 6px;
+    margin-left: 10px;
 }
 
 .experience__arrows{
-    margin-top: 116px;
+    margin-top: 113px;
     margin-left: 592px;
 }
 
 .experience__arrow img{
-    height: 29px;
+    height: 35px;
 }
 
 .experience__arrow.left img{
     transform: rotate(180deg);
     opacity: 0.3;
-    margin-right: 22px;
+    margin-right: 27px;
 }
 
 .experience__bottom{
@@ -65,7 +65,9 @@
 }
 
 .experience__point.white{
+    width: 467px;
     background-color: #ffffff;
+    padding-left: 33px;
 }
 
 .experience__point-top{
@@ -93,5 +95,6 @@
 }
 
 .experience__point-bottom.white{
+    margin-bottom: -2px;
     color: #01da00;
 }

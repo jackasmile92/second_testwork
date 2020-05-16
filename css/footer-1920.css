@@ -7,7 +7,6 @@
     height: 240px;
     width: 1440px;
     padding-left: 240px;
-    
 }
 .footer__contact{            
     display: flex;
@@ -16,19 +15,19 @@
 
 
 .footer__logo{
-    padding-top: 76px; 
+    padding-top: 77px; 
     padding-left: 135px;
     height: 275px;
 }
 
 .footer__logo img{
-    widows: 169px;
+    width: 169px;
     height: 52px;
 }
 
 .footer__contact-info{
-    margin-left: 113px;
-    padding-top: 77px;
+    margin-left: 114px;
+    padding-top: 76px;
     height: 24px;
     width:244px;
     font-family: GothamPro;
@@ -47,19 +46,18 @@
     align-items: flex-end;
     /*margin-left: 271px;*/
     margin-right: 135px;
-    padding-top: 76px; 
+    padding-top: 75px; 
     height: 275px;
 }
 
 .footer__icons{
     display: flex;
-    width: 423px;
+    width: 370px;
     justify-content: space-between;
-    align-items: baseline;
 }
 
 .footer__dev{
-    margin-top:42px;
+    margin-top:43px;
     width: 195px;
     height: 15px;
     font-family: GothamPro;
@@ -81,6 +79,7 @@
     width: 28px;
     height: 16px;
     object-fit: contain;
+    margin-top: 2px;
 }
 
 .facebook {

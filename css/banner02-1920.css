@@ -29,11 +29,11 @@
 }
 
 .banner02__title{
-    margin-left: 375px;
+    margin-left: 378px;
     margin-top: 265px;
     width: 688px;
     height: 80px;
-    font-family: GothamPro;
+    font-family: GothamPro-Bold;
     font-size: 80px;
     font-weight: bold;
     font-stretch: normal;
@@ -53,8 +53,12 @@
 .banner02__point{
     display: flex;
     flex-direction: row;
-    
-    margin-left:50px;
+    margin-top: 3px;
+    margin-left:53px;
+}
+
+.banner02__point:nth-child(3){
+    margin-left: 40px;;
 }
 
 .banner02__bullet{

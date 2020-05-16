@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1500px){
+    .clients{
+        width: 1305px;
+        height: 1041px;
+        padding-left: 135px;
+        padding-top: 180px;
+    }
+    .clients_arrows{ 
+        margin-right: 135px;
+    }
+    .clients__arrow.left{
+        transform: scaleX(-1);
+        margin-right: 25px;
+    }
+}

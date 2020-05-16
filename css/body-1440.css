@@ -1,0 +1,5 @@
+@media only screen and (max-width: 1500px){
+    body, html{
+        width: 1440px;
+    }
+}
