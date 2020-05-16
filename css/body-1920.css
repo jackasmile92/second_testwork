@@ -1,0 +1,22 @@
+@font-face {
+    font-family: GothamPro;
+    src: url("../src/fonts/GothamPro.woff");
+}
+
+body, html{
+    margin: 0px;
+    width: 1920px;
+    background-color: black;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    overflow-x: hidden;
+}
+

@@ -8,7 +8,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-content: baseline;
-    position: absolute;
 }
 
 .header__top{
@@ -28,28 +27,29 @@
     width: 60px;
     height: 48px;
     object-fit: contain;
+    margin-left: 5px;
+    margin-top:-1px;
 }
 
 .header__text{
-    margin-left:61px;
+    margin-left:56px;
+    margin-top:-3px;
     width: 504px;
     height: 128px;
     font-family: GothamPro;
     font-size: 24px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.33;
-    letter-spacing: normal;
     color: #ffffff;    
 }
 
 .header__button{
-    width: 199px;
+    width: 200px;
     height: 50px;
     background-color: #01da00;
     padding-left:0px;
     border: none;
+    margin-top: -5px;
+    margin-right: 18px;
 }
 
 .header__button div{
@@ -68,7 +68,7 @@
 .header__bottom{
     display: flex;
     flex-direction: column;
-    margin-bottom: 71px;
+    margin-bottom: 75px;
 }
 
 .header__pike img{

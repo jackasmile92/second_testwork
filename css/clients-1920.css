@@ -30,11 +30,11 @@
             }
 
             .number.second{
-                margin-left: 132px;
+                margin-left: 147px;
             }
 
             .number.third{
-                margin-left: 86px;
+                margin-left: 71px;
             }
 
             .number.fourth{
@@ -47,18 +47,15 @@
                 height: 48px;
                 font-family: GothamPro;
                 font-size: 16px;
-                font-weight: normal;
-                font-stretch: normal;
-                font-style: normal;
                 line-height: 1.5;
-                letter-spacing: normal;
                 color: #ffffff;      
             }
 
             .clients__title-row{
-                margin-top: 117px;
+                margin-top: 140px;
                 display: flex;
                 flex-direction: row;  
+                justify-content: space-between;
             }
 
             .clients__title{
@@ -80,26 +77,27 @@
             }
 
             .clients__rect{
-                margin-top: 52px;
+                margin-top: 53px;
+                margin-left:4px;
                 width: 16px;
                 height: 16px;
                 background-color: #01da00;
             }
 
             .clients_arrows{
-                margin-top: 36px;
-                margin-left: 702px;
+                margin-top: 33px;
                 display: flex;
                 flex-direction: row;  
+                margin-right: 378px;
             }
 
             .clients__arrow img{
-                height: 29px;
+                height: 36px;
             }
 
             .clients__arrow.left{
                 transform: scaleX(-1);
-                margin-right: 22px;
+                margin-right: 20px;
             }
             #arrow_2{
                 opacity: 0.3;
@@ -153,12 +151,12 @@
             }
 
             .client__logo.tv img{
-                width:118px;
+                width:100px;
             }
 
             .client__logo.tv{
-                margin-top: 58px;
-                margin-left: 28px;
+                margin-top: 68px;
+                margin-left: 38px;
             }
 
             .client__text{
