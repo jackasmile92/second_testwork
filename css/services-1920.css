@@ -25,7 +25,6 @@
     padding-bottom: 197px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .services__product{
@@ -42,8 +41,8 @@
 }
 
 .product__img.hub{
-    margin-top: 134px;
-    margin-left: -120px;
+    margin-top: 139px;
+    margin-left: -107px;
 }
 
 .product__list li{
@@ -54,7 +53,7 @@
 .product__title{
     width: 826px;
     height: 256px;
-    font-family: GothamPro;
+    font-family: GothamPro-Bold;
     font-size: 61px;
     font-weight: bold;
     font-stretch: normal;
@@ -70,14 +69,33 @@
 
 .product__list{
     font-family: GothamPro;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.5;
+    line-height: 1;
     letter-spacing: normal;
     color: #000000;
-    margin-top: -20px;
+}
+.product__list li{
+    list-style-type: square;
+    padding-left: 5px;;
+}
+
+.product__list li div{
+    font-size: 16px;
+}
+
+/*hub*/
+.product__list.hub{
+    margin-left: 3px;
+    margin-top: -27px;
+}
+
+/*archive*/
+
+.services__product.archive{
+    margin-top: 270px;
 }
 
 .product__img.archive{
@@ -93,35 +111,65 @@
 }
 
 .product__list.archive{
-    margin-top: 125px;
+    margin-top: 115px;
+    margin-left: 5px;
 }
 
+.product__list.archive li{
+    line-height: 1.2;
+}
+
+/*signal*/
+
 .product__img.signal{
-    margin-top: 129px;
-    margin-left: -70px;
+    margin-top: 130px;
+    margin-left: -53px;
 }
 
 .product__list.signal{
-    margin-top: 38px;
+    margin-top: 40px;
     width: 447px;
 }
 
 .product__list.signal li{
-    margin-top: 12px;
+    line-height: 0.9;
 }
+
+.product__list.signal li div{
+    line-height: 1.5;
+}
+
+.services__product.signal{
+    margin-top: 260px;
+}
+
+/*promo*/
 
 .product__text.promo{
     margin-left: 108px;
 }
 
 .product__list.promo{
-    margin-top: 115px;
+    margin-top: 121px;
+    margin-left: 6px;
     width: 430px;
+}
+
+.product__list.promo li{
+    line-height: 1.3;
 }
 
 .product__title.promo{
     width:600px;
 }
+
+.services__product.promo{
+    margin-top: 249px;
+    margin-left:15px;
+}
+
+
+/*stamps*/
 
 .servises__stamp{
     position: absolute;
@@ -154,3 +202,4 @@
 #green_1,#green_2{
     visibility: hidden;
 }
+

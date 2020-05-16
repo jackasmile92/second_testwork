@@ -25,13 +25,13 @@
     flex-direction: row;
     align-items: flex-end;
     height: 71px;
-    font-family: GothamPro;
+    font-family: GothamPro-Bold;
     font-size: 80px;
-    font-weight: bold;
+    font-weight: 800;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
-    letter-spacing: -1.7px;
+    letter-spacing: -2px;
     color: #ffffff;
 }
 
@@ -43,9 +43,24 @@
     margin-left: 9px;
 }
 
-.banner01__text:nth-child(3){
+.banner01__text:nth-child(1) .banner01__dot{
+    margin-left: 10px;
+    margin-top: 1px;
+}
+
+.banner01__text:nth-child(2){
     margin-left: 226px;
 }
-.banner01__text:nth-child(4){
+
+.banner01__text:nth-child(2) .banner01__dot{
+    margin-left: 6px;
+}
+
+.banner01__text:nth-child(3){
     margin-left: 423px;
+}
+
+.banner01_text_wrap{
+    margin-top: -10px;
+    margin-left: 3px;
 }
