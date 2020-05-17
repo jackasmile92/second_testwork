@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1200px){
     .footer{
         height: 275px;
-        width: 1024px;
+        width: 978px;
         padding-left: 46px;
     }
 
@@ -15,7 +15,12 @@
     .footer__social{
         margin-right: 89px;
         padding-top: 78px;
+        height: 75px;
 
+    }
+
+    .footer__logo{
+        height: 170px;
     }
     .footer__dev{
         margin-top: 40px;
