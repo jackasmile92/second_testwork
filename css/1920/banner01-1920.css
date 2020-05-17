@@ -1,7 +1,7 @@
 .banner01{
     width: 1920px;
     height: 595px; 
-    background-image: url("../src/img/png/02-banner-pml.png");
+    background-image: url("../../src/img/png/02-banner-pml.png");
 }
 
 .banner01__content{

@@ -1,0 +1,90 @@
+@media only screen and (max-width: 1200px){
+    .clients{
+        width: 978px;
+        height: 791px;
+        padding-left: 46px;
+        padding-top: 107px;
+    }
+
+    .number__title{ 
+        font-size: 60px;
+        letter-spacing: -1.28px;
+    }
+
+    .number__text{
+        margin-top: 29px;
+        margin-left: 1px;
+        font-size: 14px;        
+        line-height: 1.5;
+    }
+
+    .number.second{
+        margin-left: 63px;
+    }
+
+    .number.third{
+        margin-left: 10px;
+    }
+
+    .number.third .number__text{
+        width:198px;
+        margin-left: 0px;
+    }
+    
+    .number.fourth{
+        margin-left: 42px;
+    }
+
+    .number.fourth .number__text{
+        margin-left: 0px;
+    }
+
+    .number.second .number__text{
+        margin-left: 0px;
+    }
+
+    .clients__title-row{
+        margin-top: 88px;
+    }
+
+    .clients__tittle-text{
+        font-size: 60px;
+        width: 266px;
+        letter-spacing: -1.28px;
+    }
+
+    .clients__rect{
+        margin-top: 41px;
+        margin-left:6.5px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .clients_arrows{
+        margin-top: 19px;
+        margin-right: 46px;
+    }
+
+    .clients__arrow.left{
+        margin-right: 18px;
+    }
+
+    .clients__list{
+        margin-top: 43px;
+    }
+
+    .client{
+        width: 354px;
+        height: 323px;
+        padding-left: 27px;
+        padding-right: 26px;
+    
+    }
+
+    .client__name{
+        font-size: 31px;
+        margin-top: 25px;
+    }
+    
+
+}

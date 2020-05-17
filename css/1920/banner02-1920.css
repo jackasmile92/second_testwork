@@ -8,7 +8,7 @@
 .banner02__background{
     width: 1920px;
     height: 991px;
-    background-image: url("../src/img/gif/Noise-200px.gif");
+    background-image: url("../../src/img/gif/Noise-200px.gif");
     background-repeat: repeat-x;
     background-size: 991px 991px;
     opacity: 0.1;

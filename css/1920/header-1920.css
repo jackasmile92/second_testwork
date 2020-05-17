@@ -2,7 +2,7 @@
     width: 1853px;
     height: 1080px;
     padding-left: 67px;
-    background-image: url("../src/img/png/01-main.png");
+    background-image: url("../../src/img/png/01-main.png");
 
     display: flex;
     flex-direction: column;

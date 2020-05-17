@@ -1,12 +1,4 @@
-@font-face {
-    font-family: GothamPro;
-    src: url("../src/fonts/GothamPro.woff");
-}
 
-@font-face {
-    font-family: GothamPro-Bold;
-    src: url("../src/fonts/GothamPro-Bold.ttf");
-}
 
 body, html{
     margin: 0px;
