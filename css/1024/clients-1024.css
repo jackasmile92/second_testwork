@@ -1,9 +1,9 @@
 @media only screen and (max-width: 1200px){
     .clients{
         width: 978px;
-        height: 791px;
+        height: 793px;
         padding-left: 46px;
-        padding-top: 107px;
+        padding-top: 104px;
     }
 
     .number__title{ 
@@ -85,6 +85,41 @@
         font-size: 31px;
         margin-top: 25px;
     }
+
+    .client__text{
+        margin-top: 0px;
+        font-size: 14px;
+    }
     
+    .client__bottom{
+        margin-top: 137px;        
+    }
+
+    .client__bottom.white{
+        margin-top: 82.5px;  
+    }
+
+    .client__bottom.white .client__text{
+        width:206px; 
+        line-height: 1.6;
+    }
+
+    .client__bottom.tv{
+        margin-top: 51px;
+        line-height: 1.57;
+    }
+    
+    .client__logo img{
+        width: 164px;
+        margin-left: -97px;
+        margin-top: -11px;
+    }
+
+    .client__logo-white img{
+        width: 82px;
+        height: 86px;
+        margin-left: -29.5px;
+        margin-top: 4px;
+    }
 
 }

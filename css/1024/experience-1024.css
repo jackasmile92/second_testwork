@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1200px){
+    .experience{
+        width: 978px;
+        height: 624px;
+        padding-left: 46px;
+        padding-top: 144px;
+        background-size: auto 727px;
+        background-position-x: -260px;
+        background-position-y: 40px;
+    }
+
+    .experience__title-text{
+        font-size: 60px;
+        letter-spacing: -1.28px;
+    }
+
+    .experience__rect{
+        width: 12px;
+        height: 12px;
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+
+    .experience__arrows{
+        margin-top: 75px;
+        margin-left: 481px;
+    }
+
+    .experience__arrow.left img{
+        transform: rotate(180deg);
+        opacity: 0.3;
+        margin-right: 20px;
+    }
+
+    .experience__bottom{
+        margin-top: 58px;
+        width: 2000px;
+    }
+    
+    .experience__point{
+        width: 396px;
+        padding-left: 30px;
+        padding-top: 34px;
+    }
+    .experience__point-top.medium{
+        display: inline;
+        width: 380px;
+    }
+    .experience__point-top.big{
+        display: none;
+    }
+    .experience__point.white{
+        width: 396px;
+        padding-left: 29px;
+        padding-top: 36px;
+        height: 240px;
+    }
+}

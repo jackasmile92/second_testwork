@@ -98,3 +98,10 @@
     margin-bottom: -2px;
     color: #01da00;
 }
+
+.experience__point-top.big{
+    display: inline;
+}
+.experience__point-top.medium{
+    display: none;
+}

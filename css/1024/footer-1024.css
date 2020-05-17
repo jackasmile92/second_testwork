@@ -1,0 +1,25 @@
+@media only screen and (max-width: 1200px){
+    .footer{
+        height: 275px;
+        width: 1024px;
+        padding-left: 46px;
+    }
+
+    .footer__contact-info{
+        margin-left: 70px;
+        padding-top: 76px;
+        font-size: 14px;
+        line-height: 2.15;
+    }
+
+    .footer__social{
+        margin-right: 89px;
+        padding-top: 78px;
+
+    }
+    .footer__dev{
+        margin-top: 40px;
+        font-size: 14px;
+        margin-right: 3px;
+    }
+}

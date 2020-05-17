@@ -1,0 +1,42 @@
+@media only screen and (max-width: 1200px){
+    .banner01{
+        width: 1024px;
+        height: 356px; 
+        background-image: url("../../src/img/png/02-banner-pml.png");
+        background-size: auto 356px;
+        background-position-x: -3px;
+    }
+    
+    .banner01_pml{
+        margin-left: 544px;
+    }
+    
+    .banner01_pml img{
+        width: 108px;
+        height: 108px;
+    }
+
+    .banner01__text{
+        margin-top: 30px;
+        margin-left: -60px;
+        letter-spacing: -1px;
+        font-size: 60px;
+    }
+
+    .banner01__text:nth-child(2){
+        margin-left: 95px;
+        margin-top: -14px;
+    }
+
+    .banner01__text:nth-child(3){
+        margin-left: 229px;
+        margin-top: -15px;
+    }
+
+    .banner01__dot{
+        width: 12px;
+        height: 12px;
+        margin-bottom: 13px;
+        margin-left: 7px;
+    }
+}

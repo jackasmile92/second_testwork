@@ -1,0 +1,141 @@
+@media only screen and (max-width: 1200px){
+    .services{
+        width: 1024px;
+        height: 2742px;
+    }
+    
+    .services__background{
+        width: 1024px;
+        height: 2742px;
+    }
+
+    .services__products{
+        width: 1024px;
+        height: 22579.5px;
+        padding-left: 41px;
+        padding-top: 162.5px;
+    }
+
+    .product__title{
+        font-size: 49px;
+        width: 590px;
+        margin-left: 5px;
+        letter-spacing: -2.2px;
+    }
+
+    .product__img img{
+        width: 260px;
+    }
+
+    .product__list li{
+        list-style-type: square;
+        padding-left: 9px;
+    }
+
+    .product__list li div{
+        font-size: 14px;
+    }
+    /*hub*/
+    .product__list.hub{
+        margin-top: -80px;
+    }
+
+    .product__img.hub{
+        margin-top: 173px;
+        margin-left: -1px;
+    }
+    /*archive*/
+    .services__product.archive{
+        margin-top: 212px;
+    }
+
+    .services__product.archive .product__title{
+        width: 540px;
+        margin-left: 0px;
+        line-height: 1.07;
+        letter-spacing: -2.5px;
+    }
+
+    .product__img.archive{
+        margin-top:0px;
+        margin-left: 58px;
+    }
+
+    .product__text.archive{
+        margin-left: -30.5px;
+    }
+
+    .product__list.archive{
+        margin-top: 52px;
+        margin-left: 0px;
+    }
+
+    .product__list.archive li{
+        line-height: 1;
+        padding-left: 0px;
+    }
+
+    /*signal*/
+
+    .services__product.signal{
+        margin-top: 228px;
+    }
+    
+    .services__product.signal .product__title{
+        width: 670px;
+        line-height: 1.06;
+    }
+
+    .product__img.signal{
+        margin-top: 144px;
+        margin-left: -44px;
+    }
+
+    .product__list.signal{
+        margin-top: -19px;
+        margin-left: 5px;
+        width: 447px;
+    }
+
+    .product__list.signal li div{
+        line-height: 1.45;
+        padding-left: 0px;
+    }
+    
+    /*promo*/
+
+    .services__product.promo{
+        margin-top: 202px;
+        margin-left:58px;
+    }
+
+    .product__text.promo{
+        margin-left: -36px;
+    }
+
+    .product__title.promo{
+        width:470px;
+        line-height: 1.08;
+    }
+
+    .product__list.promo{
+        margin-top: 47px;
+        margin-left: 5px;
+        width: 430px;
+        line-height: 1;
+    }
+    
+    .product__list.promo li{
+        line-height: 1.3;
+        padding-left: 0px;
+    }
+
+    .servises__stamp.one{
+        display: none;
+    }
+    
+    .servises__stamp.two{
+        display: none;
+    }
+    
+}

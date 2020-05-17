@@ -58,7 +58,7 @@
 }
 
 .banner02__point:nth-child(3){
-    margin-left: 40px;;
+    margin-left: 40px;
 }
 
 .banner02__bullet{
@@ -89,4 +89,12 @@
 
 #triangl12{
     visibility: hidden;
+}
+
+.banner02__figures.middle{
+    display: none;
+}
+
+.banner02__figures.big{
+    display: inline;
 }
