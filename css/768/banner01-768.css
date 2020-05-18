@@ -1,0 +1,17 @@
+@media only screen and (max-width: 850px){
+    .banner01{
+        width: 768px;
+        height: 356px;
+        background-size: auto 460px ; 
+    }
+
+    .banner01_pml{
+        margin-left: 383px;
+    }
+
+    .banner01_text_wrap{
+        margin-left: -113px;
+        margin-top: -61px;
+    }
+    
+}

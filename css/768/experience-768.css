@@ -1,0 +1,16 @@
+@media only screen and (max-width: 850px){
+    .experience{
+        width: 700px;
+        height: 659px;
+        padding-left: 68px;
+        padding-top: 149px;
+        background-size: auto 800px;
+    }
+    .experience__arrows{
+        margin-top: 80px;
+        margin-left: 200px;
+    }
+    .experience__bottom{
+        margin-top: 65px;
+    }
+}

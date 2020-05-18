@@ -1,0 +1,57 @@
+@media only screen and (max-width: 850px){
+    .header{
+        width: 722px;
+        height: 1024px;
+        padding-left: 46px;
+        background-size: auto 1024px;
+        background-position-x: 770px;
+    }
+
+
+    .header__intro{
+        flex-direction: column;
+    }
+
+    .header__media{
+        display: none;
+    }
+
+    #header__media_part1 img{
+        margin-top: 25px;
+        display: inline;
+    }
+    #header__media_part2 img{
+        display: inline;
+        margin-top: 24px;
+        margin-left: 365px;
+        padding-bottom: 1px;
+        
+    }
+
+    .header__text{
+        margin-left: 0px;
+        margin-top: 42px;  
+        font-size: 24px;
+        line-height: 1.37;
+    }
+
+    .header__button{
+        width: 199px;
+        height: 50px;
+        margin-right: 0px;
+        margin-top: -1px;
+        margin-left: -22px;
+    }
+
+    .header__pike img{
+        height: 132px;
+        width: 470px;
+    }
+
+    .header__bottom{
+        margin-bottom: 22px;
+    }
+
+    
+
+}
