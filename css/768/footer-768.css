@@ -1,0 +1,36 @@
+@media only screen and (max-width: 850px){
+    .footer{
+        flex-direction: column;
+        justify-content: space-between ;
+        height: 328px;
+        width: 768px;
+    }
+    .footer__social{
+        flex-direction:row;
+        padding-top: 0px; 
+        margin-right: 0px;
+        margin-bottom:69px;
+    }
+
+    .footer__contact{
+        margin-top: 76.6px;
+    }
+
+    .footer__logo{
+        padding-top: 0px; 
+        padding-left: 0px;
+        height: 105px;
+    }
+
+    .footer__contact-info{
+        padding-top: 0px;
+        margin-left: 299px;
+    }
+    
+
+    .footer__dev{
+        margin-top:0px;
+        margin-bottom: 10px;
+        margin-left: 73px;
+    }
+}
