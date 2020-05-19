@@ -1,0 +1,79 @@
+@media only screen and (max-width: 600px){
+    .header{
+        width: 320px;
+        height: 578px;
+        padding-left: 20px;
+        background-size: auto 578px;
+        background-position-x: 337px;
+    }
+
+    .header__arrow {
+        background-image: url('../../src/img/png/logo-light_wh.png');
+        background-size:130px 42px;
+        width: 130px;
+        height: 42px;
+        margin-top: -11.5px;
+    }
+    .header__arrow img{
+        display: none;
+    }
+
+    .header__button{
+        width: 199px;
+        height: 50px;
+        margin-right: 0px;
+        margin-top: -9px;
+        margin-left: -246px;
+    }
+
+    .header__button div{
+        display: none;
+
+    }
+
+    .header__button{
+        background-image: url('../../src/img/png/telephon@3x.png') ;
+        background-color: transparent;
+        background-size: 29px 35px;
+        margin-left: -24px;
+        width: 29px;
+        height: 35px;
+    }
+
+    .header__text br{
+        display: none;
+    }
+
+    .header__text{
+        font-size: 14px;
+        margin-top: 23px;
+        margin-left: 8px;
+        width:274px;
+        line-height: 1.65;
+        letter-spacing: .20px;
+    }
+    .header__pike img{
+        height: 51px;
+        width: 183px;
+        margin-left: 5.5px;
+    }
+
+    #header__media_part1 img{
+        width: 266px;
+        height: 52px;
+        margin-left: 12.5px;
+        margin-top: 10px;
+    }
+    #header__media_part2 img{
+        width: 123px;
+        height: 51px;
+        margin-top: 9px;
+        margin-left: 154px;
+        padding-bottom: -3px;
+        
+    }
+
+    .header__bottom{
+        margin-bottom: 25px;
+    }
+}
