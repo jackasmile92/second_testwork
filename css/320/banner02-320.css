@@ -1,0 +1,56 @@
+@media only screen and (max-width: 600px){
+
+    .banner02__figures.small{
+        display: none;
+    }
+
+    .banner02__figures.verysmall{
+        display: inline;
+        padding-left: 0px;
+        padding-top: 37px;
+    }
+
+    .banner02,.banner02__background{
+        width: 320px;
+        height: 644px;
+    }
+
+    .banner02__points{
+        flex-direction: column;
+        width: 450px;
+        margin-left: 26px;
+        margin-top: 16px;
+    }
+
+    .banner02__point-text{
+        width: 234px;      
+        font-size: 14px;
+        margin-left: 21px;
+    }
+
+    .banner02__point{
+        margin-top: 1px;
+        margin-left:0px;
+    }
+
+     .banner02__point:nth-child(2){
+        margin-left: 0px;
+        margin-top: 42px;
+    }
+
+    .banner02__point:nth-child(3){
+        margin-top: 45px;
+    }
+
+    .banner02__point:nth-child(1) .banner02__point-text{
+        width: 234px;  
+    }
+
+    .banner02__title{
+        font-size: 40px;
+        margin-left: 24px;
+        letter-spacing: -0.95px;
+        margin-top: 104px;
+    }
+    
+}

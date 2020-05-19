@@ -1,0 +1,64 @@
+@media only screen and (max-width: 600px){
+    .banner01{
+        width: 294px;
+        height: 442px; 
+        background-image: url("../../src/img/png/02-banner-pml-smol(3).jpg");
+        background-size: 346px auto;
+        padding-left: 26px;
+    }
+
+    .banner01_text_wrap{
+        margin-left: 0px;
+        margin-top: 87px;
+        padding-left: 0px;
+    }
+
+    .banner01_pml{
+        margin-left: 0px;
+    }
+
+    .banner01__text{
+        font-size: 40px;
+        margin-left: 0px;
+        letter-spacing: -.35px;
+        
+    }
+
+    .banner01__dot{
+        width: 8px;
+        height: 8px;
+        background-color: #01da00;
+        margin-bottom: 8px;
+    }
+    
+    .banner01__text:nth-child(2){
+        margin-left: 0px;
+        margin-top:-24px;
+    
+    }
+    .banner01__text:nth-child(3){
+        margin-left: 0px;
+        margin-top:-24px;
+    }
+
+    .banner01__content{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .banner01_pml{
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .banner01_pml img{
+        width: 103px;
+        height: 102px;
+    }
+
+    .banner01__text:nth-child(1) .banner01__dot{
+        margin-left: 5px;
+        margin-top: 1px;
+    }
+}
