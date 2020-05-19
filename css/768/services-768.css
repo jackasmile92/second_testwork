@@ -1,0 +1,158 @@
+@media only screen and (max-width: 850px){
+    .services, .services__background{
+        width: 768px;
+        height: 3764px;
+    }
+    .services__product{
+        flex-direction: column-reverse;
+    }
+    
+
+    .services__product:nth-child(2),.services__product:nth-child(4){
+        flex-direction: column;
+    }
+
+    .services__products{
+        width: 768px;
+        height: 3764px;
+        padding-left: 71px;
+        padding-top: 133px;
+    }
+
+    .product__list.hub{
+        margin-top: -82px;
+        margin-left: -3px;
+    }
+
+    .product__img.hub{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .product__title{
+        font-size: 48px;
+        line-height: 1.09;
+        letter-spacing: -1.59px;
+    }
+
+    .product__title:nth-child(1){
+        margin-left: -4px;
+        margin-top: 20px;
+    }
+
+    /*archive*/
+
+    .services__product.archive{
+        margin-top: 169px;
+    }
+
+    .product__img.archive{
+        margin-top:0px;
+        margin-left: -40px;
+    }
+
+    .services__product.archive .product__title{
+        margin-left: 30px;
+        margin-top: 59px;
+        letter-spacing: -2px;
+    }
+
+    .product__list.archive{
+        margin-left: 27px;
+        margin-top: 42px;
+    }
+
+    /*signal*/
+    .services__product.signal{
+        margin-top: 167px;
+    }
+
+    .product__img.signal{
+        margin-top: 0px;
+        margin-left: -21px;
+    }
+
+    .services__product.signal .product__title{
+        margin-top: 60px;
+        margin-left: 2px;
+        line-height: 1.09;
+    }
+
+    .product__list.signal{
+        margin-top: -28px;
+        margin-left: -1px;
+        width: 547px;
+    }
+
+    .product__list.signal li div{
+        line-height: 1.45;
+        margin-left: -9px;
+    }
+
+    /*promo*/
+
+    .services__product.promo{
+        margin-top: 170px;
+        margin-left:58px;
+    }
+
+    .services__product.promo .product__img{
+        margin-top:0px;
+        margin-left: -74px;
+    }
+
+    .product__text.promo{
+        margin-left: -55px;
+        margin-top:  34px;
+    }
+
+    .product__title.promo{
+        width:470px;
+        line-height: 1.08;
+    }
+
+    .product__list.promo{
+        margin-top: 42px;
+        margin-left: -5px;
+        width: 630px;
+        height: 1px;
+    }
+
+    .product__list.promo li{
+        line-height: 1.2;
+        padding-left: 0px;
+    }
+    
+
+    .servises__stamp.one{
+        display: inline;
+        margin-left:512px;
+        margin-top:1603px;
+    }
+
+    .servises__stamp.two{
+        display: inline;
+        margin-left: 544px;
+        margin-top: 3333px;
+    }
+
+    .servises__stamp{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .servises__stamp-text{
+        position:absolute;
+        width:119px;
+        height: 118px;
+    }
+
+    .servises__rock{
+        position:absolute;
+        width: 37.3px;
+        margin-left: 42px;
+        margin-top: 29px;
+    }
+    
+}
