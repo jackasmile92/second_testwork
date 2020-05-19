@@ -3,6 +3,7 @@
     flex-direction: row;
     align-items:flex-start;
     justify-content: space-between;
+    background-color: black;
     color: white;
     height: 240px;
     width: 1440px;

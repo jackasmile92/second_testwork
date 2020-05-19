@@ -95,6 +95,14 @@
     display: none;
 }
 
+.banner02__figures.small{
+    display: none;
+}
+
+.banner02__figures.verysmall{
+    display: none;
+}
+
 .banner02__figures.big{
     display: inline;
 }
