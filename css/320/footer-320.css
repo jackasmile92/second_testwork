@@ -1,0 +1,72 @@
+@media only screen and (max-width: 600px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        height: 509px;
+        width: 294px;
+        padding-left: 26px;
+        padding-top: 0px;
+        
+    }
+    .footer__contact{            
+        display: flex;
+        flex-direction: column;
+        margin-top: 56px;
+    }
+    
+    
+    .footer__logo{
+        padding-top: 0px; 
+        padding-left: 0px;
+        height: 48px;
+        width: 150px;
+        background-image: url('../../src/img/png/logo-light_wh.png');
+        background-size: 150px 48px;
+    }
+    
+    .footer__logo img{
+        display:none;
+    }
+    
+    .footer__contact-info{
+        margin-left: -4px;
+        padding-top: 90px;
+        height: 24px;
+        width:244px;
+        font-family: GothamPro;
+        font-size: 14px;
+        line-height: 2.15;
+    }
+    
+    .footer__social{
+        flex-direction:column;
+        padding-top: 0px; 
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom:129px;
+        align-items: flex-start;
+    }
+
+    .footer__icons{
+        display: flex;
+        width: 280px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: baseline;
+        
+    }
+    .footer__icons div{
+        margin-right: 35px;
+        margin-top: 26px;
+    }
+
+    .footer__dev{
+        margin-top:39px;
+        margin-left: -2px;
+
+        text-align: left;
+    }
+
+    
+}
