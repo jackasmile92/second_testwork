@@ -1,0 +1,72 @@
+@media only screen and (max-width: 600px){
+    .feedback{
+        background-size: 1008px 1008px;
+        width: 292px;
+        height: 673px;
+        padding-left: 28px;
+        padding-top: 71px;
+    }
+    
+    .feedback__title{
+        width: 266px;
+        height: 90px;
+        font-size: 28px;
+        line-height: 1.07;
+        letter-spacing: -1.09px;
+        margin-top: 1px;
+        margin-left: -3px;
+    }
+    
+    .feedback__dot{
+        font-size: 30px;
+        line-height: 1px;
+    }
+    
+    .feedback__form{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        margin-top: 33px;
+    }
+    
+    .feedback__info{
+        margin-left: -5px;
+        width: 250px;
+        height: 88px;
+        font-size: 14px;
+
+    }
+
+
+    
+    .feedback__input{
+        margin-left: -104px;
+        margin-top: 20px;
+    }
+    
+    .feedback__field input{
+        width:266px;
+        height:20px;
+        border-bottom: 2px solid #01da00;
+        font-size: 14px;
+
+        line-height: 1.5;
+        letter-spacing: normal;
+        padding-bottom: 17px;
+        margin-bottom: 36px;
+    }
+    
+    .feedback__button{
+        margin-top: 51px;
+        width: 266px;
+        height: 50px;
+    }
+    
+    .feedback__button div{
+        width: 266px;
+        height: 11px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+}
