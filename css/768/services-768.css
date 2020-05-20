@@ -14,9 +14,9 @@
 
     .services__products{
         width: 768px;
-        height: 3764px;
+        height: 3616px;
         padding-left: 71px;
-        padding-top: 133px;
+        padding-top: 148px;
     }
 
     .product__list.hub{
@@ -36,30 +36,31 @@
     }
 
     .product__title:nth-child(1){
-        margin-left: -4px;
-        margin-top: 20px;
+        margin-left: 0px;
+        margin-top: 37px;
     }
 
     /*archive*/
 
     .services__product.archive{
-        margin-top: 169px;
+        margin-top: 200px;
     }
 
     .product__img.archive{
-        margin-top:0px;
-        margin-left: -40px;
+        margin-top: 20px;
+        margin-left: 0px;
     }
 
     .services__product.archive .product__title{
         margin-left: 30px;
-        margin-top: 59px;
+        margin-top: 39px;
         letter-spacing: -2px;
+        line-height: 1.1;
     }
 
     .product__list.archive{
         margin-left: 27px;
-        margin-top: 42px;
+        margin-top: 45px;
     }
 
     /*signal*/
@@ -68,12 +69,12 @@
     }
 
     .product__img.signal{
-        margin-top: 0px;
-        margin-left: -21px;
+        margin-top: 10px;
+        margin-left: 0px;
     }
 
     .services__product.signal .product__title{
-        margin-top: 60px;
+        margin-top: 40px;
         margin-left: 2px;
         line-height: 1.09;
     }
@@ -98,12 +99,12 @@
 
     .services__product.promo .product__img{
         margin-top:0px;
-        margin-left: -74px;
+        margin-left: -59px;
     }
 
     .product__text.promo{
-        margin-left: -55px;
-        margin-top:  34px;
+        margin-left: -60px;
+        margin-top:  6px;
     }
 
     .product__title.promo{
@@ -122,37 +123,7 @@
         line-height: 1.2;
         padding-left: 0px;
     }
+
     
-
-    .servises__stamp.one{
-        display: inline;
-        margin-left:512px;
-        margin-top:1603px;
-    }
-
-    .servises__stamp.two{
-        display: inline;
-        margin-left: 544px;
-        margin-top: 3333px;
-    }
-
-    .servises__stamp{
-        position: absolute;
-        width: 100px;
-        height: 100px;
-    }
-    
-    .servises__stamp-text{
-        position:absolute;
-        width:119px;
-        height: 118px;
-    }
-
-    .servises__rock{
-        position:absolute;
-        width: 37.3px;
-        margin-left: 42px;
-        margin-top: 29px;
-    }
     
 }

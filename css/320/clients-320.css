@@ -1,0 +1,170 @@
+@media only screen and (max-width: 600px){
+    .clients{
+        width: 293px;
+        height: 1161px;
+        background-size: 200px 200px;
+
+        padding-left: 27px;
+        padding-top: 74px;
+    }
+
+    .number__title{ 
+        font-size: 40px;
+    }
+
+    .number__text{
+        margin-top: 11px;
+        
+        width: 190px;
+    }
+
+    .clients__numbers{
+        display: flex;
+        flex-direction: column;  
+        flex-wrap: wrap;            
+        height: 600px;
+    }
+
+    .number.third, .number.fourth{
+        margin-left: 0px;
+    }
+
+    .number.second, .number.fourth{
+
+        margin-top: 0px;
+    }
+
+    .number{
+        margin-bottom: 43px;
+    }
+
+    .clients__tittle-text{
+        font-size: 40px;
+        width: 177px;
+    }
+
+    .clients__rect{
+        margin-top: 26px;
+        margin-left:6px;
+        width: 7px;
+        height: 7px;
+        background-color: #01da00;
+    }
+
+    .clients__title-row{
+        margin-top: 20.1px;
+    }
+
+    .clients__arrow img{
+        height: 22px;
+    }
+
+    .clients_arrows{
+        margin-top: 11px;
+        margin-left: 20px;
+    }
+
+    .clients__arrow.left{
+        transform: scaleX(-1);
+        margin-right: 17px;
+    }
+
+    /*copypaste*/
+    .clients__list{
+        margin-top: 0px;
+        width: 2000px;
+        display: flex;
+        flex-direction: row;  
+    }
+
+    .client{
+        width: 293px;
+        height: 380px;
+        background-color: #01da00;
+        padding-left: 34px;
+        padding-right: 32px;
+
+    }
+
+    .client.white{
+        background-color: #ffffff;
+    }
+
+    .client__bottom{
+        width: 434px;
+        display: flex;
+        flex-direction: column; 
+        margin-top: 0px;        
+    }
+
+    .client__bottom.white{
+        margin-top: 128px;  
+    }
+
+    .client__bottom.tv{
+        margin-top: 72px;
+    }
+
+    .client__logo img{
+        width: 200px;
+        margin-top: 9px;
+        margin-left: 0px;
+    }
+
+    .client__logo-white{
+        margin-left: 100px;
+    }
+
+    .client__logo-white img{
+        width: 100px;
+    }
+
+    .client__logo.tv img{
+        width:118px;
+    }
+
+    .client__logo.tv{
+        margin-top: 58px;
+        margin-left: 28px;
+    }
+
+    .client__text{
+        margin-top: 15px;
+        width: 234px;
+        height: 173px;
+        font-family: GothamPro;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.57;
+        letter-spacing: normal;
+        color: #000000;
+    }
+
+    .client__text.white{
+        margin-top: 32px;
+    }
+    .client__text{
+        width:292px;
+    }
+
+    .client__name{
+        margin-top: 34px;
+        width: 238px;
+        height: 56px;
+        font-size: 25px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.12;
+        letter-spacing: -0.54px;
+        color: #000000;
+    }
+
+    .client__text br{
+        display: none;
+    }
+
+
+}
