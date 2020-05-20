@@ -78,17 +78,14 @@
     }
 
     .client{
-        width: 293px;
+        width: 232px;
         height: 380px;
         background-color: #01da00;
-        padding-left: 34px;
+        padding-left: 29px;
         padding-right: 32px;
 
     }
 
-    .client.white{
-        background-color: #ffffff;
-    }
 
     .client__bottom{
         width: 434px;
@@ -101,36 +98,37 @@
         margin-top: 128px;  
     }
 
-    .client__bottom.tv{
-        margin-top: 72px;
-    }
-
     .client__logo img{
-        width: 200px;
-        margin-top: 9px;
+        width: 178px;
+        margin-top: 18px;
         margin-left: 0px;
     }
 
     .client__logo-white{
-        margin-left: 100px;
+        margin-left: 25px;
+        margin-top: 3px;
     }
 
     .client__logo-white img{
-        width: 100px;
+        width: 90px;
     }
 
     .client__logo.tv img{
-        width:118px;
+        display: none;
     }
 
     .client__logo.tv{
-        margin-top: 58px;
-        margin-left: 28px;
+        margin-top: -48px;
+        margin-left: 0px;
+        width:  178px; 
+        height:  89px;
+        background-size: 178px 89px;
+        background-image: url('../../src/img/png/ct-vgtrk-mobile@3x.png');
     }
 
     .client__text{
         margin-top: 15px;
-        width: 234px;
+        width:234px;
         height: 173px;
         font-family: GothamPro;
         font-size: 14px;
@@ -140,13 +138,6 @@
         line-height: 1.57;
         letter-spacing: normal;
         color: #000000;
-    }
-
-    .client__text.white{
-        margin-top: 32px;
-    }
-    .client__text{
-        width:292px;
     }
 
     .client__name{
@@ -166,5 +157,50 @@
         display: none;
     }
 
+    .client__bottom.white .client__text.white{
+        margin-top: 32px;
+        width: 232px;
+    }
+
+    .client__bottom.white{
+        margin-top:-43px;  
+    }
+
+    .client__text.white br, .client__text.tv br{
+        display: inline;
+    }
+
+    .client__bottom.tv{
+        margin-top: 26px;
+    }
+
+    .client__text.tv{
+        line-height: 1.6;
+    }
+
+    .client__name.one,.client__text.one, .client__name.stream{
+        width: 240px;
+    }
+    .client__text.one{
+        margin-top: -95px;
+    }
+
+    .client__logo-white.one img{
+        width: 178px;
+        height: 89px;
+        margin-top: 18px;
+        margin-left: -110px;
+    
+    }
+
+    .client__text.stream{
+        width: 230px;
+        margin-top: -100px;
+    }
+
+    .client__bottom.stream .client__logo img{
+        margin-top: 50px;
+        margin-left: -20px;
+    }
 
 }
