@@ -122,4 +122,39 @@
         margin-top: 4px;
     }
 
+    .client__logo-white.one img{
+        width: 190px;
+        height: 101px;
+        margin-top: -68px;
+        margin-left: -30px;
+    
+    }
+    
+
+    .client__logo-white.one{
+        margin-left: 0px;
+    }
+    
+    .client__text.one, .client__text.stream{
+        width: 200px;
+        height: 100px;
+    }
+    
+    
+    .client__bottom.one{
+        margin-top: 138px;
+    }
+    
+    .client__bottom.stream{
+        margin-top: 115px;
+    }
+    
+    .client__bottom.stream .client__logo img{
+        margin-top: -27px;
+        margin-left: -1px;
+    }
+
+    .client__name.one, .client__name.stream{
+        width: 289px;
+    }
 }

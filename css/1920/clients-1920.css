@@ -194,3 +194,31 @@
     color: #000000;
 }
 
+.client__logo-white.one img{
+    width: 200px;
+    height: 111px;
+    margin-top: -48px;
+
+}
+
+.client__logo-white.one{
+    margin-left: 0px;
+}
+
+.client__text.one{
+    width: 300px;
+    height: 100px;
+}
+
+
+.client__bottom.one{
+    margin-top: 162px;
+}
+
+.client__bottom.stream{
+    margin-top: 140px;
+}
+
+.client__bottom.stream .client__logo img{
+    margin-top: -17px;
+}
