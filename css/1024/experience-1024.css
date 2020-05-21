@@ -40,11 +40,13 @@
     .experience__point{
         width: 396px;
         padding-left: 30px;
-        padding-top: 34px;
+        padding-top: 36px;
+        height: 240px;
     }
     .experience__point-top.medium{
         display: inline;
         width: 380px;
+
     }
     .experience__point-top.big{
         display: none;
@@ -54,5 +56,10 @@
         padding-left: 29px;
         padding-top: 36px;
         height: 240px;
+    }
+
+    .experience__point-top{
+                
+        width: 343.4px;
     }
 }

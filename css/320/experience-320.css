@@ -21,7 +21,8 @@
     }
 
     .experience__point-top,.experience__point-bottom{
-        font-size: 14px;
+        font-size: 15px;
+
     }
 
     .experience__title-text{
@@ -59,16 +60,31 @@
         margin-right: 16px;
     }
 
-    .experience__point{
-        width: 294px;
-        height: 212px;
-        padding-top: 35px;
-        padding-bottom: 19px;
-        padding-left: 34px;
+    .experience__point, .experience__point.white{
+        width: 283px;
+        height: 233px;
+        padding-top: 37px;
+        padding-bottom: 22px;
+        padding-left: 37px;
+
+    }
+
+    .experience__point-top{
+        line-height: 1.6; 
+        letter-spacing: 0px;
+        width: 343.4px;
+    }
+
+    .experience__point-bottom{
+        margin-top: 0px;
     }
 
     .experience__bottom{
         margin-top: 27px;
+    }
+
+    .experience__point-top.medium{
+        width: 232px;
     }
 
 }
