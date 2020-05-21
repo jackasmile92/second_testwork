@@ -200,6 +200,6 @@
 }
 
 #green_1,#green_2{
-    visibility: hidden;
+    display:none;
 }
 
