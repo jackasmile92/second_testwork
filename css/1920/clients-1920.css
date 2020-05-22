@@ -222,3 +222,11 @@
 .client__bottom.stream .client__logo img{
     margin-top: -17px;
 }
+
+.clients__arrow.right{
+  opacity: 0.33;
+}
+
+.clients__arrow:hover{
+    cursor: pointer;
+}

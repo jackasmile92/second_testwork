@@ -27,7 +27,6 @@
 
     .experience__arrow.left img{
         transform: rotate(180deg);
-        opacity: 0.3;
         margin-right: 20px;
     }
 
