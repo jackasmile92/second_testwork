@@ -1,0 +1,34 @@
+.popup__feedback .feedback{
+    background:none;
+    margin-top: -124px;
+    margin-left: -20px;
+}
+
+.popup__feedback{
+    width: 1920px;
+    height: 971px;    
+    background-image: url("../../src/img/gif/Noise-200px.gif");
+    padding-top: 109px;
+}
+
+.popup__cross, .popup__cross_img{
+    width: 46px;
+    height: 39px;
+}
+
+.popup__cross_img g:hover{
+    fill:#01da00;
+    cursor: pointer;
+}
+
+.popup__cross{
+    margin-right: 347px;
+    margin-left: auto;
+
+}
+
+.popup__feedback .feedback__input{
+    margin-left: 142px;
+    margin-top: 2px;
+
+}

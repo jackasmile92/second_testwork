@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1200px){
+    .popup__feedback{
+        width: 1024px;
+        height: 712px;
+        padding-top: 56px;
+    }
+
+    .popup__cross, .popup__cross_img{
+        width: 35px;
+        height: 30px;
+    }
+
+    .popup__cross{
+        margin-right: 56px;
+    }
+
+    .popup__feedback .feedback{
+
+        margin-top: -85px;
+        margin-left: 0px;
+    }
+
+    .popup__feedback .feedback__input{
+        margin-left: 50px;
+        margin-top: 2px;
+    
+    }
+}
