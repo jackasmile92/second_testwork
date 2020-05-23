@@ -9,6 +9,7 @@
         <!--Styles 1920-->
         <link rel="stylesheet" href="./css/1920/body-1920.css">
         <link rel="stylesheet" href="./css/1920/header-1920.css">
+        <link rel="stylesheet" href="./css/1920/popup-1920.css">
         <link rel="stylesheet" href="./css/1920/clients-1920.css">
         <link rel="stylesheet" href="./css/1920/services-1920.css">       
         <link rel="stylesheet" href="./css/1920/banner01-1920.css">
@@ -19,6 +20,7 @@
         <!--Styles 1440-->
         <link rel="stylesheet" href="./css/1440/body-1440.css">
         <link rel="stylesheet" href="./css/1440/header-1440.css">
+        <link rel="stylesheet" href="./css/1440/popup-1440.css"> 
         <link rel="stylesheet" href="./css/1440/clients-1440.css">
         <link rel="stylesheet" href="./css/1440/services-1440.css">
         <link rel="stylesheet" href="./css/1440/banner01-1440.css">     
@@ -29,6 +31,7 @@
         <!--Styles 1024-->
         <link rel="stylesheet" href="./css/1024/body-1024.css">
         <link rel="stylesheet" href="./css/1024/header-1024.css">
+        <link rel="stylesheet" href="./css/1024/popup-1024.css"> 
         <link rel="stylesheet" href="./css/1024/clients-1024.css">
         <link rel="stylesheet" href="./css/1024/services-1024.css">    
         <link rel="stylesheet" href="./css/1024/banner01-1024.css">
@@ -39,6 +42,7 @@
         <!--Styles 768-->
         <link rel="stylesheet" href="./css/768/body-768.css">
         <link rel="stylesheet" href="./css/768/header-768.css">
+        <link rel="stylesheet" href="./css/768/popup-768.css">  
         <link rel="stylesheet" href="./css/768/clients-768.css">
         <link rel="stylesheet" href="./css/768/services-768.css">
         <link rel="stylesheet" href="./css/768/banner01-768.css">
@@ -56,25 +60,67 @@
         <link rel="stylesheet" href="./css/320/experience-320.css">
         <link rel="stylesheet" href="./css/320/feedback-320.css">
         <link rel="stylesheet" href="./css/320/footer-320.css">
+
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+  
+
+
     </head>
     <body>  
-        <div class="header">
-            <div class="header__top">
-                <div class="header__intro">
-                    <div class="header__arrow">
-                        <img src="./src/img/svg/logo-fish.svg">
-                    </div>
-                    <div class="header__text">
-                        Создаем телевещание в любой среде.<br>
-                        Технологические услуги по подготовке <br>
-                        и распространению для телеканалов<br>
-                        и операторов VOD
-                    </div>
+        <div class="popup__feedback">
+            <div class="popup__cross">
+                <svg  class="popup__cross_img" xmlns="http://www.w3.org/2000/svg" width="46" height="39" viewBox="0 0 46 39">
+                    <g fill="#FFF" fill-rule="evenodd">
+                        <path d="M28.401 19.496L45.993 0H36.59L19 19.496l17.591 19.496L46 39z"/>
+                        <path d="M17.599 19.496L.007 0H9.41L27 19.496 9.409 38.992 0 39z"/>
+                    </g>
+                </svg>
+                
+            </div>
+            <div class="feedback">
+                <div class="feedback__title">
+                    Разработаем решение под ваши задачи<span class="feedback__dot">.</span>
                 </div>
-                <div class="header__button_wrap">
-                    <button class="header__button"><div><b>СВЯЗАТЬСЯ С НАМИ</b></div></button>
+                <div class="feedback__form">
+                    <div class="feedback__info">
+                        Возникли вопросы или хотите оценить стоимость проекта? Оставьте заявку и наш менеджер с вами свяжется.
+                    </div>
+                    
+                    <div class="feedback__input">
+                        <div class="feedback__field"><input placeholder="Ваше имя"></div>
+                        <div class="feedback__field"><input placeholder="Телефон"></div>
+                        <div class="feedback__field"><input placeholder="Сообщение"></div>
+                        <button class="feedback__button"><div><b>ОТПРАВИТЬ</b></div></button>
+                    </div>
+                 </div>
+            </div>
+    
+        </div>
+
+        <div class="header__top">
+            <div class="header__intro">
+                <div class="header__arrow">
+                    <img src="./src/img/svg/logo-fish.svg">
+                </div>
+                <div class="header__text">
+                    Создаем телевещание в любой среде.<br>
+                    Технологические услуги по подготовке <br>
+                    и распространению для телеканалов<br>
+                    и операторов VOD
                 </div>
             </div>
+            <div class="header__button_wrap">
+                <button class="header__button"><div><b>СВЯЗАТЬСЯ С НАМИ</b></div></button>
+            </div>
+        </div>
+        <script src="./js/popup.js"></script>
+
+        <div class="header">
             <div class="header__bottom">
                 <div class="header__bottom">
                     <div class="header__pike"><img src="./src/img/svg/pike.svg"></div>
@@ -167,6 +213,8 @@
 
 
         </div>
+
+        <script src="./js/client-carousel.js"></script>
 
         <div class="services">
             <div class="services__background"></div>
@@ -388,6 +436,8 @@
                 </div>
             </div>
         </div>
+
+        <script src="./js/experience-carousel.js"></script>
 
         <div class="feedback">
             <div class="feedback__title">

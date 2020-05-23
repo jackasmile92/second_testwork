@@ -4,6 +4,10 @@
         height: 900px;
     }
 
+    .header__top{
+        width: 1373px;
+    }
+
     .header__pike img{
         width: 577px;
         height: 163px;
@@ -15,7 +19,7 @@
     }
 
     .header__bottom{
-        margin-bottom: 69px;
+        margin-bottom: 35px;
     }
 
     .header__text{
@@ -24,7 +28,7 @@
     }
 
     .header__button{
-        margin-right: 22px;
+        margin-right: 72px;
         margin-top: -3px;
     }
 
