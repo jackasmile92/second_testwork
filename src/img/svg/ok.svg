@@ -1,4 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="23" viewBox="0 0 13 23">
+    <style>
+        svg { cursor: pointer; }
+    </style>
+    
     <defs>
         <path id="a" d="M0 .14h12.85v11.11H0z"/>
         <path id="c" d="M.127.127h11.82v11.835H.128z"/>

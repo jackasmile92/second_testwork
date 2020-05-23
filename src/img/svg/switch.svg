@@ -1,3 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-    <path fill="#FFF" fill-rule="evenodd" d="M0 0v17.506h5.833V20l3.59-2.494h5.91L20 12.732V0H0zm13 11h2V4h-2v7zm-5 0h2V4H8v7z"/>
+    <style>
+        svg { cursor: pointer; }
+    </style>
+    
+    <path fill="#FFF" fill-rule="evenodd" d="M0 0v17.506h5.833V20l3.59-2.494h5.91L20 12.732V0H0zm13 11h2V4h-2v7zm-5 0h2V4H8v7z">
+                <animate to="white" from="#01da00" attributeName="fill" begin="mouseover"/>
+            <animate to="#01da00" from="white" attributeName="fill" begin="mouseout"/>
+        </path>
 </svg>
