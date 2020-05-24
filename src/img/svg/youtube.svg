@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29" height="20" viewBox="0 0 29 20">
+<svg onclick="window.open('https://red-is.ru/', '_blank');" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29" height="20" viewBox="0 0 29 20">
     <style>
         svg { cursor: pointer; }
     </style>

@@ -11,6 +11,7 @@
     <!--Styles 1920-->
     <link rel="stylesheet" href="./css/1920/feedback-1920.css">
     <link rel="stylesheet" href="./css/1920/popup-1920.css">
+    <link rel="stylesheet" href="./css/1920/services-1920.css"> 
     <!--Styles 1440-->
     <link rel="stylesheet" href="./css/1440/feedback-1440.css">
     <link rel="stylesheet" href="./css/1440/popup-1440.css">
@@ -38,7 +39,7 @@
     <link rel="stylesheet" href="./css/1920/footer-1920.css">
     <style>
         body {
-            background-color: black;
+           /* background-color: black;*/
             padding-top: 0px;
             height: 3000px;
 
@@ -60,6 +61,27 @@
         .footer {
             margin-top: 500px;
         }
+
+        .servises_text {
+            width: 300px;
+            height: 210px;
+            border: 2px solid black;
+            margin-left: -63px;
+            margin-top: -63px;
+            padding-top: 90px;
+            border-radius: 50%;
+            text-align: center;  /* выравнять текст по середине по горизонтали */
+            background: black;
+            font-family: GothamPro;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #ffffff;
+            position: absolute;
+            z-index: 97;
+            opacity: 0;
+            scale: 0.5;
+        }
+        
     </style>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
@@ -71,6 +93,39 @@
 </head>
 
 <body>
+    <div class="servises__stamp one">
+        <img class="servises__stamp-text" src="./src/img/png/feature-text@3x.png">
+        <img class="servises__rock" src="./src/img/svg/rock-icon.svg">
+        <div class="servises_text one">Интеграционный проект медиаархива номинирован на соискание премии Зворыкина Национальной ассоциации телевещателей
+        </div>   
+    </div>
+
+    <div class="servises__stamp two">
+        <img class="servises__stamp-text" src="./src/img/png/feature-text@3x.png">
+        <img class="servises__rock" src="./src/img/svg/rock-icon.svg">
+        <div class="servises_text two">Наши работы отмечены <br>
+            номинациями и премиями <br>
+            Медиабренд <br>
+            2016/2017/2018 <br>
+            и ProdaxBDA 2018
+        </div>
+    </div>
+
+    <script>
+        $(".servises__stamp.one").on('mouseenter',function(){
+            TweenLite.to(".servises_text.one", 1, {scaleX:1.1, scaleY:1.1, opacity: 1} );
+        });
+        $(".servises__stamp.one").on('mouseout',function(){
+            TweenLite.to(".servises_text.one", 1, {scaleX:1, scaleY:1, opacity: 0} );
+        });
+        $(".servises__stamp.two").on('mouseenter',function(){
+            TweenLite.to(".servises_text.two", 1, {scaleX:1.1, scaleY:1.1, opacity: 1} );
+        });
+        $(".servises__stamp.two").on('mouseout',function(){
+            TweenLite.to(".servises_text.two", 1, {scaleX:1, scaleY:1, opacity: 0} );
+        });
+    </script>
+
     <div class="popup__feedback">
         <div class="popup__cross">
             <svg class="popup__cross_img" xmlns="http://www.w3.org/2000/svg" width="46" height="39" viewBox="0 0 46 39">

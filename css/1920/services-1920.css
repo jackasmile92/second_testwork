@@ -173,8 +173,8 @@
 
 .servises__stamp{
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 175px;
+    height: 175px;
 }
 
 .servises__stamp-text{
@@ -203,3 +203,26 @@
     display:none;
 }
 
+.servises__stamp:hover{
+    cursor: pointer;
+}
+
+.servises_text {
+    width: 300px;
+    height: 210px;
+    border: 2px solid black;
+    margin-left: -63px;
+    margin-top: -63px;
+    padding-top: 90px;
+    border-radius: 50%;
+    text-align: center;  /* выравнять текст по середине по горизонтали */
+    background: black;
+    font-family: GothamPro;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    position: absolute;
+    z-index: 97;
+    opacity: 0;
+    scale: 0.5;
+}

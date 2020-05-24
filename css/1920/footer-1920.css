@@ -117,3 +117,13 @@
 .ok:hover{
     filter: invert(43%) sepia(96%) saturate(1237%) hue-rotate(88deg) brightness(128%) contrast(119%);
 }
+
+
+
+#redis{
+    text-decoration: none;
+}
+#redis:hover{
+    cursor: pointer;
+    color:#01da00;
+}
