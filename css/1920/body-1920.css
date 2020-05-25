@@ -13,5 +13,16 @@ html {
 body {
     overflow-x: hidden;
     margin: auto;
+    overflow-y: scroll;
+    box-sizing: border-box;
 }
 
+.viewport {
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+  }
+  

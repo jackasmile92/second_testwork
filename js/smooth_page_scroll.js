@@ -37,7 +37,7 @@ function updateScroller() {
   var resized = scroller.resizeRequest > 0;
     
   if (resized) {    
-    var height = scroller.target.height;
+    var height = scroller.target.clientHeight;
     body.style.height = height + "px";
     scroller.resizeRequest = 0;
   }
