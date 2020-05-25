@@ -68,7 +68,8 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
     </head>
-    <body>  
+    <body>
+  
         <div class="popup__feedback">
             <div class="popup__cross">
                 <svg  class="popup__cross_img" xmlns="http://www.w3.org/2000/svg" width="46" height="39" viewBox="0 0 46 39">
@@ -79,6 +80,8 @@
                 </svg>
                 
             </div>
+
+          
             <div class="feedback">
                 <div class="feedback__title">
                     Разработаем решение под ваши задачи<span class="feedback__dot">.</span>
@@ -98,7 +101,7 @@
             </div>
     
         </div>
-
+        
         <div class="header__top">
             <div class="header__intro">
                 <div class="header__arrow">
@@ -116,7 +119,7 @@
             </div>
         </div>
         <script src="./js/popup.js"></script>
-
+        <div id="scrolling_part">
         <div class="header">
             <div class="header__bottom">
                 <div class="header__bottom">
@@ -212,7 +215,9 @@
         </div>
 
         <script src="./js/client-carousel.js"></script>
-
+<script>
+    console.log(document.getElementById("scrolling_part").id);
+</script>
         <div class="services">
             <div class="services__background"></div>
             <div class="services__products">
@@ -491,6 +496,8 @@
                     <a id="redis" href="https://red-is.ru/" target="_blank">Redis</a> &mdash; создание сайта
                 </div>
             </div> 
-        </div>       
+        </div>    
+    </div>
+    <script src="./js/smooth_page_scroll.js"></script>   
     </body>
 </html>
