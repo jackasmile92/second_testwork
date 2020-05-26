@@ -7,14 +7,14 @@ tl2.addLabel("second_slide");
 tl2.to(".header__text",{duration:1,y:-300},"second_slide");
 tl2.to("#arrow_img",{opacity:0},"second_slide");
 tl2.to("#white_lg",{opacity:1},"second_slide");
-tl2.from(".clients__numbers",{duration:1, y:100},"second_slide");
-tl2.from(".number",{duration:1, y:100, stagger:0.1},"second_slide");
-tl2.from(".number__text",{duration:1, y:100, stagger:0.1},"second_slide");
+tl2.from(".clients__numbers",{duration:1, y:200},"second_slide");
+tl2.from(".number",{duration:1, y:200, stagger:0.1},"second_slide");
+tl2.from(".number__text",{duration:1, y:200, stagger:0.1},"second_slide");
 
 
 var Cont={val:0} , NewVal = 10000 ;
 
-tl2.to(Cont,2,{duration:2,val:NewVal,roundProps:"val",onUpdate:function(){
+tl2.to(Cont,1.7,{duration:2,val:NewVal,roundProps:"val",onUpdate:function(){
     if(Cont.val == 10000){
         document.getElementById("number11").innerHTML = '10 000';
     }else{
@@ -50,6 +50,28 @@ scene2.triggerElement(".clients");
 
 scene2.addTo(controller);
 
+/*servises third slide*/
+var tl3= gsap.timeline();
+tl3.addLabel("third_slide");
+tl3.to("#black_lg",{opacity:1},"third_slide");
+tl3.to("#white_lg",{opacity:0},"third_slide");
 
+var scene3  = new ScrollMagic.Scene({reverse:true});
+scene3.setTween(tl3);
+scene3.triggerElement(".services");
 
-/**/
+scene3.addTo(controller);
+
+/*banner01 fourth slide*/
+var tl4 = gsap.timeline();
+var tl4= gsap.timeline();
+tl4.addLabel("fourth_slide");
+tl4.to("#black_lg",{opacity:0},"fourth_slide");
+tl4.to("#white_lg",{opacity:1},"fourth_slide");
+tl4.from(".banner01_text_wrap",{x:-1000},"fourth_slide");
+
+var scene4  = new ScrollMagic.Scene({reverse:true});
+scene4.setTween(tl4);
+scene4.triggerElement(".banner01");
+
+scene4.addTo(controller);

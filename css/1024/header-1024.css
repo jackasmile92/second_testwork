@@ -2,7 +2,7 @@
     .header{
         width: 976.5px;
         height: 768px;
-        background-image: url("../../src/img/png/01-main.png");
+        /*background-image: url("../../src/img/png/01-main.png");*/
         background-size: auto 768px;
         background-position: -340px;
         padding-left: 47.5px;
@@ -56,6 +56,14 @@
         margin-top: 1px;
     }
     
-    
+    .header__wriper{
+        width: 1024px;
+        height: 768px;
+    }
+
+    #myVideo{
+        width: 1024px;
+        height: 768px;
+    }
 }
 

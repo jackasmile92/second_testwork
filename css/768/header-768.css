@@ -5,6 +5,7 @@
         padding-left: 46px;
         background-size: auto 1024px;
         background-position-x: 770px;
+        background-image: url("../../src/img/png/01-main.png");
     }
 
 
@@ -57,6 +58,14 @@
         margin-bottom: 22px;
     }
 
+    .header__wriper{
+        width: 728px;
+        height: 1024px;
+    }
+
+    #myVideo{
+    display: hidden;
+    }
     
 
 }

@@ -2,12 +2,13 @@
     width: 1853px;
     height: 1080px;
     padding-left: 67px;
-    background-image: url("../../src/img/png/01-main.png");
+   /* background-image: url("../../src/img/png/01-main.png");*/
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-content: baseline;
+    position: absolute;
 }
 
 .header__top{
@@ -113,4 +114,17 @@
 #white_lg, #black_lg{
     opacity: 0;
     width: 199px;
+}
+
+#myVideo{
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+}
+
+.header__wriper{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-image: url("../../src/img/png/01-main.png");
 }

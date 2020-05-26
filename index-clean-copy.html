@@ -1,406 +1,36 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Пайк Медиа Лаб | Производство телеканалов, трансляций, телемостов и контента</title>
-        <meta name="description" content="Мы создаем контент и обеспечиваем коммуникацию с аудиторией в любой вещательной среде. Сборка и выпуск телеканалов, производство промо, создание трансляций и виртуальных мероприятий, имиджевые и продающие ролики, анализ аудитории и вовлеченности зрителей.">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="./css/fonts.css">
 
-        <link rel="stylesheet" href="./css/index.css">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Пайк Медиа Лаб | Производство телеканалов, трансляций, телемостов и контента</title>
+    <meta name="description"
+        content="Мы создаем контент и обеспечиваем коммуникацию с аудиторией в любой вещательной среде. Сборка и выпуск телеканалов, производство промо, создание трансляций и виртуальных мероприятий, имиджевые и продающие ролики, анализ аудитории и вовлеченности зрителей.">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/fonts.css">
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
-    </head>
-    <body>
-  
-        <div class="popup__feedback">
-            <div class="popup__cross">
-                <svg  class="popup__cross_img" xmlns="http://www.w3.org/2000/svg" width="46" height="39" viewBox="0 0 46 39">
-                    <g fill="#FFF" fill-rule="evenodd">
-                        <path d="M28.401 19.496L45.993 0H36.59L19 19.496l17.591 19.496L46 39z"/>
-                        <path d="M17.599 19.496L.007 0H9.41L27 19.496 9.409 38.992 0 39z"/>
-                    </g>
-                </svg>
-                
-            </div>
+    <link rel="stylesheet" href="./css/index.css">
 
-          
-            <div class="feedback">
-                <div class="feedback__title">
-                    Разработаем решение под ваши задачи<span class="feedback__dot">.</span>
-                </div>
-                <div class="feedback__form">
-                    <div class="feedback__info">
-                        Возникли вопросы или хотите оценить стоимость проекта? Оставьте заявку и наш менеджер с вами свяжется.
-                    </div>
-                    
-                    <div class="feedback__input">
-                        <div class="feedback__field"><input placeholder="Ваше имя"></div>
-                        <div class="feedback__field"><input placeholder="Телефон"></div>
-                        <div class="feedback__field"><input placeholder="Сообщение"></div>
-                        <button class="feedback__button"><div><b>ОТПРАВИТЬ</b></div></button>
-                    </div>
-                 </div>
-            </div>
-    
-        </div>
-        
-        <div class="header__top">
-            <div class="header__intro">
-                <div class="header__arrow">
-                    <img id="arrow_img" src="./src/img/svg/logo-fish.svg">
-                    <img id="white_lg" src="./src/img/png/logo-light_wh.png">
-                    <img id="black_lg"src="./src/img/png/logo-light_bl.png">
-                </div>
-                <div class="header__text">
-                    Создаем телевещание в любой среде.<br>
-                    Технологические услуги по подготовке <br>
-                    и распространению для телеканалов<br>
-                    и операторов VOD
-                </div>
-            </div>
-            <div class="header__button_wrap">
-                <button class="header__button"><div><b>СВЯЗАТЬСЯ С НАМИ</b></div></button>
-            </div>
-        </div>
-        <script src="./js/popup.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+</head>
 
-        <section class="viewport">
+<body>
 
-        <div id="scrolling_part">
-        <div class="header">
-            <div class="header__bottom">
-                <div class="header__bottom">
-                    <div class="header__pike"><img src="./src/img/svg/pike.svg"></div>
-                    <div class="header__media"><img src="./src/img/svg/medialab.svg"></div>
-                    <div id="header__media_part1"><img src="./src/img/svg/media.svg"></div>
-                    <div id="header__media_part2"><img src="./src/img/svg/lab.svg"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="clients">
-            <div class="clients__numbers">
-                <div class="number">
-                    <div id="number11" class="number__title">10 000</div>
-                    <div class="number__text">Часов контента мы обрабатываем ежегодно</div>
-                </div>
-                <div class="number second">
-                    <div id="number12" class="number__title">20</div>
-                    <div class="number__text">Телеканалов доверяют <br>нам эфирную подготовку</div>
-                </div>
-                <div class="number third">
-                    <div  id="number13"  class="number__title">50</div>
-                    <div class="number__text">Телеканалов выпускаются 
-                        в эфирном комплексе</div>
-                </div>
-                <div class="number fourth">
-                    <div id="number14" class="number__title">20</div>
-                    <div class="number__text">Наград МедиаБренд<br>
-                        и Promax за работы<br>в промо</div>
-                </div>
-            </div>
-
-            <div class="clients__title-row">
-                <div class="clients__title">
-                    <div class="clients__tittle-text">Клиенты</div><div class="clients__rect"></div>
-                </div>
-                <div class="clients_arrows">
-                    <div class="clients__arrow left"><img src="./src/img/png/arrow.png"></div>
-                    <div class="clients__arrow right"><img src="./src/img/png/arrow.png"></div>
-                </div>
-            </div>
-
-            <div class="clients__list">
-                <div class="client">
-                    <div class="client__name">Телеканал <br>
-                        «Звезда»</div>
-                    <div class="client__bottom">
-                        <div class="client__text">Цифровой архив<br>
-                            медиа</div>
-                        <div class="client__logo"><img src="./src/img/png/logo-zvezda@3x.png"></div>
-                    </div>
-                </div>
-                <div class="client white">
-                     <div class="client__name">0+ Media</div>
-                    <div class="client__bottom white">
-                        <div class="client__text white">Полный технологический цикл сборки телеканалов<br>
-                            Создание промо</div>
-                        <div class="client__logo-white"><img src="./src/img/png/0-media@3x.png"></div>
-                    </div>
-                </div>
-                <div class="client">
-                    <div class="client__name">Цифровое<br>
-                        телевидение<br>
-                        ВГТРК</div>
-                    <div class="client__bottom tv">
-                        <div class="client__text tv">Полный технологический цикл <br>
-                            сборки телеканалов<br>
-                            Медиаархив<br>
-                            Создание промо<br>
-                            Технологический сервис<br>
-                            Выпуск телеканалов в США</div>
-                        <div class="client__logo tv"><img src="./src/img/from_google/xw_1495952.png"></div>
-                    </div>
-                </div>
-                <div class="client white">
-                    <div class="client__name one">Компания «Первый канал. Всемирная сеть»</div>
-                   <div class="client__bottom one">
-                       <div class="client__text one">Технологический сервис замены рекламных блоков</div>
-                       <div class="client__logo-white one"><img src="./src/img/png/1-st@3x.png"></div>
-                   </div>
-               </div>
-               <div class="client">
-                <div class="client__name stream">Телекомпания Стрим </div>
-                <div class="client__bottom stream">
-                    <div class="client__text stream">Техническая поддержка выпуска телеканалов группы</div>
-                    <div class="client__logo"><img src="./src/img/png/strim@3x.png"></div>
-                </div>
-            </div>
-            </div>
-
+    <div class="popup__feedback">
+        <div class="popup__cross">
+            <svg class="popup__cross_img" xmlns="http://www.w3.org/2000/svg" width="46" height="39" viewBox="0 0 46 39">
+                <g fill="#FFF" fill-rule="evenodd">
+                    <path d="M28.401 19.496L45.993 0H36.59L19 19.496l17.591 19.496L46 39z" />
+                    <path d="M17.599 19.496L.007 0H9.41L27 19.496 9.409 38.992 0 39z" />
+                </g>
+            </svg>
 
         </div>
 
-        <script src="./js/client-carousel.js"></script>
-        <div class="services">
-            <div class="services__background"></div>
-            <div class="services__products">
-                <div class="services__product">
-                    <div class="product__text">
-                        <div class="product__title"><span class="product__title-black">МедиаХаб</span>. Конструктор технологических медиауслуг</div>
-                        <div class="product__list hub">
-                            <ul>
-                                <li><div>Прием контента и оценка технического качества</div></li>
-                                <li><div>Предэфирная подготовка и транскодирование контента</div></li>
-                                <li><div>Перспективное и текущее планирование эфира</div></li>
-                                <li><div>Управление рекламным трафиком</div></li>
-                                <li><div>Архивирование эфирного контента</div></li>
-                                <li><div>Отчетность для рекламодателей и правообладателей</div></li>
-                                <li><div>Подготовка пакетов контента и расписаний для VOD</div></li>
-                                <li><div>Мультиязычная локализация контента</div></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="product__img hub">
-                        <img src="./src/img/png/hub@3x.png">
-                    </div>
-                </div>
-
-                <div class="services__product archive">                    
-                    <div class="product__img archive">
-                        <img  src="./src/img/png/archive@3x.png">
-                    </div>
-                    <div class="product__text archive">
-                        <div class="product__title archive"><span class="product__title-black">Цифровой архив</span>. Smart архивирование и надежное хранение исходных медиа- материалов</div>
-                        <div class="product__list archive">
-                            <ul>
-                                <li><div>Координация приема и выдачи контента</div></li>
-                                <li><div>Оценка технического качества</div></li>
-                                <li><div>Емкость библиотеки 2,5 Петабайта</div></li>
-                                <li><div>Пакетирование и цифровая доставка контента</div></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="services__product signal">
-                    <div class="product__text">
-                        <div class="product__title"><span class="product__title-black">Создание и доставка сигнала</span>. Выпуск, наземная и спутниковая доставка сигнала телеканалов</div>
-                        <div class="product__list signal">
-                            <ul>
-                                <li><div>Мониторинг 24х7х365 в эфирной аппаратной</div></li>
-                                <li><div>Эфирный комплекс в России и США</div></li>
-                                <li><div>Выпуск телеканалов, мониторинг и технический контроль 24х7</div></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="product__img signal">
-                        <img src="./src/img/png/signal@3x.png">
-                    </div>
-                </div>
-
-                <div class="services__product promo">
-                    <div class="product__img">
-                        <img src="./src/img/png/promo@3x.png">
-                    </div>
-                    <div class="product__text promo">
-                        <div class="product__title promo"><span class="product__title-black">Создание<br>промо</span>. Разработка фирменного стиля и промокампаний телеканалов</div>
-                        <div class="product__list promo">
-                            <ul>
-                                <li><div>Создание брендбуков телеканалов и отдельных элементов оформления</div></li>
-                                <li><div>Производство монтажных и постановочных промороликов</div></li>
-                                <li><div>Производство внеэфирных промоматериалов</div></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="servises__stamp one">
-                <img class="servises__stamp-text" src="./src/img/png/feature-text@3x.png">
-                <img class="servises__rock" src="./src/img/svg/rock-icon.svg">
-                <div class="servises_text one">Интеграционный проект медиаархива номинирован на соискание премии Зворыкина Национальной ассоциации телевещателей
-                </div>   
-            </div>
-        
-            <div class="servises__stamp two">
-                <img class="servises__stamp-text" src="./src/img/png/feature-text@3x.png">
-                <img class="servises__rock" src="./src/img/svg/rock-icon.svg">
-                <div class="servises_text two">Наши работы отмечены <br>
-                    номинациями и премиями <br>
-                    Медиабренд <br>
-                    2016/2017/2018 <br>
-                    и ProdaxBDA 2018
-                </div>
-            </div>
-        
-            <script src="./js/stamps.js"></script>
-
-            <div id= "green_1">
-                <div class="green_rock_wrap">
-                    <img class="green_rock" src="./src/img/svg/rock-icon.svg">
-                    <div class="green_text_c"></div>
-                </div>
-                <div class="green_text">Интеграционный проект медиаархива номинирован на соискание премии Зворыкина Национальной ассоциации телевещателей
-                </div>             
-             </div>
-            <div id= "green_2">
-                <div class="green_rock_wrap">
-                    <img class="green_rock" src="./src/img/svg/rock-icon.svg">
-                    <div class="green_text_c"></div>
-                </div>
-                <div class="green_text">
-                Наши работы отмечены номинациями и премиями Медиабренд 2016/2017/2018 
-                и ProdaxBDA 2018
-                </div>
-            </div>
-        </div>
-
-        <div class="banner01">
-            <div class="banner01__content">
-                <div class="banner01_pml"><img src="./src/img/svg/pml-logo.svg"></div>
-                <div class="banner01_text_wrap">
-                    <div class="banner01__text"><div>Съемки</div><div class="banner01__dot"></div></div>
-                    <div class="banner01__text"><div>Трансляции</div><div class="banner01__dot"></div></div>
-                    <div class="banner01__text"><div>Монетизация</div><div class="banner01__dot"></div></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="banner02">
-            <div class="banner02__background">
-            </div>
-            <div class="banner02__figures big">
-                <svg height="614" width="1002">
-                    <polygon points="0,0 0,614 334,307" style="fill:#00da00" />
-                    <polygon points="334,0 334,614 668,307" style="fill:#00da00" />
-                    <polygon points="668,0 668,614 1002,307" style="fill:#00da00" />
-                </svg>
-            </div>
-
-            <div class="banner02__figures middle">
-                <svg height="614" width="1002">
-                    <polygon points="0,0 0,507 276,253.5" style="fill:#00da00" />
-                    <polygon points="276,0 276,507 552,253.5" style="fill:#00da00" />
-                    <polygon points="552,0 552,507 821,253.5" style="fill:#00da00" />
-                </svg>
-            </div>
-            
-            <div class="banner02__figures small">
-                <svg height="684" width="375">
-                    <polygon points="0,0 0,684 375,342" style="fill:#00da00" />
-                </svg>
-            </div>
-
-            <div class="banner02__figures verysmall">
-                <svg height="644" width="320">
-                    <polygon points="0,0 0,558 310,279" style="fill:#00da00" />
-                </svg>
-            </div>
-
-            <div class="banner02__text">
-                <div class="banner02__title">
-                    Интеграция
-                </div>
-                <div class="banner02__points">
-                    <div class="banner02__point">
-                        <div class="banner02__bullet"></div>
-                        <div class="banner02__point-text">
-                            Разработка технических заданий, проектный менеджмент и аудит технологических решений
-                        </div>
-                    </div>
-                    <div class="banner02__point">
-                        <div class="banner02__bullet"></div>
-                        <div class="banner02__point-text">
-                            Внедрение систем менеджмента производства/управления проектами   
-                        </div>
-                    </div>
-                    <div class="banner02__point">
-                        <div class="banner02__bullet"></div>
-                        <div class="banner02__point-text">
-                            Разработка технологических циклов телевизионного производства/производства контента 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="experience">
-            <div class="experience__content">
-                <div class="experience__top">
-                    <div class="experience__title">
-                        <div class="experience__title-text">Наш опыт <br>интеграции</div><div class="experience__rect"></div>
-                    </div>
-                    <div class="experience__arrows">
-                        <div class="experience__arrow left"><img src="./src/img/png/arrow.png"></div>
-                        <div class="experience__arrow right"><img src="./src/img/png/arrow.png"></div>    
-                    </div>
-                </div>
-                <div class="experience__bottom">
-                    <div class="experience__point">
-                        <div class="experience__point-top">Создание эфирной аппаратной <br>на 90 телеканалов</div>
-                        <div class="experience__point-bottom">/ 2018</div>
-                    </div>
-                    <div class="experience__point white">
-                        <div class="experience__point-top big">
-                            Создание эфирного комплекса <br>
-                            телеканалов на технологии <br>
-                            IPuncompressed SAM-Grass <br>
-                            Valley 
-                        </div>
-                        <div class="experience__point-top medium">
-                            Создание эфирного комплекса 
-                            телеканалов на технологии 
-                            IPuncompressed SAM-Grass 
-                            Valley 
-                        </div>
-                        <div class="experience__point-bottom white">/ 21 телеканал / 2018</div>
-                    </div>
-                    <div class="experience__point">
-                        <div class="experience__point-top big">Разработка проекта облачного <br>
-                            выпуска и доставки телеканала на <br>
-                            территории США 
-                        </div>
-                        <div class="experience__point-top medium">Разработка проекта облачного
-                            выпуска и доставки телеканала на 
-                            территории США 
-                        </div>
-                        <div class="experience__point-bottom">/ 2017–2018</div>
-                    </div>
-                    <div class="experience__point white">
-                        <div class="experience__point-top">Создание эфирного комплекса <br>
-                            телеканалов на технологии <br>IPuncompressed SAM-Grass <br>Valley </div>
-                        <div class="experience__point-bottom white">/ 21 телеканал / 2018</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <script src="./js/experience-carousel.js"></script>
 
         <div class="feedback">
             <div class="feedback__title">
@@ -408,48 +38,499 @@
             </div>
             <div class="feedback__form">
                 <div class="feedback__info">
-                    Возникли вопросы или хотите оценить стоимость проекта? Оставьте заявку и наш менеджер с вами свяжется.
+                    Возникли вопросы или хотите оценить стоимость проекта? Оставьте заявку и наш менеджер с вами
+                    свяжется.
                 </div>
-                
+
                 <div class="feedback__input">
                     <div class="feedback__field"><input placeholder="Ваше имя"></div>
                     <div class="feedback__field"><input placeholder="Телефон"></div>
                     <div class="feedback__field"><input placeholder="Сообщение"></div>
-                    <button class="feedback__button"><div><b>ОТПРАВИТЬ</b></div></button>
-                </div>
-             </div>
-        </div>
-
-        <div class="footer">
-            <div class="footer__contact">
-                <div class="footer__logo">
-                    <img src="./src/img/png/logo-light@2x.png">
-                </div>
-                <div class="footer__contact-info">
-                    <div>+7 499 322 29 71</div>
-                    <div>hello@pikemedia.ru</div>
-                    <div>115162, Москва, ул. Шухова, 14</div>
+                    <button class="feedback__button">
+                        <div><b>ОТПРАВИТЬ</b></div>
+                    </button>
                 </div>
             </div>
-            <div class="footer__social">
-                <div class="footer__icons">
-                    <div class="footer_icon"><a><object type="image/svg+xml" data="./src/img/svg/vk.svg" class="vk"> </object></a></div>
-                    <div class="footer_icon"><a><object type="image/svg+xml" data="./src/img/svg/facebook.svg" class="facebook"> </object></a></div>
-                    <div class="footer_icon"><a><object type="image/svg+xml" data="./src/img/svg/insta.svg" class="insta"> </object></a></div>
-                    <div class="footer_icon"><a><object type="image/svg+xml" data="./src/img/svg/ok.svg" class="ok"> </object></a></div>
-                    <div class="footer_icon"><a><object type="image/svg+xml" data="./src/img/svg/twitter.svg" class="twitter"> </object></a></div>
-                    <div class="footer_icon"><a><object type="image/svg+xml" data="./src/img/svg/switch.svg" class="switch"> </object></a></div>
-                    <div class="footer_icon"><a><object type="image/svg+xml" data="./src/img/svg/youtube.svg" class="youtube"> </object></a></div>
-                </div>
-                <div class="footer__dev">
-                    <a id="redis" href="https://red-is.ru/" target="_blank">Redis</a> &mdash; создание сайта
-                </div>
-            </div> 
-        </div>    
+        </div>
+
     </div>
-</section>
+
+    <div class="header__top">
+        <div class="header__intro">
+            <div class="header__arrow">
+                <img id="arrow_img" src="./src/img/svg/logo-fish.svg">
+                <img id="white_lg" src="./src/img/png/logo-light_wh.png">
+                <img id="black_lg" src="./src/img/png/logo-light_bl.png">
+            </div>
+            <div class="header__text">
+                Создаем телевещание в любой среде.<br>
+                Технологические услуги по подготовке <br>
+                и распространению для телеканалов<br>
+                и операторов VOD
+            </div>
+        </div>
+        <div class="header__button_wrap">
+            <button class="header__button">
+                <div><b>СВЯЗАТЬСЯ С НАМИ</b></div>
+            </button>
+        </div>
+    </div>
+    <script src="./js/popup.js"></script>
+
+    <section class="viewport">
+
+        <div id="scrolling_part">
+
+            <div class="header__wriper">
+                <div class="header__background">
+                    <video autoplay muted loop id="myVideo">
+                        <source src="./src/video/Presentacia_1_hq.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="header">
+                    <div class="header__bottom">
+                        <div class="header__bottom">
+                            <div class="header__pike"><img src="./src/img/svg/pike.svg"></div>
+                            <div class="header__media"><img src="./src/img/svg/medialab.svg"></div>
+                            <div id="header__media_part1"><img src="./src/img/svg/media.svg"></div>
+                            <div id="header__media_part2"><img src="./src/img/svg/lab.svg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clients">
+                <div class="clients__numbers">
+                    <div class="number">
+                        <div id="number11" class="number__title">10 000</div>
+                        <div class="number__text">Часов контента мы обрабатываем ежегодно</div>
+                    </div>
+                    <div class="number second">
+                        <div id="number12" class="number__title">20</div>
+                        <div class="number__text">Телеканалов доверяют <br>нам эфирную подготовку</div>
+                    </div>
+                    <div class="number third">
+                        <div id="number13" class="number__title">50</div>
+                        <div class="number__text">Телеканалов выпускаются
+                            в эфирном комплексе</div>
+                    </div>
+                    <div class="number fourth">
+                        <div id="number14" class="number__title">20</div>
+                        <div class="number__text">Наград МедиаБренд<br>
+                            и Promax за работы<br>в промо</div>
+                    </div>
+                </div>
+
+                <div class="clients__title-row">
+                    <div class="clients__title">
+                        <div class="clients__tittle-text">Клиенты</div>
+                        <div class="clients__rect"></div>
+                    </div>
+                    <div class="clients_arrows">
+                        <div class="clients__arrow left"><img src="./src/img/png/arrow.png"></div>
+                        <div class="clients__arrow right"><img src="./src/img/png/arrow.png"></div>
+                    </div>
+                </div>
+
+                <div class="clients__list">
+                    <div class="client">
+                        <div class="client__name">Телеканал <br>
+                            «Звезда»</div>
+                        <div class="client__bottom">
+                            <div class="client__text">Цифровой архив<br>
+                                медиа</div>
+                            <div class="client__logo"><img src="./src/img/png/logo-zvezda@3x.png"></div>
+                        </div>
+                    </div>
+                    <div class="client white">
+                        <div class="client__name">0+ Media</div>
+                        <div class="client__bottom white">
+                            <div class="client__text white">Полный технологический цикл сборки телеканалов<br>
+                                Создание промо</div>
+                            <div class="client__logo-white"><img src="./src/img/png/0-media@3x.png"></div>
+                        </div>
+                    </div>
+                    <div class="client">
+                        <div class="client__name">Цифровое<br>
+                            телевидение<br>
+                            ВГТРК</div>
+                        <div class="client__bottom tv">
+                            <div class="client__text tv">Полный технологический цикл <br>
+                                сборки телеканалов<br>
+                                Медиаархив<br>
+                                Создание промо<br>
+                                Технологический сервис<br>
+                                Выпуск телеканалов в США</div>
+                            <div class="client__logo tv"><img src="./src/img/from_google/xw_1495952.png"></div>
+                        </div>
+                    </div>
+                    <div class="client white">
+                        <div class="client__name one">Компания «Первый канал. Всемирная сеть»</div>
+                        <div class="client__bottom one">
+                            <div class="client__text one">Технологический сервис замены рекламных блоков</div>
+                            <div class="client__logo-white one"><img src="./src/img/png/1-st@3x.png"></div>
+                        </div>
+                    </div>
+                    <div class="client">
+                        <div class="client__name stream">Телекомпания Стрим </div>
+                        <div class="client__bottom stream">
+                            <div class="client__text stream">Техническая поддержка выпуска телеканалов группы</div>
+                            <div class="client__logo"><img src="./src/img/png/strim@3x.png"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <script src="./js/client-carousel.js"></script>
+            <div class="services">
+                <div class="services__background"></div>
+                <div class="services__products">
+                    <div class="services__product">
+                        <div class="product__text">
+                            <div class="product__title"><span class="product__title-black">МедиаХаб</span>. Конструктор
+                                технологических медиауслуг</div>
+                            <div class="product__list hub">
+                                <ul>
+                                    <li>
+                                        <div>Прием контента и оценка технического качества</div>
+                                    </li>
+                                    <li>
+                                        <div>Предэфирная подготовка и транскодирование контента</div>
+                                    </li>
+                                    <li>
+                                        <div>Перспективное и текущее планирование эфира</div>
+                                    </li>
+                                    <li>
+                                        <div>Управление рекламным трафиком</div>
+                                    </li>
+                                    <li>
+                                        <div>Архивирование эфирного контента</div>
+                                    </li>
+                                    <li>
+                                        <div>Отчетность для рекламодателей и правообладателей</div>
+                                    </li>
+                                    <li>
+                                        <div>Подготовка пакетов контента и расписаний для VOD</div>
+                                    </li>
+                                    <li>
+                                        <div>Мультиязычная локализация контента</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product__img hub">
+                            <img src="./src/img/png/hub@3x.png">
+                        </div>
+                    </div>
+
+                    <div class="services__product archive">
+                        <div class="product__img archive">
+                            <img src="./src/img/png/archive@3x.png">
+                        </div>
+                        <div class="product__text archive">
+                            <div class="product__title archive"><span class="product__title-black">Цифровой
+                                    архив</span>. Smart архивирование и надежное хранение исходных медиа- материалов
+                            </div>
+                            <div class="product__list archive">
+                                <ul>
+                                    <li>
+                                        <div>Координация приема и выдачи контента</div>
+                                    </li>
+                                    <li>
+                                        <div>Оценка технического качества</div>
+                                    </li>
+                                    <li>
+                                        <div>Емкость библиотеки 2,5 Петабайта</div>
+                                    </li>
+                                    <li>
+                                        <div>Пакетирование и цифровая доставка контента</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__product signal">
+                        <div class="product__text">
+                            <div class="product__title"><span class="product__title-black">Создание и доставка
+                                    сигнала</span>. Выпуск, наземная и спутниковая доставка сигнала телеканалов</div>
+                            <div class="product__list signal">
+                                <ul>
+                                    <li>
+                                        <div>Мониторинг 24х7х365 в эфирной аппаратной</div>
+                                    </li>
+                                    <li>
+                                        <div>Эфирный комплекс в России и США</div>
+                                    </li>
+                                    <li>
+                                        <div>Выпуск телеканалов, мониторинг и технический контроль 24х7</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product__img signal">
+                            <img src="./src/img/png/signal@3x.png">
+                        </div>
+                    </div>
+
+                    <div class="services__product promo">
+                        <div class="product__img">
+                            <img src="./src/img/png/promo@3x.png">
+                        </div>
+                        <div class="product__text promo">
+                            <div class="product__title promo"><span
+                                    class="product__title-black">Создание<br>промо</span>. Разработка фирменного стиля и
+                                промокампаний телеканалов</div>
+                            <div class="product__list promo">
+                                <ul>
+                                    <li>
+                                        <div>Создание брендбуков телеканалов и отдельных элементов оформления</div>
+                                    </li>
+                                    <li>
+                                        <div>Производство монтажных и постановочных промороликов</div>
+                                    </li>
+                                    <li>
+                                        <div>Производство внеэфирных промоматериалов</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="servises__stamp one">
+                    <img class="servises__stamp-text" src="./src/img/png/feature-text@3x.png">
+                    <img class="servises__rock" src="./src/img/svg/rock-icon.svg">
+                    <div class="servises_text one">Интеграционный проект медиаархива номинирован на соискание премии
+                        Зворыкина Национальной ассоциации телевещателей
+                    </div>
+                </div>
+
+                <div class="servises__stamp two">
+                    <img class="servises__stamp-text" src="./src/img/png/feature-text@3x.png">
+                    <img class="servises__rock" src="./src/img/svg/rock-icon.svg">
+                    <div class="servises_text two">Наши работы отмечены <br>
+                        номинациями и премиями <br>
+                        Медиабренд <br>
+                        2016/2017/2018 <br>
+                        и ProdaxBDA 2018
+                    </div>
+                </div>
+
+                <script src="./js/stamps.js"></script>
+
+                <div id="green_1">
+                    <div class="green_rock_wrap">
+                        <img class="green_rock" src="./src/img/svg/rock-icon.svg">
+                        <div class="green_text_c"></div>
+                    </div>
+                    <div class="green_text">Интеграционный проект медиаархива номинирован на соискание премии Зворыкина
+                        Национальной ассоциации телевещателей
+                    </div>
+                </div>
+                <div id="green_2">
+                    <div class="green_rock_wrap">
+                        <img class="green_rock" src="./src/img/svg/rock-icon.svg">
+                        <div class="green_text_c"></div>
+                    </div>
+                    <div class="green_text">
+                        Наши работы отмечены номинациями и премиями Медиабренд 2016/2017/2018
+                        и ProdaxBDA 2018
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner01">
+                <div class="banner01__content">
+                    <div class="banner01_pml"><img src="./src/img/svg/pml-logo.svg"></div>
+                    <div class="banner01_text_wrap">
+                        <div class="banner01__text">
+                            <div>Съемки</div>
+                            <div class="banner01__dot"></div>
+                        </div>
+                        <div class="banner01__text">
+                            <div>Трансляции</div>
+                            <div class="banner01__dot"></div>
+                        </div>
+                        <div class="banner01__text">
+                            <div>Монетизация</div>
+                            <div class="banner01__dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner02">
+                <div class="banner02__background">
+                </div>
+                <div class="banner02__figures big">
+                    <svg height="614" width="1002">
+                        <polygon points="0,0 0,614 334,307" style="fill:#00da00" />
+                        <polygon points="334,0 334,614 668,307" style="fill:#00da00" />
+                        <polygon points="668,0 668,614 1002,307" style="fill:#00da00" />
+                    </svg>
+                </div>
+
+                <div class="banner02__figures middle">
+                    <svg height="614" width="1002">
+                        <polygon points="0,0 0,507 276,253.5" style="fill:#00da00" />
+                        <polygon points="276,0 276,507 552,253.5" style="fill:#00da00" />
+                        <polygon points="552,0 552,507 821,253.5" style="fill:#00da00" />
+                    </svg>
+                </div>
+
+                <div class="banner02__figures small">
+                    <svg height="684" width="375">
+                        <polygon points="0,0 0,684 375,342" style="fill:#00da00" />
+                    </svg>
+                </div>
+
+                <div class="banner02__figures verysmall">
+                    <svg height="644" width="320">
+                        <polygon points="0,0 0,558 310,279" style="fill:#00da00" />
+                    </svg>
+                </div>
+
+                <div class="banner02__text">
+                    <div class="banner02__title">
+                        Интеграция
+                    </div>
+                    <div class="banner02__points">
+                        <div class="banner02__point">
+                            <div class="banner02__bullet"></div>
+                            <div class="banner02__point-text">
+                                Разработка технических заданий, проектный менеджмент и аудит технологических решений
+                            </div>
+                        </div>
+                        <div class="banner02__point">
+                            <div class="banner02__bullet"></div>
+                            <div class="banner02__point-text">
+                                Внедрение систем менеджмента производства/управления проектами
+                            </div>
+                        </div>
+                        <div class="banner02__point">
+                            <div class="banner02__bullet"></div>
+                            <div class="banner02__point-text">
+                                Разработка технологических циклов телевизионного производства/производства контента
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience">
+                <div class="experience__content">
+                    <div class="experience__top">
+                        <div class="experience__title">
+                            <div class="experience__title-text">Наш опыт <br>интеграции</div>
+                            <div class="experience__rect"></div>
+                        </div>
+                        <div class="experience__arrows">
+                            <div class="experience__arrow left"><img src="./src/img/png/arrow.png"></div>
+                            <div class="experience__arrow right"><img src="./src/img/png/arrow.png"></div>
+                        </div>
+                    </div>
+                    <div class="experience__bottom">
+                        <div class="experience__point">
+                            <div class="experience__point-top">Создание эфирной аппаратной <br>на 90 телеканалов</div>
+                            <div class="experience__point-bottom">/ 2018</div>
+                        </div>
+                        <div class="experience__point white">
+                            <div class="experience__point-top big">
+                                Создание эфирного комплекса <br>
+                                телеканалов на технологии <br>
+                                IPuncompressed SAM-Grass <br>
+                                Valley
+                            </div>
+                            <div class="experience__point-top medium">
+                                Создание эфирного комплекса
+                                телеканалов на технологии
+                                IPuncompressed SAM-Grass
+                                Valley
+                            </div>
+                            <div class="experience__point-bottom white">/ 21 телеканал / 2018</div>
+                        </div>
+                        <div class="experience__point">
+                            <div class="experience__point-top big">Разработка проекта облачного <br>
+                                выпуска и доставки телеканала на <br>
+                                территории США
+                            </div>
+                            <div class="experience__point-top medium">Разработка проекта облачного
+                                выпуска и доставки телеканала на
+                                территории США
+                            </div>
+                            <div class="experience__point-bottom">/ 2017–2018</div>
+                        </div>
+                        <div class="experience__point white">
+                            <div class="experience__point-top">Создание эфирного комплекса <br>
+                                телеканалов на технологии <br>IPuncompressed SAM-Grass <br>Valley </div>
+                            <div class="experience__point-bottom white">/ 21 телеканал / 2018</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="./js/experience-carousel.js"></script>
+
+            <div class="feedback">
+                <div class="feedback__title">
+                    Разработаем решение под ваши задачи<span class="feedback__dot">.</span>
+                </div>
+                <div class="feedback__form">
+                    <div class="feedback__info">
+                        Возникли вопросы или хотите оценить стоимость проекта? Оставьте заявку и наш менеджер с вами
+                        свяжется.
+                    </div>
+
+                    <div class="feedback__input">
+                        <div class="feedback__field"><input placeholder="Ваше имя"></div>
+                        <div class="feedback__field"><input placeholder="Телефон"></div>
+                        <div class="feedback__field"><input placeholder="Сообщение"></div>
+                        <button class="feedback__button">
+                            <div><b>ОТПРАВИТЬ</b></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="footer__contact">
+                    <div class="footer__logo">
+                        <img src="./src/img/png/logo-light@2x.png">
+                    </div>
+                    <div class="footer__contact-info">
+                        <div>+7 499 322 29 71</div>
+                        <div>hello@pikemedia.ru</div>
+                        <div>115162, Москва, ул. Шухова, 14</div>
+                    </div>
+                </div>
+                <div class="footer__social">
+                    <div class="footer__icons">
+                        <div class="footer_icon"><a><object type="image/svg+xml" data="./src/img/svg/vk.svg" class="vk">
+                                </object></a></div>
+                        <div class="footer_icon"><a><object type="image/svg+xml" data="./src/img/svg/facebook.svg"
+                                    class="facebook"> </object></a></div>
+                        <div class="footer_icon"><a><object type="image/svg+xml" data="./src/img/svg/insta.svg"
+                                    class="insta"> </object></a></div>
+                        <div class="footer_icon"><a><object type="image/svg+xml" data="./src/img/svg/ok.svg" class="ok">
+                                </object></a></div>
+                        <div class="footer_icon"><a><object type="image/svg+xml" data="./src/img/svg/twitter.svg"
+                                    class="twitter"> </object></a></div>
+                        <div class="footer_icon"><a><object type="image/svg+xml" data="./src/img/svg/switch.svg"
+                                    class="switch"> </object></a></div>
+                        <div class="footer_icon"><a><object type="image/svg+xml" data="./src/img/svg/youtube.svg"
+                                    class="youtube"> </object></a></div>
+                    </div>
+                    <div class="footer__dev">
+                        <a id="redis" href="https://red-is.ru/" target="_blank">Redis</a> &mdash; создание сайта
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="./js/page_animation.js"></script>
-    <script src="./js/smooth_page_scroll.js"></script>   
-    
-    </body>
+    <script src="./js/smooth_page_scroll.js"></script>
+
+</body>
+
 </html>

@@ -81,4 +81,14 @@
     .header__bottom{
         margin-bottom: 30px;
     }
+
+    
+    .header__wriper{
+        width: 320px;
+        height: 578px;
+    }
+
+    #myVideo{
+        display: none;
+    }
 }

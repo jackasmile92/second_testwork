@@ -37,4 +37,14 @@
         margin-top:-2px;
     }
 
+    .header__wriper{
+        width: 1440px;
+        height: 900px;
+    }
+
+    #myVideo{
+        height: 900px;
+        width: auto;
+    }
+
 }
