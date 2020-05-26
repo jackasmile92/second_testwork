@@ -1,4 +1,4 @@
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 600px) {
     .experience{
         width: 294px;
         height: 538px;
@@ -6,14 +6,8 @@
         background-position-x: center;
         padding-left: 26px;
         padding-top: 54px;
-
-        overflow-x: hidden;
     }
 
-    .experience__title, .experience__arrows, .experience__bottom{
-        display: flex;
-        flex-direction: row; 
-    }
 
     .experience__top{
         display: flex;
@@ -29,9 +23,6 @@
         width: 264px;
         height: 92px;
         font-size: 40px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
         line-height: 1.15;
         letter-spacing: -0.85px;
         color: #ffffff;
@@ -40,7 +31,6 @@
     .experience__rect{
         width: 8px;
         height: 8px;
-        background-color: #01da00;
         margin-top: 76px;
         margin-left: -25px;
     }
@@ -55,8 +45,6 @@
     }
 
     .experience__arrow.left img{
-        transform: rotate(180deg);
-        opacity: 0.3;
         margin-right: 16px;
     }
 
@@ -87,4 +75,5 @@
         width: 232px;
     }
 
+    
 }
