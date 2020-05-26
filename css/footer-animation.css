@@ -1,5 +1,0 @@
-/*https://stackoverflow.com/questions/42966641/how-to-transform-black-into-any-given-color-using-only-css-filters/43960991#43960991*/
-.footer__icons img:hover, .footer__dev a:hover{
-    filter: invert(43%) sepia(96%) saturate(1237%) hue-rotate(88deg) brightness(128%) contrast(119%);
-    cursor: pointer;
-}
