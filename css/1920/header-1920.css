@@ -105,3 +105,12 @@
 #header_telephon{
     display: none;
 }
+
+.header__arrow img{
+    position: absolute;
+}
+
+#white_lg, #black_lg{
+    opacity: 0;
+    width: 199px;
+}
