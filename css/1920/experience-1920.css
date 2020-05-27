@@ -6,7 +6,7 @@
     padding-left: 374px;
     padding-top: 206px;
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #myVideo2{
