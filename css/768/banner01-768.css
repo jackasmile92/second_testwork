@@ -3,6 +3,7 @@
         width: 768px;
         height: 356px;
         background-size: auto 460px ; 
+        background-position: center;
     }
 
     .banner01_pml{
@@ -13,5 +14,10 @@
         margin-left: -113px;
         margin-top: -61px;
     }
+
+    #myVideo1{
+        display: none;
+    }
+    
     
 }

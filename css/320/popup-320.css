@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px){
+    .popup__feedback{
+        width: 321px;
+        height: 673px;
+        padding-top: 56px;
+    }
+
+    .popup__feedback .feedback__input{
+        margin-top: 15px;
+    }
+
+    .popup__feedback .feedback__info{
+        margin-top: 30px;
+    }
+
+}

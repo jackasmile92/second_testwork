@@ -4,10 +4,17 @@
     background-image: url("../../src/img/png/02-banner-pml.png");
 }
 
+#myVideo1{
+    width: 1920px;
+    height: auto;
+    position: absolute;
+}
+
 .banner01__content{
     margin-left: 469px;
     display: flex;
     flex-direction: column;
+    position: absolute;
 }
 
 .banner01_pml{

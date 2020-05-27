@@ -6,6 +6,10 @@
         background-size: auto 356px;
         background-position-x: -3px;
     }
+
+    #myVideo1{
+        width: 1024px;
+    }
     
     .banner01_pml{
         margin-left: 544px;
