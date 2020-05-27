@@ -75,3 +75,46 @@ scene4.setTween(tl4);
 scene4.triggerElement(".banner01");
 
 scene4.addTo(controller);
+
+/*banner02 fifth slide*/
+var tl5 = gsap.timeline();
+var tl5= gsap.timeline();
+tl5.addLabel("fifth_slide");
+tl5.to("#black_lg",{opacity:1},"fifth_slide");
+tl5.to("#white_lg",{opacity:0},"fifth_slide");
+
+var scene5  = new ScrollMagic.Scene({reverse:true});
+scene5.setTween(tl5);
+scene5.triggerElement(".banner02");
+
+scene5.addTo(controller);
+
+/*experience sixth slide*/
+var tl6 = gsap.timeline();
+var tl6= gsap.timeline();
+tl6.addLabel("sixth_slide");
+tl6.to("#black_lg",{opacity:0},"sixth_slide");
+tl6.to("#white_lg",{opacity:1},"sixth_slide");
+tl6.from('.experience__bottom',{duration:1,x:1000},"sixth_slide");
+tl6.from('.experience__title',{duration:1.5,opacity:.2},"sixth_slide");
+var scene6  = new ScrollMagic.Scene({reverse:true});
+scene6.setTween(tl6);
+scene6.triggerElement(".experience");
+
+scene6.addTo(controller);
+
+/*feedback seven slide */
+var tl7 = gsap.timeline();
+var tl7= gsap.timeline();
+tl7.addLabel("seven_slide");
+tl7.to(".header__top",{opacity:0},"seven_slide");
+
+tl7.from("#feedback__bottom__title",{duration:1,y:200},"seven_slide");
+tl7.from("#feedback__bottom__form",{duration:1,y:200},"seven_slide+=0.2");
+tl7.from("#feedback__bottom__button",{duration:1,y:100},"seven_slide+=0.3");
+
+var scene7  = new ScrollMagic.Scene({reverse:true});
+scene7.setTween(tl7);
+scene7.triggerElement(".feedback__bottom");
+
+scene7.addTo(controller);
