@@ -8,6 +8,14 @@
         background-position-x: -260px;
     }
 
+    
+    #myVideo2{
+        width: auto;
+        height:  768px;
+        margin-left: -46px;
+        margin-top: -144px;
+    }
+
     .experience__title-text{
         font-size: 60px;
         letter-spacing: -1.28px;

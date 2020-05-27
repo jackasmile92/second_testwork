@@ -5,9 +5,22 @@
     background-size: 1920px 944px;
     padding-left: 374px;
     padding-top: 206px;
-
+    position: relative;
     overflow-x: hidden;
 }
+
+#myVideo2{
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    margin-left: -374px;
+    margin-top: -206px;
+}
+
+.experience__content{
+    position: absolute;
+}
+
 
 .experience__title, .experience__arrows, .experience__top, .experience__bottom{
     display: flex;

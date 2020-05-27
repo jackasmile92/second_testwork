@@ -13,4 +13,7 @@
     .experience__bottom{
         margin-top: 65px;
     }
+    #myVideo2{
+        display: none;
+    }
 }
