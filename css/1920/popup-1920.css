@@ -9,10 +9,11 @@
     height: 971px;    
     background-image: url("../../src/img/gif/Noise-200px.gif");
     padding-top: 109px;
-
+  display: none;
     position: absolute;
     z-index: 99;
     position:fixed;
+
 }
 
 .popup__cross, .popup__cross_img{

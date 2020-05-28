@@ -9,6 +9,10 @@
         overflow-x: hidden;
     }
 
+    #curtain{
+        width: 1024px;
+    }
+
     .header__top{
         width: 976.5px;
         padding-left: 47.5px;

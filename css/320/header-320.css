@@ -23,6 +23,10 @@
         display: none;
     }
 
+    #curtain{
+        display:none;
+    }
+
     .header__button{
         width: 199px;
         height: 50px;

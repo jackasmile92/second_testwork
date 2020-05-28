@@ -3,7 +3,9 @@
         width: 1373px;
         height: 900px;
     }
-
+    #curtain{
+        width: 1440px;
+    }
     .header__top{
         width: 1373px;
     }

@@ -17,7 +17,7 @@
     justify-content: space-between;
     margin-top: 51px;
     position: absolute;
-    z-index: 98;
+    z-index: 95;
     position:fixed;
     width: 1853px;
     padding-left: 67px;
@@ -55,6 +55,10 @@
     border: none;
     margin-top: -5px;
     margin-right: 68px;
+}
+
+.header__button:hover{
+    cursor: pointer;
 }
 
 .header__button div{
@@ -127,4 +131,13 @@
     width: 1920px;
     height: 1080px;
     background-image: url("../../src/img/png/01-main.png");
+}
+
+#curtain{
+    width: 1920px;
+    height: 0px;
+    background-color: #01da00;
+    position:absolute;
+    opacity: 0;
+    z-index: 100;
 }
