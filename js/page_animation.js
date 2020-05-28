@@ -62,6 +62,60 @@ scene3.triggerElement(".services");
 
 scene3.addTo(controller);
 
+var tl3_1= gsap.timeline();
+tl3_1.addLabel("third_slide_one");
+tl3_1.from("#p_t_h",{duration:.5,y:100},"third_slide_one");
+tl3_1.from("#p_l_h",{duration:.5,y:100},"third_slide_one+=.1");
+tl3_1.from("#p_i_h",{duration:.5,y:100},"third_slide_one+=.1");
+
+
+var scene3_1  = new ScrollMagic.Scene({reverse:true});
+scene3_1.setTween(tl3_1);
+scene3_1.triggerElement("#s_p_h");
+
+scene3_1.addTo(controller);
+
+var tl3_2= gsap.timeline();
+tl3_2.addLabel("third_slide_two");
+tl3_2.from("#p_t_a",{duration:.5,y:100},"third_slide_two");
+tl3_2.from("#p_l_a",{duration:.5,y:100},"third_slide_two+=.1");
+tl3_2.from("#p_i_a",{duration:.5,y:100},"third_slide_two+=.1");
+tl3_2.from("#s_r_1",{duration:1,rotation:360},"third_slide_two+=.1");
+tl3_2.from("#st_1",{duration:.5,y:100},"third_slide_two+=.1");
+
+var scene3_2  = new ScrollMagic.Scene({reverse:true});
+scene3_2.setTween(tl3_2);
+scene3_2.triggerElement("#s_p_a");
+
+scene3_2.addTo(controller);
+
+var tl3_3= gsap.timeline();
+tl3_3.addLabel("third_slide_three");
+tl3_3.from("#p_t_s",{duration:.5,y:100},"third_slide_three");
+tl3_3.from("#p_l_s",{duration:.5,y:100},"third_slide_three+=.1");
+tl3_3.from("#p_i_s",{duration:.5,y:100},"third_slide_three+=.1");
+
+var scene3_3  = new ScrollMagic.Scene({reverse:true});
+scene3_3.setTween(tl3_3);
+scene3_3.triggerElement("#s_p_s");
+
+scene3_3.addTo(controller);
+
+var tl3_4= gsap.timeline();
+tl3_4.addLabel("third_slide_fourth");
+tl3_4.from("#p_t_p",{duration:.5,y:100},"third_slide_fourth");
+tl3_4.from("#p_l_p",{duration:.5,y:100},"third_slide_fourth+=.1");
+tl3_4.from("#p_i_p",{duration:.5,y:100},"third_slide_fourth+=.1");
+tl3_4.from("#s_r_2",{duration:1,rotation:360},"third_slide_fourth+=.1");
+tl3_4.from("#st_2",{duration:.5,y:100},"third_slide_fourth+=.1");
+
+var scene3_4  = new ScrollMagic.Scene({reverse:true});
+scene3_4.setTween(tl3_4);
+scene3_4.triggerElement("#s_p_p");
+
+scene3_4.addTo(controller);
+
+
 /*banner01 fourth slide*/
 var tl4 = gsap.timeline();
 var tl4= gsap.timeline();
