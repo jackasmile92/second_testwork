@@ -1,6 +1,20 @@
 
 function page_animation(){
     var width = $(window).width();
+    var height = $(window).height();
+
+    var props; 
+    if(width > 1500){
+        props = 1;
+    }
+
+    if(width <= 1500 && width > 1200 ){
+        props = 1440/1920;
+    }
+    
+    if(width <= 1200 && width > 850 ){
+        props = 1024/1920;
+    }
 
     if(width > 850 ){
 
@@ -8,14 +22,14 @@ function page_animation(){
         var tl = gsap.timeline();
 
         tl.addLabel("pause","0.5");
-        tl.from("#curtain",{duration: 2, height:1080, opacity:1},"pause");
+        tl.from("#curtain",{duration: 2, height:height, opacity:1},"pause");
         tl.addLabel("header1","-=2");
         tl.from(".header__top",{duration: 2, opacity:0},"pause+=1");
-        tl.from(".header__arrow",{duration:2, y: 50, opacity:0.8}, "header1");
-        tl.from(".header__pike",{duration:2, x: 300, opacity:0.7}, "header1");
-        tl.from(".header__media",{duration:2, x: -300, opacity:0.7}, "header1");
-        tl.from(".header__text",{duration:2, y: 50, delay:0.5,opacity:0.7}, "header1");
-        tl.from(".header__button",{duration:2, y: 50, delay:0.5,opacity:0.7}, "header1");
+        tl.from(".header__arrow",{duration:2, y:  props * 50, opacity:0.8}, "header1");
+        tl.from(".header__pike",{duration:2, x:  props * 300, opacity:0.7}, "header1");
+        tl.from(".header__media",{duration:2, x:  props * (-300), opacity:0.7}, "header1");
+        tl.from(".header__text",{duration:2, y:  props * 50, delay:0.5,opacity:0.7}, "header1");
+        tl.from(".header__button",{duration:2, y:  props * 50, delay:0.5,opacity:0.7}, "header1");
         var scene = new ScrollMagic.Scene({reverse:true});
         scene.setTween(tl);
         scene.triggerElement(".header");
@@ -24,15 +38,15 @@ function page_animation(){
         /*Clients SecondSlide*/
         var tl2 = gsap.timeline();
         tl2.addLabel("second_slide");
-        tl2.to(".header__bottom",{duration:1,y:300},"second_slide");
-        tl2.to(".header__pike",{duration:1.5, x: -2000, y:-1000, opacity:0.7},"second_slide+=.5");
-        tl2.to(".header__media",{duration:1.5, x: 2000, y:-1000,  opacity:0.7},"second_slide+=.5");
-        tl2.to(".header__text",{duration:1,y:-300},"second_slide");
+        tl2.to(".header__bottom",{duration:1,y:  props *300},"second_slide");
+        tl2.to(".header__pike",{duration:1.5, x:  props * (-2000) ,y:  props *(-1000), opacity:0.7},"second_slide+=.5");
+        tl2.to(".header__media",{duration:1.5, x:  props * 2000,y:  props *(-1000),  opacity:0.7},"second_slide+=.5");
+        tl2.to(".header__text",{duration:1,y:  props *(-300)},"second_slide");
         tl2.to("#arrow_img",{opacity:0},"second_slide");
         tl2.to("#white_lg",{opacity:1},"second_slide");
-        tl2.from(".clients__numbers",{duration:1, y:200},"second_slide");
-        tl2.from(".number",{duration:1, y:200, stagger:0.1},"second_slide");
-        tl2.from(".number__text",{duration:1, y:200, stagger:0.1},"second_slide");
+        tl2.from(".clients__numbers",{duration:1,y:  props *200},"second_slide");
+        tl2.from(".number",{duration:1,y:  props *200, stagger:0.1},"second_slide");
+        tl2.from(".number__text",{duration:1,y:  props *200, stagger:0.1},"second_slide");
 
 
         var Cont={val:0} , NewVal = 10000 ;
@@ -63,8 +77,8 @@ function page_animation(){
         document.getElementById("number14").innerHTML=Cont4.val
         }},"second_slide+=0.3");
 
-        tl2.from(".clients__title-row",{duration:1, y:200},"second_slide");
-        tl2.from(".clients__list",{duration:1, y:300},"second_slide");
+        tl2.from(".clients__title-row",{duration:1,y:  props *200},"second_slide");
+        tl2.from(".clients__list",{duration:1,y:  props *300},"second_slide");
 
         var scene2  = new ScrollMagic.Scene({reverse:true});
         scene2.setTween(tl2);
@@ -87,9 +101,9 @@ function page_animation(){
 
         var tl3_1= gsap.timeline();
         tl3_1.addLabel("third_slide_one");
-        tl3_1.from("#p_t_h",{duration:.5,y:200},"third_slide_one");
-        tl3_1.from("#p_l_h",{duration:.5,y:200},"third_slide_one+=.1");
-        tl3_1.from("#p_i_h",{duration:.5,y:200},"third_slide_one+=.1");
+        tl3_1.from("#p_t_h",{duration:.5,y:  props *200},"third_slide_one");
+        tl3_1.from("#p_l_h",{duration:.5,y:  props *200},"third_slide_one+=.1");
+        tl3_1.from("#p_i_h",{duration:.5,y:  props *200},"third_slide_one+=.1");
 
 
         var scene3_1  = new ScrollMagic.Scene({reverse:true});
@@ -100,11 +114,11 @@ function page_animation(){
 
         var tl3_2= gsap.timeline();
         tl3_2.addLabel("third_slide_two");
-        tl3_2.from("#p_t_a",{duration:.5,y:200},"third_slide_two");
-        tl3_2.from("#p_l_a",{duration:.5,y:200},"third_slide_two+=.1");
-        tl3_2.from("#p_i_a",{duration:.5,y:200},"third_slide_two+=.1");
+        tl3_2.from("#p_t_a",{duration:.5,y:  props *200},"third_slide_two");
+        tl3_2.from("#p_l_a",{duration:.5,y:  props *200},"third_slide_two+=.1");
+        tl3_2.from("#p_i_a",{duration:.5,y:  props *200},"third_slide_two+=.1");
         tl3_2.from("#s_r_1",{duration:1,rotation:360},"third_slide_two+=.1");
-        tl3_2.from("#st_1",{duration:.5,y:200},"third_slide_two+=.1");
+        tl3_2.from("#st_1",{duration:.5,y:  props *200},"third_slide_two+=.1");
 
         var scene3_2  = new ScrollMagic.Scene({reverse:true});
         scene3_2.setTween(tl3_2);
@@ -114,9 +128,9 @@ function page_animation(){
 
         var tl3_3= gsap.timeline();
         tl3_3.addLabel("third_slide_three");
-        tl3_3.from("#p_t_s",{duration:.5,y:200},"third_slide_three");
-        tl3_3.from("#p_l_s",{duration:.5,y:200},"third_slide_three+=.1");
-        tl3_3.from("#p_i_s",{duration:.5,y:200},"third_slide_three+=.1");
+        tl3_3.from("#p_t_s",{duration:.5,y:  props *200},"third_slide_three");
+        tl3_3.from("#p_l_s",{duration:.5,y:  props *200},"third_slide_three+=.1");
+        tl3_3.from("#p_i_s",{duration:.5,y:  props *200},"third_slide_three+=.1");
 
         var scene3_3  = new ScrollMagic.Scene({reverse:true});
         scene3_3.setTween(tl3_3);
@@ -126,11 +140,11 @@ function page_animation(){
 
         var tl3_4= gsap.timeline();
         tl3_4.addLabel("third_slide_fourth");
-        tl3_4.from("#p_t_p",{duration:.5,y:200},"third_slide_fourth");
-        tl3_4.from("#p_l_p",{duration:.5,y:200},"third_slide_fourth+=.1");
-        tl3_4.from("#p_i_p",{duration:.5,y:200},"third_slide_fourth+=.1");
+        tl3_4.from("#p_t_p",{duration:.5,y:  props *200},"third_slide_fourth");
+        tl3_4.from("#p_l_p",{duration:.5,y:  props *200},"third_slide_fourth+=.1");
+        tl3_4.from("#p_i_p",{duration:.5,y:  props *200},"third_slide_fourth+=.1");
         tl3_4.from("#s_r_2",{duration:1,rotation:360},"third_slide_fourth+=.1");
-        tl3_4.from("#st_2",{duration:.5,y:200},"third_slide_fourth+=.1");
+        tl3_4.from("#st_2",{duration:.5,y:  props *200},"third_slide_fourth+=.1");
 
         var scene3_4  = new ScrollMagic.Scene({reverse:true});
         scene3_4.setTween(tl3_4);
@@ -145,7 +159,7 @@ function page_animation(){
         tl4.addLabel("fourth_slide");
         tl4.to("#black_lg",{opacity:0},"fourth_slide");
         tl4.to("#white_lg",{opacity:1},"fourth_slide");
-        tl4.from(".banner01_text_wrap",{x:-1000},"fourth_slide");
+        tl4.from(".banner01_text_wrap",{x:  props *(-1000)},"fourth_slide");
 
         var scene4  = new ScrollMagic.Scene({reverse:true});
         scene4.setTween(tl4);
@@ -159,11 +173,11 @@ function page_animation(){
         tl5.addLabel("fifth_slide");
         tl5.to("#black_lg",{opacity:1},"fifth_slide");
         tl5.to("#white_lg",{opacity:0},"fifth_slide");
-        tl5.from(".banner02__title",{duration:.5,y:100},"fifth_slide");
+        tl5.from(".banner02__title",{duration:.5,y:  props *100},"fifth_slide");
         tl5.from(".trig_one",{duration:.5,opacity:0},"fifth_slide+=0.5");
         tl5.from(".trig_two",{duration:.5,opacity:0},"fifth_slide+=1 ");
         tl5.from(".trig_three",{duration:.5,opacity:0},"fifth_slide+=1.5");
-        tl5.from(".banner02__point",{duration:.5, opacity:0, x:200, stagger:0.5},"fifth_slide+=2");
+        tl5.from(".banner02__point",{duration:.5, opacity:0, x:  props *200, stagger:0.5},"fifth_slide+=2");
 
         var scene5  = new ScrollMagic.Scene({reverse:true});
         scene5.setTween(tl5);
@@ -177,7 +191,7 @@ function page_animation(){
         tl6.addLabel("sixth_slide");
         tl6.to("#black_lg",{opacity:0},"sixth_slide");
         tl6.to("#white_lg",{opacity:1},"sixth_slide");
-        tl6.from('.experience__bottom',{duration:1,x:1000},"sixth_slide");
+        tl6.from('.experience__bottom',{duration:1,x:  props *1000},"sixth_slide");
         tl6.from('.experience__title',{duration:1.5,opacity:.2},"sixth_slide");
         var scene6  = new ScrollMagic.Scene({reverse:true});
         scene6.setTween(tl6);
@@ -191,9 +205,9 @@ function page_animation(){
         tl7.addLabel("seven_slide");
         tl7.to(".header__top",{opacity:0},"seven_slide");
 
-        tl7.from("#feedback__bottom__title",{duration:1,y:200},"seven_slide");
-        tl7.from("#feedback__bottom__form",{duration:1,y:200},"seven_slide+=0.2");
-        tl7.from("#feedback__bottom__button",{duration:1,y:100},"seven_slide+=0.3");
+        tl7.from("#feedback__bottom__title",{duration:1,y:  props *200},"seven_slide");
+        tl7.from("#feedback__bottom__form",{duration:1,y:  props *200},"seven_slide+=0.2");
+        tl7.from("#feedback__bottom__button",{duration:1,y:  props *100},"seven_slide+=0.3");
 
         var scene7  = new ScrollMagic.Scene({reverse:true});
         scene7.setTween(tl7);
@@ -204,7 +218,7 @@ function page_animation(){
         var controller = new ScrollMagic.Controller();
         var tl2 = gsap.timeline();
         tl2.addLabel("second_slide");
-        tl2.to(".header__text",{duration:1,y:-300},"second_slide");
+        tl2.to(".header__text",{duration:1,y:  props *-300},"second_slide");
 
         var scene2  = new ScrollMagic.Scene({reverse:true});
         scene2.setTween(tl2);
