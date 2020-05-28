@@ -106,3 +106,7 @@
 .banner02__figures.big{
     display: inline;
 }
+
+.thig_one,.trig_two,.trig_three{
+    margin-left: -5px;
+}
