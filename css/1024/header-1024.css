@@ -6,6 +6,7 @@
         background-size: auto 768px;
         background-position: -340px;
         padding-left: 47.5px;
+        position: relative;
         overflow-x: hidden;
     }
 
@@ -63,10 +64,13 @@
     .header__wriper{
         width: 1024px;
         height: 768px;
+        position: relative;
+        overflow-x: hidden;
+    
     }
 
     #myVideo{
-        width: 1024px;
+        width: auto;
         height: 768px;
     }
 }

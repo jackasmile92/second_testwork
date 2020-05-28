@@ -215,8 +215,3 @@ function page_animation(){
 }
 
 page_animation();
-
-
-$(window).on("resize", function() {
-    location.reload();
-});
