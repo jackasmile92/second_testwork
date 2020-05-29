@@ -45,9 +45,9 @@
 
                 <form class="feedback__input" id="feedback__top__input">
                     <div class="feedback__field"><input type="text" name ="name" placeholder="Ваше имя" required></div>
-                    <div class="feedback__field"><input type="tel"
+                    <div class="feedback__field"><input type="tel" name ="tel"
                             pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" required
-                            placeholder="Телефон" title="+7(xxx)-xxx-xxxx">
+                            placeholder="Телефон" title="+7 и десять цифр">
                     </div>
                     <div class="feedback__field"><input type="text" placeholder="Сообщение" required></div>
                 <input type="submit" class="feedback__button" id="feedback__top__button">
@@ -506,15 +506,18 @@
                         Возникли вопросы или хотите оценить стоимость проекта? Оставьте заявку и наш менеджер с вами
                         свяжется.
                     </div>
-
-                    <div class="feedback__input" id="feedback__bottom__input">
-                        <div class="feedback__field"><input placeholder="Ваше имя"></div>
-                        <div class="feedback__field"><input placeholder="Телефон"></div>
-                        <div class="feedback__field"><input placeholder="Сообщение"></div>
-                        <button class="feedback__button" id="feedback__bottom__button">
-                            <div><b>ОТПРАВИТЬ</b></div>
-                        </button>
-                    </div>
+            
+                    <form class="feedback__input" id="feedback__bottom__input">
+                        <div class="feedback__field"><input type="text" name ="name" placeholder="Ваше имя" required></div>
+                        <div class="feedback__field"><input type="tel" name ="tel"
+                                pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" required
+                                placeholder="Телефон" title="+7 и десять цифр">
+                        </div>
+                        <div class="feedback__field"><input type="text" placeholder="Сообщение" required></div>
+                    <input type="submit" class="feedback__button" id="feedback__bottom__button">
+                        <div><b>ОТПРАВИТЬ</b></div>
+                        </input>
+                    </form>
                 </div>
             </div>
 
