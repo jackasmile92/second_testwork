@@ -86,6 +86,10 @@
     padding-left:0px;
 }
 
+.feedback__button:hover{
+    cursor: pointer;
+}
+
 .feedback__button div{
     width: 169px;
     height: 16px;

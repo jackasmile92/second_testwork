@@ -25,6 +25,7 @@ TweenLite.set(scroller.target, {
 
 window.addEventListener("load", onLoad);
 
+
 function onLoad() {    
   updateScroller();  
   window.focus();
@@ -72,3 +73,17 @@ function onResize() {
     requestId = requestAnimationFrame(updateScroller);
   }
 }
+
+
+$(window).on("load", function() {
+  if(scroller.y != 0){
+    $(".header__text").hide();
+  }
+});
+
+$(window).on("scroll", function() {
+
+  if($("#scrolling_part").position().top > -250){
+    $(".header__text").show();
+  }
+});

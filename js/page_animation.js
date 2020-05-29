@@ -1,4 +1,3 @@
-
 function page_animation(){
     var width = $(window).width();
     var height = $(window).height();
@@ -32,7 +31,7 @@ function page_animation(){
         tl.from(".header__button",{duration:2, y:  props * 50, delay:0.5,opacity:0.7}, "header1");
         var scene = new ScrollMagic.Scene({reverse:true});
         scene.setTween(tl);
-        scene.triggerElement(".header");
+        scene.triggerElement(".header__wriper");
         scene.addTo(controller);
 
         /*Clients SecondSlide*/
@@ -41,7 +40,7 @@ function page_animation(){
         tl2.to(".header__bottom",{duration:1,y:  props *300},"second_slide");
         tl2.to(".header__pike",{duration:1.5, x:  props * (-2000) ,y:  props *(-1000), opacity:0.7},"second_slide+=.5");
         tl2.to(".header__media",{duration:1.5, x:  props * 2000,y:  props *(-1000),  opacity:0.7},"second_slide+=.5");
-        tl2.to(".header__text",{duration:1,y:  props *(-300)},"second_slide");
+        tl2.to(".header__text",{duration:1,y:  props *(-300), opacity:0},"second_slide");
         tl2.to("#arrow_img",{opacity:0},"second_slide");
         tl2.to("#white_lg",{opacity:1},"second_slide");
         tl2.from(".clients__numbers",{duration:1,y:  props *200},"second_slide");
