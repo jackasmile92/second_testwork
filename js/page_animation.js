@@ -1,4 +1,7 @@
+ var controller = new ScrollMagic.Controller();
+
 function page_animation(){
+
     var width = $(window).width();
     var height = $(window).height();
 
@@ -17,8 +20,7 @@ function page_animation(){
 
     if(width > 850 ){
 
-        var controller = new ScrollMagic.Controller();
-        var tl = gsap.timeline();
+        var tl = gsap.timeline({repeat: 1,autoRemoveChildren: true});
 
         tl.addLabel("pause","0.5");
         tl.from("#curtain",{duration: 2, height:height, opacity:1},"pause");
@@ -29,10 +31,12 @@ function page_animation(){
         tl.from(".header__media",{duration:2, x:  props * (-300), opacity:0.7}, "header1");
         tl.from(".header__text",{duration:2, y:  props * 50, delay:0.5,opacity:0.7}, "header1");
         tl.from(".header__button",{duration:2, y:  props * 50, delay:0.5,opacity:0.7}, "header1");
-        var scene = new ScrollMagic.Scene({reverse:true,yoyo:true});
+        var scene = new ScrollMagic.Scene({reverse:false});
         scene.setTween(tl);
-        scene.triggerElement(".header__wriper");
+        scene.offset();
+        scene.triggerHook('onEnter');
         scene.addTo(controller);
+        
 
         /*Clients SecondSlide*/
         var tl2 = gsap.timeline();
@@ -213,11 +217,13 @@ function page_animation(){
         scene7.triggerElement(".feedback__bottom");
 
         scene7.addTo(controller);
+
+        if($(".header").position().top){}
+
     }else{
-        var controller = new ScrollMagic.Controller();
         var tl2 = gsap.timeline();
         tl2.addLabel("second_slide");
-        tl2.to(".header__text",{duration:1,y:  props *-300},"second_slide");
+        tl2.to(".header__text",{duration:1,y:  props *-300, opacity:0},"second_slide");
 
         var scene2  = new ScrollMagic.Scene({reverse:true});
         scene2.setTween(tl2);
@@ -226,5 +232,10 @@ function page_animation(){
 
     }
 }
+$(document).ready(function () {
+    page_animation();
+});
 
-page_animation();
+$( window ).resize(function() {
+    location.reload();
+});
