@@ -29,7 +29,7 @@ function page_animation(){
         tl.from(".header__media",{duration:2, x:  props * (-300), opacity:0.7}, "header1");
         tl.from(".header__text",{duration:2, y:  props * 50, delay:0.5,opacity:0.7}, "header1");
         tl.from(".header__button",{duration:2, y:  props * 50, delay:0.5,opacity:0.7}, "header1");
-        var scene = new ScrollMagic.Scene({reverse:true});
+        var scene = new ScrollMagic.Scene({reverse:true,yoyo:true});
         scene.setTween(tl);
         scene.triggerElement(".header__wriper");
         scene.addTo(controller);
