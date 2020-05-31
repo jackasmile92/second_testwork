@@ -1,7 +1,7 @@
 $(".header__button").click(function(){
-    $(".popup__feedback").toggle();
+    $(".popup__feedback__wrapper").toggle();
 });
 $(".popup__cross").click(function(){
-    $(".popup__feedback").hide();
+    $(".popup__feedback__wrapper").hide();
 });
 

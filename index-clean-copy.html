@@ -19,69 +19,74 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
 </head>
+
 <body>
-    <div class="popup__feedback">
-        <div class="popup__cross">
-            <svg class="popup__cross_img" xmlns="http://www.w3.org/2000/svg" width="46" height="39" viewBox="0 0 46 39">
-                <g fill="#FFF" fill-rule="evenodd">
-                    <path d="M28.401 19.496L45.993 0H36.59L19 19.496l17.591 19.496L46 39z" />
-                    <path d="M17.599 19.496L.007 0H9.41L27 19.496 9.409 38.992 0 39z" />
-                </g>
-            </svg>
+    <div class="popup__feedback__wrapper">
+        <div class="popup__feedback">
+            <div class="popup__cross">
+                <svg class="popup__cross_img" xmlns="http://www.w3.org/2000/svg" width="46" height="39"
+                    viewBox="0 0 46 39">
+                    <g fill="#FFF" fill-rule="evenodd">
+                        <path d="M28.401 19.496L45.993 0H36.59L19 19.496l17.591 19.496L46 39z" />
+                        <path d="M17.599 19.496L.007 0H9.41L27 19.496 9.409 38.992 0 39z" />
+                    </g>
+                </svg>
 
-        </div>
-
-
-        <div class="feedback feedback__top">
-            <div class="feedback__title" id="feedback__top__title">
-                Разработаем решение под ваши задачи<span class="feedback__dot">.</span>
             </div>
-            <div class="feedback__form" id="feedback__top__form">
-                <div class="feedback__info" id="feedback__top__info">
-                    Возникли вопросы или хотите оценить стоимость проекта? Оставьте заявку и наш менеджер с вами
-                    свяжется.
+
+
+            <div class="feedback feedback__top">
+                <div class="feedback__title" id="feedback__top__title">
+                    Разработаем решение под ваши задачи<span class="feedback__dot">.</span>
                 </div>
-
-                <form class="feedback__input" id="feedback__top__input">
-                    <div class="feedback__field"><input type="text" name ="name" placeholder="Ваше имя" required></div>
-                    <div class="feedback__field"><input type="tel" name ="tel"
-                            pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" required
-                            placeholder="Телефон" title="+7 и десять цифр">
+                <div class="feedback__form" id="feedback__top__form">
+                    <div class="feedback__info" id="feedback__top__info">
+                        Возникли вопросы или хотите оценить стоимость проекта? Оставьте заявку и наш менеджер с вами
+                        свяжется.
                     </div>
-                    <div class="feedback__field"><input type="text" placeholder="Сообщение" required></div>
-                <input type="submit" class="feedback__button" id="feedback__top__button" value="ОТПРАВИТЬ">
-                    </input>
-                </form>
+
+                    <form class="feedback__input" id="feedback__top__input">
+                        <div class="feedback__field"><input type="text" name="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="feedback__field"><input type="tel" name="tel"
+                                pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" required
+                                placeholder="Телефон" title="+7 и десять цифр">
+                        </div>
+                        <div class="feedback__field"><input type="text" placeholder="Сообщение" required></div>
+                        <input type="submit" class="feedback__button" id="feedback__top__button" value="ОТПРАВИТЬ">
+                        </input>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="header__top">
-        <div class="header__intro">
-            <div class="header__arrow">
-                <img id="arrow_img" src="./src/img/svg/logo-fish.svg">
-                <img id="white_lg" src="./src/img/png/logo-light_wh.png">
-                <img id="black_lg" src="./src/img/png/logo-light_bl.png">
+    <div class="header__top_wrapper">
+        <div class="header__top">
+            <div class="header__intro">
+                <div class="header__arrow">
+                    <img id="arrow_img" src="./src/img/svg/logo-fish.svg">
+                    <img id="white_lg" src="./src/img/png/logo-light_wh.png">
+                    <img id="black_lg" src="./src/img/png/logo-light_bl.png">
+                </div>
+                <div class="header__text">
+                    Создаем телевещание в любой среде.<br>
+                    Технологические услуги по подготовке <br>
+                    и распространению для телеканалов<br>
+                    и операторов VOD
+                </div>
             </div>
-            <div class="header__text">
-                Создаем телевещание в любой среде.<br>
-                Технологические услуги по подготовке <br>
-                и распространению для телеканалов<br>
-                и операторов VOD
+            <div class="header__button_wrap">
+                <button class="header__button">
+                    <div><b>СВЯЗАТЬСЯ С НАМИ</b></div>
+                </button>
             </div>
         </div>
-        <div class="header__button_wrap">
-            <button class="header__button">
-                <div><b>СВЯЗАТЬСЯ С НАМИ</b></div>
-            </button>
-        </div>
+        <script src="./js/popup.js"></script>
     </div>
-    <script src="./js/popup.js"></script>
-
     <section class="viewport">
 
         <div id="scrolling_part">
-            
+
             <div class="header__wriper">
                 <div id="curtain"></div>
                 <div class="header__background">
@@ -100,90 +105,91 @@
                     </div>
                 </div>
             </div>
-            <div class="clients">
-                <div class="clients__numbers">
-                    <div class="number">
-                        <div id="number11" class="number__title">10 000</div>
-                        <div class="number__text">Часов контента мы обрабатываем ежегодно</div>
+            <div class="clients_wriper">
+                <div class="clients">
+                    <div class="clients__numbers">
+                        <div class="number">
+                            <div id="number11" class="number__title">10 000</div>
+                            <div class="number__text">Часов контента мы обрабатываем ежегодно</div>
+                        </div>
+                        <div class="number second">
+                            <div id="number12" class="number__title">20</div>
+                            <div class="number__text">Телеканалов доверяют <br>нам эфирную подготовку</div>
+                        </div>
+                        <div class="number third">
+                            <div id="number13" class="number__title">50</div>
+                            <div class="number__text">Телеканалов выпускаются
+                                в эфирном комплексе</div>
+                        </div>
+                        <div class="number fourth">
+                            <div id="number14" class="number__title">20</div>
+                            <div class="number__text">Наград МедиаБренд<br>
+                                и Promax за работы<br>в промо</div>
+                        </div>
                     </div>
-                    <div class="number second">
-                        <div id="number12" class="number__title">20</div>
-                        <div class="number__text">Телеканалов доверяют <br>нам эфирную подготовку</div>
+
+                    <div class="clients__title-row">
+                        <div class="clients__title">
+                            <div class="clients__tittle-text">Клиенты</div>
+                            <div class="clients__rect"></div>
+                        </div>
+                        <div class="clients_arrows">
+                            <div class="clients__arrow left"><img src="./src/img/png/arrow.png"></div>
+                            <div class="clients__arrow right"><img src="./src/img/png/arrow.png"></div>
+                        </div>
                     </div>
-                    <div class="number third">
-                        <div id="number13" class="number__title">50</div>
-                        <div class="number__text">Телеканалов выпускаются
-                            в эфирном комплексе</div>
+
+                    <div class="clients__list">
+                        <div class="client">
+                            <div class="client__name">Телеканал <br>
+                                «Звезда»</div>
+                            <div class="client__bottom">
+                                <div class="client__text">Цифровой архив<br>
+                                    медиа</div>
+                                <div class="client__logo"><img src="./src/img/png/logo-zvezda@3x.png"></div>
+                            </div>
+                        </div>
+                        <div class="client white">
+                            <div class="client__name">0+ Media</div>
+                            <div class="client__bottom white">
+                                <div class="client__text white">Полный технологический цикл сборки телеканалов<br>
+                                    Создание промо</div>
+                                <div class="client__logo-white"><img src="./src/img/png/0-media@3x.png"></div>
+                            </div>
+                        </div>
+                        <div class="client">
+                            <div class="client__name">Цифровое<br>
+                                телевидение<br>
+                                ВГТРК</div>
+                            <div class="client__bottom tv">
+                                <div class="client__text tv">Полный технологический цикл <br>
+                                    сборки телеканалов<br>
+                                    Медиаархив<br>
+                                    Создание промо<br>
+                                    Технологический сервис<br>
+                                    Выпуск телеканалов в США</div>
+                                <div class="client__logo tv"><img src="./src/img/from_google/xw_1495952.png"></div>
+                            </div>
+                        </div>
+                        <div class="client white">
+                            <div class="client__name one">Компания «Первый канал. Всемирная сеть»</div>
+                            <div class="client__bottom one">
+                                <div class="client__text one">Технологический сервис замены рекламных блоков</div>
+                                <div class="client__logo-white one"><img src="./src/img/png/1-st@3x.png"></div>
+                            </div>
+                        </div>
+                        <div class="client">
+                            <div class="client__name stream">Телекомпания Стрим </div>
+                            <div class="client__bottom stream">
+                                <div class="client__text stream">Техническая поддержка выпуска телеканалов группы</div>
+                                <div class="client__logo"><img src="./src/img/png/strim@3x.png"></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="number fourth">
-                        <div id="number14" class="number__title">20</div>
-                        <div class="number__text">Наград МедиаБренд<br>
-                            и Promax за работы<br>в промо</div>
-                    </div>
+
+
                 </div>
-
-                <div class="clients__title-row">
-                    <div class="clients__title">
-                        <div class="clients__tittle-text">Клиенты</div>
-                        <div class="clients__rect"></div>
-                    </div>
-                    <div class="clients_arrows">
-                        <div class="clients__arrow left"><img src="./src/img/png/arrow.png"></div>
-                        <div class="clients__arrow right"><img src="./src/img/png/arrow.png"></div>
-                    </div>
-                </div>
-
-                <div class="clients__list">
-                    <div class="client">
-                        <div class="client__name">Телеканал <br>
-                            «Звезда»</div>
-                        <div class="client__bottom">
-                            <div class="client__text">Цифровой архив<br>
-                                медиа</div>
-                            <div class="client__logo"><img src="./src/img/png/logo-zvezda@3x.png"></div>
-                        </div>
-                    </div>
-                    <div class="client white">
-                        <div class="client__name">0+ Media</div>
-                        <div class="client__bottom white">
-                            <div class="client__text white">Полный технологический цикл сборки телеканалов<br>
-                                Создание промо</div>
-                            <div class="client__logo-white"><img src="./src/img/png/0-media@3x.png"></div>
-                        </div>
-                    </div>
-                    <div class="client">
-                        <div class="client__name">Цифровое<br>
-                            телевидение<br>
-                            ВГТРК</div>
-                        <div class="client__bottom tv">
-                            <div class="client__text tv">Полный технологический цикл <br>
-                                сборки телеканалов<br>
-                                Медиаархив<br>
-                                Создание промо<br>
-                                Технологический сервис<br>
-                                Выпуск телеканалов в США</div>
-                            <div class="client__logo tv"><img src="./src/img/from_google/xw_1495952.png"></div>
-                        </div>
-                    </div>
-                    <div class="client white">
-                        <div class="client__name one">Компания «Первый канал. Всемирная сеть»</div>
-                        <div class="client__bottom one">
-                            <div class="client__text one">Технологический сервис замены рекламных блоков</div>
-                            <div class="client__logo-white one"><img src="./src/img/png/1-st@3x.png"></div>
-                        </div>
-                    </div>
-                    <div class="client">
-                        <div class="client__name stream">Телекомпания Стрим </div>
-                        <div class="client__bottom stream">
-                            <div class="client__text stream">Техническая поддержка выпуска телеканалов группы</div>
-                            <div class="client__logo"><img src="./src/img/png/strim@3x.png"></div>
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
-
             <script src="./js/client-carousel.js"></script>
             <div class="services">
                 <div class="services__background"></div>
@@ -503,15 +509,16 @@
                         Возникли вопросы или хотите оценить стоимость проекта? Оставьте заявку и наш менеджер с вами
                         свяжется.
                     </div>
-            
+
                     <form class="feedback__input" id="feedback__bottom__input">
-                        <div class="feedback__field"><input type="text" name ="name" placeholder="Ваше имя" required></div>
-                        <div class="feedback__field"><input type="tel" name ="tel"
+                        <div class="feedback__field"><input type="text" name="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="feedback__field"><input type="tel" name="tel"
                                 pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" required
                                 placeholder="Телефон" title="+7 и десять цифр">
                         </div>
                         <div class="feedback__field"><input type="text" placeholder="Сообщение" required></div>
-                             <input type="submit" class="feedback__button" id="feedback__bottom__button" value="ОТПРАВИТЬ">
+                        <input type="submit" class="feedback__button" id="feedback__bottom__button" value="ОТПРАВИТЬ">
                         </input>
                     </form>
                 </div>

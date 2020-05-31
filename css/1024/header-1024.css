@@ -9,7 +9,7 @@
     }
 
     #curtain{
-        width: 1024px;
+        width: 100%;
     }
 
     .header__top{
@@ -60,17 +60,19 @@
     }
     
     .header__wriper{
-        width: 1024px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
         height: 768px;
       
     
     }
-    
+
+
 
     #myVideo{
         width: auto;
         height: 768px;
-        margin-left: -335px;
     }
 }
 

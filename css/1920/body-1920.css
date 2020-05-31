@@ -2,7 +2,7 @@
 
 body, html{
     margin: 0px;
-    width: 1920px;
+    width: 100%;
     background-color: black;
 }
 
@@ -15,6 +15,7 @@ body {
     margin: auto;
     overflow-y: scroll;
     box-sizing: border-box;
+    
 }
 
 .viewport {
