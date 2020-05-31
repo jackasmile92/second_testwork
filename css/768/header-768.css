@@ -3,15 +3,12 @@
         width: 722px;
         height: 1024px;
         padding-left: 46px;
-        background-size: auto 1024px;
-        background-position-x: 770px;
-        background-image: url("../../src/img/png/01-main.png");
     }
 
 
     .header__top{
             width: 680px;
-            padding-left: 46px;
+            padding-left: 10px;
     }
 
     .header__intro{
@@ -62,7 +59,6 @@
     }
 
     .header__wriper{
-        width: 728px;
         height: 1024px;
     }
 

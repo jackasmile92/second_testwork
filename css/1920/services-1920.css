@@ -1,16 +1,23 @@
-.services{
-    width: 1920px;
-    height: 3265px;
-    background-color: white;
+.services__wrapper{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;    
     position: relative;
 }
 
-.services__background{
+.services{
     width: 1920px;
+    height: 3265px;
+
+}
+
+.services__background{
+    width: 100%;
     height: 3265px;
     background-image: url("../../src/img/gif/Noise-200px.gif");
     background-repeat: repeat;
-    background-size: 991px 991px;
+    
     opacity: 0.1;
     position:absolute;
 }

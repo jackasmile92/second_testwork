@@ -1,10 +1,9 @@
 @media only screen and (max-width: 600px) {
     .experience{
-        width: 294px;
         height: 538px;
         background-size: auto 592px;
         background-position-x: center;
-        padding-left: 26px;
+        margin-left: 0px;
         padding-top: 54px;
     }
 
@@ -75,5 +74,7 @@
         width: 232px;
     }
 
-    
+    .experience__content{
+        width: 320px;
+    }
 }

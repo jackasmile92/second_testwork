@@ -1,8 +1,5 @@
 @media only screen and (max-width: 850px){
     .experience{
-        width: 700px;
-        height: 659px;
-        padding-left: 68px;
         padding-top: 149px;
         background-size: auto 800px;
     }
@@ -16,4 +13,9 @@
     #myVideo2{
         display: none;
     }
+
+    .experience__content{
+        width: 768px;
+    }
+    
 }

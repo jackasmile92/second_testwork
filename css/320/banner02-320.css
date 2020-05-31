@@ -11,7 +11,6 @@
     }
 
     .banner02,.banner02__background{
-        width: 320px;
         height: 644px;
     }
 
@@ -51,6 +50,10 @@
         margin-left: 24px;
         letter-spacing: -0.95px;
         margin-top: 104px;
+    }
+
+    .banner02__content{
+        width: 320px;
     }
     
 }

@@ -1,23 +1,30 @@
 .experience{
-    width: 1547px;
+    width: 100%;
     height: 738px;
     background-image: url("../../src/img/png/03-integration@2x.png");
     background-size: 1920px 944px;
     padding-left: 374px;
     padding-top: 206px;
     position: relative;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
-#myVideo2{
-    width: 1920px;
-    height: auto;
+.experience__background{
+    width: 100%;
+    
     position: absolute;
-    margin-left: -374px;
-    margin-top: -206px;
 }
+
 
 .experience__content{
+    width: 1920px;
+}
+
+
+#myVideo2{
+    width: 100%;
+    height: auto;
     position: absolute;
 }
 
@@ -94,11 +101,7 @@
 .experience__point-top{
     font-family: GothamPro;
     font-size: 24px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.46;
-    letter-spacing: normal;
     color: #000000;
 }
 
@@ -107,11 +110,7 @@
     height: 32px;
     font-family: GothamPro;
     font-size: 24px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.33;
-    letter-spacing: normal;
     color: #ffffff;
 }
 

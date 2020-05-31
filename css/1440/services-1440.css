@@ -2,11 +2,9 @@
     .services{
         width: 1440px;
         height: 3186px;
-        background-color: white;
         position: relative;
     }
     .services__background{
-        width: 1440px;
         height: 3186px;
     }
 

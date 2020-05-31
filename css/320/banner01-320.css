@@ -1,9 +1,8 @@
 @media only screen and (max-width: 600px){
     .banner01{
-        width: 294px;
         height: 442px; 
         background-image: url("../../src/img/png/02-banner-pml-smol(3).jpg");
-        background-size: 346px auto;
+        background-size: 100% auto;
         padding-left: 26px;
     }
 

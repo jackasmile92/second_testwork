@@ -1,18 +1,16 @@
 @media only screen and (max-width: 1200px){
     .banner02{
-        width: 1024px;
         height: 768px;
     }
     
     .banner02__background{
-        width: 1024px;
         height: 768px;
 
     }
-    .banner02__figures{        
-        padding-left: 151px;
-        padding-top: 128px;
-    } 
+
+    .banner02__content{
+        width: 1024px;
+    }
 
     .banner02__figures.big{
         display: none;
@@ -20,6 +18,8 @@
 
     .banner02__figures.middle{
         display: inline;
+        padding-left: 151px;
+        padding-top: 128px;
     }
 
     .banner02__title{

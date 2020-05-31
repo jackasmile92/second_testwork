@@ -218,8 +218,6 @@ function page_animation(){
 
         scene7.addTo(controller);
 
-        if($(".header").position().top){}
-
     }else{
         var tl2 = gsap.timeline();
         tl2.addLabel("second_slide");
@@ -229,6 +227,17 @@ function page_animation(){
         scene2.setTween(tl2);
         scene2.triggerElement(".clients");
         scene2.addTo(controller);
+
+        var tl7 = gsap.timeline();
+        var tl7= gsap.timeline();
+        tl7.addLabel("seven_slide");
+        tl7.to(".header__top",{opacity:0},"seven_slide");
+
+        var scene7  = new ScrollMagic.Scene({reverse:true});
+        scene7.setTween(tl7);
+        scene7.triggerElement(".feedback__bottom");
+
+        scene7.addTo(controller);
 
     }
 }

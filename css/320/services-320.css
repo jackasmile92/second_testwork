@@ -1,6 +1,15 @@
 @media only screen and (max-width: 600px){
-    .services, .services__background{
+    .services__products{
         width: 320px;
+        height: 3137px;
+    }
+
+    .services__background{
+        height: 3137px;
+    }
+
+    .services{
+        width:320px;
         height: 3137px;
     }
 
@@ -10,6 +19,7 @@
         padding-left: 27px;
         padding-top: 72px;
     }
+
 
     /*hub*/
     .product__img.hub img{

@@ -2,14 +2,11 @@
     .header{
         width: 300px;
         height: 578px;
-        padding-left: 20px;
-        background-size: auto 578px;
-        background-position-x: 337px;
     }
 
     .header__top{
         width: 280px;
-        padding-left: 20px;
+        padding-left: 10px;
 }
 
     .header__arrow {
@@ -92,7 +89,6 @@
 
     
     .header__wriper{
-        width: 320px;
         height: 578px;
     }
 

@@ -1,15 +1,13 @@
 @media only screen and (max-width: 1200px){
     .banner01{
-        width: 1024px;
+
         height: 356px; 
         background-image: url("../../src/img/png/02-banner-pml.png");
         background-size: auto 356px;
         background-position-x: -3px;
     }
 
-    #myVideo1{
-        width: 1024px;
-    }
+
     
     .banner01_pml{
         margin-left: 544px;

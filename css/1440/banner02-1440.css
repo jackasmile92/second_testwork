@@ -1,16 +1,17 @@
 @media only screen and (max-width: 1500px){
     .banner02{
-        width: 1440px;
         height: 867px;
     }
     
     .banner02__background{
-        width: 1440px;
         height: 867px;
     }
-    
-    .banner02__figures{
+    .banner02__content{
         width: 1440px;
+    }
+
+    .banner02__figures{
+
         height: 867px;
         padding-left: 304px;
         padding-top: 127px;

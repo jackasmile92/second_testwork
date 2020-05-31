@@ -1,18 +1,24 @@
 .banner02{
-    width: 1920px;
+    width: 100%;
     height: 991px;
     background-color: white;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .banner02__background{
-    width: 1920px;
+    width: 100%;
     height: 991px;
     background-image: url("../../src/img/gif/Noise-200px.gif");
-    background-repeat: repeat-x;
-    background-size: 991px 991px;
+    background-repeat: repeat;
     opacity: 0.1;
     position:absolute;
+}
+
+.banner02__content{
+    width: 1920px;
+    position: absolute;
 }
 
 .banner02__figures{
@@ -20,7 +26,6 @@
     height: 991px;
     opacity: 1;
     position:absolute;
-    padding-left: 543px;
     padding-top: 183px;
 } 
 

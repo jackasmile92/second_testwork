@@ -10,7 +10,7 @@
     }
 
     .banner02,.banner02__background{
-        width: 768px;
+
         height: 973px;
     }
 
@@ -44,5 +44,7 @@
         margin-left: 81px;
         margin-top: 223px;
     }
-    
+    .banner02__content{
+        width: 768px;
+    }
 }

@@ -1,5 +1,5 @@
 @media only screen and (max-width: 850px){
-    .services, .services__background{
+    .services{
         width: 768px;
         height: 3764px;
     }
@@ -7,6 +7,10 @@
         flex-direction: column-reverse;
     }
     
+
+    .services__background{
+        height: 3764px;
+    }
 
     .services__product:nth-child(2),.services__product:nth-child(4){
         flex-direction: column;
