@@ -24,7 +24,8 @@
     position: absolute;
     z-index: 95;
     position:fixed;
-    width: 1920px;
+    width: 1853px;
+    margin-left: 27px;
 }
 
 .header__intro{

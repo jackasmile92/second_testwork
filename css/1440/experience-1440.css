@@ -7,10 +7,12 @@
         padding-left: 134px;
         padding-top: 190px;
     
-        overflow-x: hidden;
     }
     .experience__content{
         width: 1440px;
+        height:  900px;
+        padding-left: 0;
+        padding-top: 0;
     }
     
     #myVideo2{
