@@ -25,26 +25,33 @@ TweenLite.set(scroller.target, {
 
 window.addEventListener("load", onLoad);
 
+var onloadd = false;
 
-function onLoad() {    
-  updateScroller();  
+function onLoad() {
+  updateScroller();
   window.focus();
   window.addEventListener("resize", onResize);
-  document.addEventListener("scroll", onScroll); 
+  document.addEventListener("scroll", onScroll);
 }
 
 function updateScroller() {
-  
+
   var resized = scroller.resizeRequest > 0;
-    
-  if (resized) {    
+
+  if (resized) {
     var height = scroller.target.clientHeight;
     body.style.height = height + "px";
     scroller.resizeRequest = 0;
   }
-      
-  var scrollY = window.pageYOffset || html.scrollTop || body.scrollTop || 0;
 
+  var scrollY = window.pageYOffset || html.scrollTop || body.scrollTop || 0;
+  if (onloadd) {
+    scrollY = 0;
+    window.scroll(0, 0);
+    scroller.y = 0;
+    scroller.endY = 0;
+    onloadd = false;
+  }
   scroller.endY = scrollY;
   scroller.y += (scrollY - scroller.y) * scroller.ease;
 
@@ -52,11 +59,10 @@ function updateScroller() {
     scroller.y = scrollY;
     scroller.scrollRequest = 0;
   }
-  
-  TweenLite.set(scroller.target, { 
-    y: -scroller.y 
+
+  TweenLite.set(scroller.target, {
+    y: -scroller.y
   });
-  
   requestId = scroller.scrollRequest > 0 ? requestAnimationFrame(updateScroller) : null;
 }
 
@@ -75,15 +81,8 @@ function onResize() {
 }
 
 
-$(window).on("load", function() {
-  if(scroller.y != 0){
-    $(".header__text").hide();
-  }
-});
-
-$(window).on("scroll", function() {
-
-  if($("#scrolling_part").position().top > -250){
-    $(".header__text").show();
-  }
+$(window).on("load", function () {
+  onloadd = true;
+  scroller.y = 0;
+  scroller.endY = 0;
 });
