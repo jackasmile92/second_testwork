@@ -7,8 +7,9 @@
 
 
     .header__top{
-            width: 680px;
-            padding-left: 10px;
+            width: 660px;
+            margin-top:40px;
+            margin-left: -12px;
     }
 
     .header__intro{

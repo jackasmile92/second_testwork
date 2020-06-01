@@ -1,7 +1,8 @@
 @media only screen and (max-width: 850px){
     .experience{
         padding-top: 149px;
-        background-size: auto 800px;
+        height: 659px;
+        background-size: auto 808px;
     }
     .experience__arrows{
         margin-top: 80px;
@@ -15,7 +16,8 @@
     }
 
     .experience__content{
-        width: 768px;
+        width: 728px;
+
     }
     
 }

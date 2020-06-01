@@ -50,12 +50,14 @@
     margin-right: 135px;
     padding-top: 75px; 
     height: 275px;
+    padding-right: 240px;
 }
 
 .footer__icons{
     display: flex;
     width: 370px;
     justify-content: space-between;
+    
 }
 
 .footer__dev{

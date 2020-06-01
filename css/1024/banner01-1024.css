@@ -7,7 +7,13 @@
         background-position-x: -3px;
     }
 
+    .banner01_text_wrap{
+        margin-left: 0px;
+    }
 
+    .banner01__content{
+        margin-left: 10px;
+    }
     
     .banner01_pml{
         margin-left: 544px;

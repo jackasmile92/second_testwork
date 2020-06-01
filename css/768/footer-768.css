@@ -3,7 +3,8 @@
         flex-direction: column;
         justify-content: space-between ;
         height: 328px;
-        width: 768px;
+        width: 708px;
+        padding-left: 20px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -23,10 +24,13 @@
         padding-left: 0px;
         height: 105px;
     }
+    .footer__dev{
+        padding-left: 10px;
+    }
 
     .footer__contact-info{
         padding-top: 0px;
-        margin-left: 299px;
+        margin-left: 306px;
     }
     
 

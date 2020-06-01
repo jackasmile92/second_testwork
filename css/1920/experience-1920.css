@@ -17,16 +17,16 @@
 
 .experience__content{
     width: 1920px;
-    padding-left: 374px;
+    padding-left: 754px;
     padding-top: 206px;
      height: 738px;
+     position: absolute;
 }
 
 
 #myVideo2{
     width: 100%;
     height: auto;
-    position: absolute;
 }
 
 

@@ -6,7 +6,10 @@
 
     .header__top{
         width: 280px;
-        padding-left: 10px;
+        padding-left: 60px;
+}
+.header__top_wrapper{
+    width:100%;
 }
 
     .header__arrow {
