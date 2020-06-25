@@ -23,7 +23,7 @@ function page_animation(){
         var tl = gsap.timeline({repeat: 1,autoRemoveChildren: true});
 
         tl.addLabel("pause","0.5");
-        tl.from("#curtain",{duration: 2, height:height, opacity:1},"pause");
+        tl.from("#curtain",{duration: 2, height:height},"pause");
         tl.addLabel("header1","-=2");
         tl.from(".header__top",{duration: 2, opacity:0},"pause+=1");
         tl.from(".header__arrow",{duration:2, y:  props * 50, opacity:0.8}, "header1");
