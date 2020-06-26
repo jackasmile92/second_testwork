@@ -5,6 +5,7 @@
     background-image: url("../../src/img/png/02-banner-pml.png");
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .banner01__background{

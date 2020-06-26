@@ -50,6 +50,7 @@ function page_animation(){
         tl2.from(".clients__numbers",{duration:1,y:  props *200},"second_slide");
         tl2.from(".number",{duration:1,y:  props *200, stagger:0.1},"second_slide");
         tl2.from(".number__text",{duration:1,y:  props *200, stagger:0.1},"second_slide");
+        
 
 
         var Cont={val:0} , NewVal = 10000 ;
@@ -95,6 +96,8 @@ function page_animation(){
         tl3.addLabel("third_slide");
         tl3.to("#black_lg",{opacity:1},"third_slide");
         tl3.to("#white_lg",{opacity:0},"third_slide");
+        tl3.to(".viewport",{duration:1, backgroundColor:"white"},"third_slide");
+        tl3.to("#viewport_background",{duration:1, opacity:0.2},"third_slide");
 
         var scene3  = new ScrollMagic.Scene({reverse:true});
         scene3.setTween(tl3);
@@ -163,6 +166,9 @@ function page_animation(){
         tl4.to("#black_lg",{opacity:0},"fourth_slide");
         tl4.to("#white_lg",{opacity:1},"fourth_slide");
         tl4.from(".banner01_text_wrap",{x:  props *(-1000)},"fourth_slide");
+        
+        tl4.to(".viewport",{duration:1, backgroundColor:"black"},"fourth_slide");
+        tl4.to("#viewport_background",{duration:1, opacity:0.4},"fourth_slide");
 
         var scene4  = new ScrollMagic.Scene({reverse:true});
         scene4.setTween(tl4);
@@ -181,7 +187,8 @@ function page_animation(){
         tl5.from(".trig_two",{duration:.5,opacity:0},"fifth_slide+=1 ");
         tl5.from(".trig_three",{duration:.5,opacity:0},"fifth_slide+=1.5");
         tl5.from(".banner02__point",{duration:.5, opacity:0, x:  props *200, stagger:0.5},"fifth_slide+=2");
-
+        tl5.to(".viewport",{duration:1, backgroundColor:"white"},"fifth_slide");
+        tl5.to("#viewport_background",{duration:1, opacity:0.2},"fifth_slide");
         var scene5  = new ScrollMagic.Scene({reverse:true});
         scene5.setTween(tl5);
         scene5.triggerElement(".banner02");
@@ -196,6 +203,9 @@ function page_animation(){
         tl6.to("#white_lg",{opacity:1},"sixth_slide");
         tl6.from('.experience__bottom',{duration:1,x:  props *1000},"sixth_slide");
         tl6.from('.experience__title',{duration:1.5,opacity:.2},"sixth_slide");
+        
+        tl6.to(".viewport",{duration:1, backgroundColor:"black"},"sixth_slide");
+        tl6.to("#viewport_background",{duration:1, opacity:0.4},"sixth_slide");
         var scene6  = new ScrollMagic.Scene({reverse:true});
         scene6.setTween(tl6);
         scene6.triggerElement(".experience");

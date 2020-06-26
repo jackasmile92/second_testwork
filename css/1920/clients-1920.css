@@ -2,9 +2,6 @@
 .clients_wriper{
     display: flex;
     justify-content: center;
-    background-image: url("../../src/img/gif/Noise-200px.gif");
-    background-repeat: repeat;
-    background-size: 500px 500px;
 }
 
 .clients{

@@ -2,8 +2,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    background-image: url("../../src/img/gif/Noise-200px.gif");
-    background-repeat: repeat;
     position: relative;
 }
 
