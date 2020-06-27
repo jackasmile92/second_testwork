@@ -1,50 +1,68 @@
-@media only screen and (max-width: 850px){
-    .banner02__figures.middle{
+@media only screen and (max-width: 850px) {
+    .banner02__figures.middle {
         display: none;
     }
 
-    .banner02__figures.small{
+    .banner02__figures.small {
         display: inline;
         padding-left: 139px;
         padding-top: 142px;
     }
 
-    .banner02,.banner02__background{
+    .banner02,
+    .banner02__background {
 
         height: 973px;
     }
 
-    .banner02__points{
+    .banner02__points {
         flex-direction: column;
         width: 450px;
         margin-left: 245px;
         margin-top: 64px;
     }
 
-    .banner02__point-text{
-        width: 450px;      
+    .banner02__point-text {
+        width: 450px;
         font-size: 14px;
     }
 
-    .banner02__point{
+    .banner02__point {
         margin-top: 0px;
-        margin-left:0px;
+        margin-left: 0px;
     }
 
-    .banner02__point:nth-child(3), .banner02__point:nth-child(2){
+    .banner02__point:nth-child(3),
+    .banner02__point:nth-child(2) {
         margin-left: 0px;
         margin-top: 66px;
     }
 
-    .banner02__point:nth-child(1) .banner02__point-text{
-        width: 400px;  
+    .banner02__point:nth-child(1) .banner02__point-text {
+        width: 400px;
     }
 
-    .banner02__title{
+    .banner02__title {
         margin-left: 81px;
         margin-top: 223px;
     }
-    .banner02__content{
+
+    .banner02__content {
         width: 768px;
+    }
+
+    /*background*/
+    .banner02,
+    .services__wrapper {
+        background-color: white;
+    }
+
+    .banner02__background,
+    .services__background {
+        background-image: url("../../src/img/gif/Noise-200px.gif");
+        background-repeat: repeat;
+
+        background-size: 400px 400px;
+        opacity: 0.1;
     }
 }
