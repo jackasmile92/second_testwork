@@ -1,5 +1,5 @@
-@media only screen and (max-width: 1200px){
-    .experience{
+@media only screen and (max-width: 1200px) {
+    .experience {
         height: 624px;
         padding-left: 46px;
         padding-top: 144px;
@@ -7,67 +7,78 @@
         background-position-x: -260px;
     }
 
-    .experience__content{
+    .experience .video__shade {
+        height: 770px;
+    }
+
+    .experience__content {
         width: 1024px;
     }
-    
-    #myVideo2{
+
+    #myVideo2 {
         width: auto;
-        height:  768px;
+        height: 768px;
+    }
+
+    #myVideo2,
+    .experience .video__shade {
         margin-left: -46px;
         margin-top: -144px;
     }
 
-    .experience__title-text{
+    .experience__title-text {
         font-size: 60px;
         letter-spacing: -1.28px;
     }
 
-    .experience__rect{
+    .experience__rect {
         width: 12px;
         height: 12px;
         margin-top: 100px;
         margin-left: 10px;
     }
 
-    .experience__arrows{
+    .experience__arrows {
         margin-top: 75px;
         margin-left: 481px;
     }
 
-    .experience__arrow.left img{
+    .experience__arrow.left img {
         transform: rotate(180deg);
         margin-right: 20px;
     }
 
-    .experience__bottom{
+    .experience__bottom {
         margin-top: 58px;
         width: 2000px;
     }
-    
-    .experience__point{
+
+    .experience__point {
         width: 396px;
         padding-left: 30px;
         padding-top: 36px;
         height: 240px;
     }
-    .experience__point-top.medium{
+
+    .experience__point-top.medium {
         display: inline;
         width: 380px;
 
     }
-    .experience__point-top.big{
+
+    .experience__point-top.big {
         display: none;
     }
-    .experience__point.white{
+
+    .experience__point.white {
         width: 396px;
         padding-left: 29px;
         padding-top: 36px;
         height: 240px;
     }
 
-    .experience__point-top{
-                
+    .experience__point-top {
+
         width: 343.4px;
     }
 }

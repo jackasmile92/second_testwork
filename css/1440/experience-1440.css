@@ -1,23 +1,32 @@
-@media only screen and (max-width: 1500px){
-    .experience{
+@media only screen and (max-width: 1500px) {
+    .experience {
         height: 710px;
         background-image: url("../../src/img/png/03-integration@2x.png");
         background-size: auto 900px;
-        
+
         padding-left: 134px;
         padding-top: 190px;
-    
+
     }
-    .experience__content{
+
+    .experience__content {
         width: 1440px;
-        height:  900px;
+        height: 900px;
         padding-left: 0;
         padding-top: 0;
     }
-    
-    #myVideo2{
+
+    #myVideo2 {
         width: auto;
-        height:  900px;
+        height: 900px;
+    }
+
+    .experience .video__shade{
+        height: 710px;
+    }
+
+    #myVideo2,
+    .experience .video__shade {
         margin-left: -134px;
         margin-top: -190px;
     }
