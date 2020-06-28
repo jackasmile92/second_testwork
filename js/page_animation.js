@@ -123,7 +123,7 @@ function page_animation(){
         tl3_2.from("#p_t_a",{duration:.5,y:  props *200},"third_slide_two");
         tl3_2.from("#p_l_a",{duration:.5,y:  props *200},"third_slide_two+=.1");
         tl3_2.from("#p_i_a",{duration:.5,y:  props *200},"third_slide_two+=.1");
-        tl3_2.from("#s_r_1",{duration:1,rotation:360},"third_slide_two+=.1");
+        tl3_2.from("#s_r_1",{duration:2,rotation:360},"third_slide_two+=.1");
         tl3_2.from("#st_1",{duration:.5,y:  props *200},"third_slide_two+=.1");
 
         var scene3_2  = new ScrollMagic.Scene({reverse:true});
@@ -149,7 +149,7 @@ function page_animation(){
         tl3_4.from("#p_t_p",{duration:.5,y:  props *200},"third_slide_fourth");
         tl3_4.from("#p_l_p",{duration:.5,y:  props *200},"third_slide_fourth+=.1");
         tl3_4.from("#p_i_p",{duration:.5,y:  props *200},"third_slide_fourth+=.1");
-        tl3_4.from("#s_r_2",{duration:1,rotation:360},"third_slide_fourth+=.1");
+        tl3_4.from("#s_r_2",{duration:2,rotation:360},"third_slide_fourth+=.1");
         tl3_4.from("#st_2",{duration:.5,y:  props *200},"third_slide_fourth+=.1");
 
         var scene3_4  = new ScrollMagic.Scene({reverse:true});
