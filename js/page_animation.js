@@ -167,7 +167,7 @@ function page_animation(){
         tl4.to("#white_lg",{opacity:1},"fourth_slide");
         tl4.from(".banner01_text_wrap",{x:  props *(-1000)},"fourth_slide");
         
-        tl4.to(".viewport",{duration:1, backgroundColor:"black"},"fourth_slide");
+        //tl4.to(".viewport",{duration:1, backgroundColor:"black"},"fourth_slide");
         tl4.to("#viewport_background",{duration:1, opacity:0.4},"fourth_slide");
 
         var scene4  = new ScrollMagic.Scene({reverse:true});
@@ -187,7 +187,7 @@ function page_animation(){
         tl5.from(".trig_two",{duration:.5,opacity:0},"fifth_slide+=1 ");
         tl5.from(".trig_three",{duration:.5,opacity:0},"fifth_slide+=1.5");
         tl5.from(".banner02__point",{duration:.5, opacity:0, x:  props *200, stagger:0.5},"fifth_slide+=2");
-        tl5.to(".viewport",{duration:1, backgroundColor:"white"},"fifth_slide");
+        //tl5.to(".viewport",{duration:1, backgroundColor:"white"},"fifth_slide");
         tl5.to("#viewport_background",{duration:1, opacity:0.1},"fifth_slide");
         var scene5  = new ScrollMagic.Scene({reverse:true});
         scene5.setTween(tl5);

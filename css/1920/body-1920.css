@@ -1,6 +1,5 @@
-
-
-body, html{
+body,
+html {
     margin: 0px;
     width: 100%;
     background-color: black;
@@ -15,7 +14,7 @@ body {
     margin: auto;
     overflow-y: scroll;
     box-sizing: border-box;
-    
+
 }
 
 .viewport {
@@ -25,5 +24,13 @@ body {
     width: 100%;
     top: 0;
     bottom: 0;
-  }
-  
+}
+
+
+:focus {
+    outline: none;
+}
+
+.tns-liveregion.tns-visually-hidden{
+    display: none;
+}
