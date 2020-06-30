@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1439px){
     .header{
         width: 976.5px;
-        height: 768px;
+        min-height: 400px;
         /*background-image: url("../../src/img/png/01-main.png");*/
         background-size: auto 768px;
         background-position: -340px;
@@ -62,7 +62,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        height: 768px;
+        min-height: 400px;
       
     
     }

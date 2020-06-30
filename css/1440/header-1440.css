@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1500px){
     .header{
         width: 1373px;
-        height: 900px;
+        min-height: 400px;
     }
 
     .header__top{
@@ -38,7 +38,7 @@
     }
 
     .header__wriper{
-        height: 900px;
+        min-height: 400px;
     }
 
     #myVideo{

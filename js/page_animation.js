@@ -41,9 +41,8 @@ function page_animation(){
         /*Clients SecondSlide*/
         var tl2 = gsap.timeline();
         tl2.addLabel("second_slide");
-        tl2.to(".header__bottom",{duration:1,y:  props *300},"second_slide");
-        tl2.to(".header__pike",{duration:1.5, x:  props * (-2000) ,y:  props *(-1000), opacity:0.7},"second_slide+=.5");
-        tl2.to(".header__media",{duration:1.5, x:  props * 2000,y:  props *(-1000),  opacity:0.7},"second_slide+=.5");
+        tl2.to(".header__pike",{duration:1, x:  props * (-2000) , opacity:0.7},"second_slide");
+        tl2.to(".header__media",{duration:1, x:  props * 2000 ,  opacity:0.7},"second_slide");
         tl2.to(".header__text",{duration:1,y:  props *(-300), opacity:0},"second_slide");
         tl2.to("#arrow_img",{opacity:0},"second_slide");
         tl2.to("#white_lg",{opacity:1},"second_slide");

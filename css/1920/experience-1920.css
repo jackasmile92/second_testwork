@@ -6,7 +6,13 @@
     position: relative;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
+
+.experience .video__shade{
+    height: 944px;
+}
+
 
 .experience__background{
     width: 100%;
