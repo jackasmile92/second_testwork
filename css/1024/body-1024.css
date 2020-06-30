@@ -1,6 +1,6 @@
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 1439px){
     body, html{
-        width: 1024px;
+        width: 100%;
         
     }
 }

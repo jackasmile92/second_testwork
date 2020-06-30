@@ -168,7 +168,7 @@ function page_animation(){
         tl4.from(".banner01_text_wrap",{x:  props *(-1000)},"fourth_slide");
         
         //tl4.to(".viewport",{duration:1, backgroundColor:"black"},"fourth_slide");
-        tl4.to("#viewport_background",{duration:1, opacity:0.4},"fourth_slide");
+        //tl4.to("#viewport_background",{duration:1, opacity:0.4},"fourth_slide");
 
         var scene4  = new ScrollMagic.Scene({reverse:true});
         scene4.setTween(tl4);
@@ -188,7 +188,7 @@ function page_animation(){
         tl5.from(".trig_three",{duration:.5,opacity:0},"fifth_slide+=1.5");
         tl5.from(".banner02__point",{duration:.5, opacity:0, x:  props *200, stagger:0.5},"fifth_slide+=2");
         //tl5.to(".viewport",{duration:1, backgroundColor:"white"},"fifth_slide");
-        tl5.to("#viewport_background",{duration:1, opacity:0.1},"fifth_slide");
+        //tl5.to("#viewport_background",{duration:1, opacity:0.1},"fifth_slide");
         var scene5  = new ScrollMagic.Scene({reverse:true});
         scene5.setTween(tl5);
         scene5.triggerElement(".banner02");
@@ -204,8 +204,7 @@ function page_animation(){
         tl6.from('.experience__bottom',{duration:1,x:  props *1000},"sixth_slide");
         tl6.from('.experience__title',{duration:1.5,opacity:.2},"sixth_slide");
         
-        tl6.to(".viewport",{duration:1, backgroundColor:"black"},"sixth_slide");
-        tl6.to("#viewport_background",{duration:1, opacity:0.4},"sixth_slide");
+
         var scene6  = new ScrollMagic.Scene({reverse:true});
         scene6.setTween(tl6);
         scene6.triggerElement(".experience");
@@ -217,6 +216,9 @@ function page_animation(){
         var tl7= gsap.timeline();
         tl7.addLabel("seven_slide");
         tl7.to(".header__top",{opacity:0},"seven_slide");
+
+        tl7.to(".viewport",{duration:1, backgroundColor:"black"},"seven_slide");
+        tl7.to("#viewport_background",{duration:1, opacity:0.4},"seven_slide");
 
         tl7.from("#feedback__bottom__title",{duration:1,y:  props *200},"seven_slide");
         tl7.from("#feedback__bottom__form",{duration:1,y:  props *200},"seven_slide+=0.2");

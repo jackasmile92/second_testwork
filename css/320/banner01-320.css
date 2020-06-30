@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 767px){
     .banner01{
         height: 442px; 
         background-image: url("../../src/img/png/02-banner-pml-smol(3).jpg");
