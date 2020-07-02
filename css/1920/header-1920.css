@@ -68,7 +68,7 @@
     cursor: pointer;
 }
 
-.header__button div {
+.header__button{
     width: 199px;
     font-family: GothamPro;
     font-size: 14px;

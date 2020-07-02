@@ -1,9 +1,18 @@
+.footer__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+}
+
+
 .footer{
     display: flex;
     flex-direction: row;
     align-items:flex-start;
     justify-content: space-between;
-    background-color: black;
+
     color: white;
     height: 240px;
     width: 100%;

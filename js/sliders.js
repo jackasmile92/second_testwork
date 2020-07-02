@@ -74,31 +74,60 @@ $(document).ready(tinySlider());
 
 
 $("#clients__arrow_right").click(function () {
-    if(this.getAttribute('aria-disabled') == "true"){
-        $(".clients__arrow.right img").fadeTo("slow", 0.33); 
-    }else{
-        $(".clients__arrow.right img").fadeTo("slow", 1);
+    if (this.getAttribute('aria-disabled') == "true") {
+        $(".clients__arrow.right img").fadeTo("slow", 0.33);
+    } else {
         $(".clients__arrow.left img").fadeTo("slow", 1);
     }
 
 });
-
 
 $("#clients__arrow_left").click(function () {
-    if(this.getAttribute('aria-disabled') == "true"){
-        $(".clients__arrow.left img").fadeTo("slow", 0.33); 
-    }else{
+    if (this.getAttribute('aria-disabled') == "true") {
+        $(".clients__arrow.left img").fadeTo("slow", 0.33);
+    } else {
         $(".clients__arrow.right img").fadeTo("slow", 1);
-        $(".clients__arrow.left img").fadeTo("slow", 1);
     }
 
 });
 
-        $("#experience__arrow_right").click(function () {
-    if(this.getAttribute('aria-disabled') == "true"){
-        $(".experience__arrow.right img").fadeTo("slow", 0.33); 
-    }else{
-        $(".experience__arrow.right img").fadeTo("slow", 1);
+$("#clients__arrow_right").on('mouseenter', function () {
+    if (this.getAttribute('aria-disabled') !== "true") {
+        TweenLite.to("#clients__arrow_right", .5, {
+            opacity: .7
+        });
+    }
+});
+
+$("#clients__arrow_right").on('mouseout', function () {
+    if (this.getAttribute('aria-disabled') !== "true") {
+        TweenLite.to("#clients__arrow_right", .5, {
+            opacity: 1
+        });
+    }
+});
+
+
+$("#clients__arrow_left").on('mouseenter', function () {
+    if (this.getAttribute('aria-disabled') !== "true") {
+        TweenLite.to("#clients__arrow_left", .5, {
+            opacity: .7
+        });
+    }
+});
+
+$("#clients__arrow_left").on('mouseout', function () {
+    if (this.getAttribute('aria-disabled') !== "true") {
+        TweenLite.to("#clients__arrow_left", .5, {
+            opacity: 1
+        });
+    }
+});
+
+$("#experience__arrow_right").click(function () {
+    if (this.getAttribute('aria-disabled') == "true") {
+        $(".experience__arrow.right img").fadeTo("slow", 0.33);
+    } else {
         $(".experience__arrow.left img").fadeTo("slow", 1);
     }
 
@@ -106,11 +135,44 @@ $("#clients__arrow_left").click(function () {
 
 
 $("#experience__arrow_left").click(function () {
-    if(this.getAttribute('aria-disabled') == "true"){
-        $(".experience__arrow.left img").fadeTo("slow", 0.33); 
-    }else{
+    if (this.getAttribute('aria-disabled') == "true") {
+        $(".experience__arrow.left img").fadeTo("slow", 0.33);
+    } else {
         $(".experience__arrow.right img").fadeTo("slow", 1);
-        $(".experience__arrow.left img").fadeTo("slow", 1);
     }
 
+});
+
+
+$("#experience__arrow_right").on('mouseenter', function () {
+    if (this.getAttribute('aria-disabled') !== "true") {
+        TweenLite.to("#experience__arrow_right", .5, {
+            opacity: .7
+        });
+    }
+});
+
+$("#experience__arrow_right").on('mouseout', function () {
+    if (this.getAttribute('aria-disabled') !== "true") {
+        TweenLite.to("#experience__arrow_right", .5, {
+            opacity: 1
+        });
+    }
+});
+
+
+$("#experience__arrow_left").on('mouseenter', function () {
+    if (this.getAttribute('aria-disabled') !== "true") {
+        TweenLite.to("#experience__arrow_left", .5, {
+            opacity: .7
+        });
+    }
+});
+
+$("#experience__arrow_left").on('mouseout', function () {
+    if (this.getAttribute('aria-disabled') !== "true") {
+        TweenLite.to("#experience__arrow_left", .5, {
+            opacity: 1
+        });
+    }
 });
