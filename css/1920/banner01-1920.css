@@ -85,3 +85,11 @@
     background-color: black;
     opacity: .3;
 }
+
+#banner01_link{
+    text-decoration: none;
+}
+
+#banner01_link:hover{
+    cursor: pointer;
+}
