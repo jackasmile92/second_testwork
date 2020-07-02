@@ -10,8 +10,7 @@
     position: absolute;
 
     z-index: 99;
-    position:fixed;
-
+    background-image: url("../../src/img/gif/Noise-200px.gif");
 }
 
 .popup__feedback{
@@ -19,7 +18,7 @@
     margin-right: auto;
     width: 1920px;
     height: 971px;    
-    background-image: url("../../src/img/gif/Noise-200px.gif");
+
     padding-top: 109px;
 
 }
