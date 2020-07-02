@@ -355,6 +355,9 @@
          var tl5 = gsap.timeline();
          var tl5 = gsap.timeline();
          tl5.addLabel("fifth_slide");
+         tl5.to(".banner01_text_wrap", {
+            x: props * (1000)
+        }, "fifth_slide");
          tl5.to("#black_lg", {
              opacity: 1
          }, "fifth_slide");
