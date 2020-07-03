@@ -7,3 +7,19 @@
     font-family: GothamPro-Bold;
     src: url("../src/fonts/GothamPro-Bold.ttf");
 }
+
+@font-face {
+    font-family: GothamPro-New;
+    src: url("../src/fonts/GothamPro_new.otf");
+}
+
+
+@font-face {
+    font-family: GothamPro-Bold;
+    src: url("../src/fonts/GothamPro-Bold.otf");
+}
+
+@font-face {
+    font-family: GothamPro-Medium;
+    src: url("../src/fonts/GothamPro-Bold.otf");
+}

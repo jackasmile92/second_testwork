@@ -28,7 +28,7 @@
          tl.addLabel("pause", "0.5");
          tl.from("#curtain", {
              duration: 2,
-             height: height
+             height:  '100vh'
          }, "pause");
          tl.addLabel("header1", "-=2");
          tl.from(".header__top", {
