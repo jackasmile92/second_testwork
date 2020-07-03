@@ -5,6 +5,7 @@
         background-position-x: center;
         margin-left: 0px;
         padding-top: 54px;
+        padding-left: 25px;
     }
 
 
@@ -14,9 +15,10 @@
     }
 
     .experience__point-top,.experience__point-bottom{
-        font-size: 15px;
+        font-size: 14px;
 
     }
+
 
     .experience__title-text{
         width: 264px;
@@ -49,7 +51,7 @@
 
     .experience__point, .experience__point.white{
         width: 283px;
-        height: 233px;
+        height: 213px;
         padding-top: 37px;
         padding-bottom: 22px;
         padding-left: 37px;

@@ -228,3 +228,7 @@
     opacity: 0;
     scale: 0.5;
 }
+
+.product__title.archive br{
+    display:none;
+ } 

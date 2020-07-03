@@ -2,11 +2,12 @@
     .header{
         width: 300px;
         min-height: 400px;
+        padding-left: 0px;
     }
 
     .header__top{
         width: 280px;
-        padding-left: 60px;
+        padding-left: 20px;
 }
 .header__top_wrapper{
     width:100%;
@@ -28,23 +29,18 @@
     }
 
     .header__button{
-        width: 199px;
-        height: 50px;
-        margin-right: 0px;
-        margin-top: -9px;
-        margin-left: -246px;
-    }
-
-
-
-    .header__button{
         background-image: url('../../src/img/png/telephon@3x.png') ;
         background-color: transparent;
         background-size: 29px 35px;
-        margin-left: -34px;
+        margin-left: -30px;
         width: 29px;
         height: 35px;
         font-size: 0;
+        
+    }
+    
+    .header__button_wrap{
+        margin-top: -9px;
     }
 
     .header__text br{
@@ -56,29 +52,30 @@
     }
 
     .header__text{
-        font-size: 14px;
-        margin-top: 23px;
+        font-family: GothamPro-New;
+        font-size: 13px;
+        margin-top: 22px;
         margin-left: 8px;
-        width:274px;
+        width:265px;
         line-height: 1.65;
-        letter-spacing: .20px;
+        letter-spacing: .6px;
     }
     .header__pike img{
         height: 51px;
         width: 183px;
-        margin-left: 5.5px;
+        margin-left: 12px;
     }
 
     #header__media_part1 img{
         width: 266px;
         height: 52px;
         margin-left: 12.5px;
-        margin-top: 10px;
+        margin-top: 7px;
     }
     #header__media_part2 img{
         width: 123px;
         height: 51px;
-        margin-top: 9px;
+        margin-top: 7px;
         margin-left: 154px;
         padding-bottom: -3px;
         
