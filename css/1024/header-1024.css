@@ -68,5 +68,10 @@
     }
 
 
+
+    #myVideo{
+        width: auto;
+        height: 768px;
+    }
 }
 

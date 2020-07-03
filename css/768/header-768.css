@@ -15,9 +15,6 @@
     .header__intro{
         flex-direction: column;
     }
-    #curtain{
-        width: 768px;
-    }
 
     .header__media{
         display: none;
@@ -63,9 +60,6 @@
         min-height: 400px;
     }
 
-    #myVideo{
-    display: none;
-    }
-    
+
 
 }

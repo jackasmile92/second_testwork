@@ -2,7 +2,6 @@
     width: 1853px;
     height: 100vh;
     min-height: 700px;
-    max-height: 1080px;
     padding-left: 67px;
     /* background-image: url("../../src/img/png/01-main.png");*/
 
@@ -59,21 +58,24 @@
     width: 200px;
     height: 50px;
     background-color: #01da00;
+    padding-left: 0px;
     border: none;
     margin-top: -5px;
     margin-right: 68px;
-    width: 100;
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 1.01px;
-    text-align: center;
-    color: #000000;
 }
 
 .header__button:hover {
     cursor: pointer;
 }
 
+.header__button{
+    width: 199px;
+    font-family: GothamPro-Medium;
+    font-size: 14px;
+    letter-spacing: 1.01px;
+    text-align: center;
+    color: #000000;
+}
 
 .header__bottom {
     display: flex;
@@ -124,18 +126,18 @@
 }
 
 #myVideo {
-    width: 100%;
-    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+    object-fit: cover;
 }
 
 .header__wriper {
     position: relative;
     width: 100%;
     height: 100vh;
-        min-height: 700px;
-    max-height: 1080px;
+    min-height: 700px;
     overflow: hidden;
-    /*background-image: url("../../src/img/png/01-main.png");*/
+
 }
 
 #curtain {
@@ -147,7 +149,10 @@
 }
 
 .header__background {
-    width: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
+    object-fit: cover;
+    position: absolute;
 }
 
 .viewport {
@@ -156,7 +161,7 @@
 
 #viewport_background {
     position: absolute;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     opacity: 0.4;
     background-image: url("../../src/img/gif/Noise-200px.gif");
