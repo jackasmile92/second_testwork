@@ -470,6 +470,11 @@
              y: props * -300,
              opacity: 0
          }, "second_slide");
+         tl2.to(".header__text", {
+            duration: .1,
+            height: 0,
+            width:0
+        }, "second_slide+=1");
 
          var scene2 = new ScrollMagic.Scene({
              reverse: true

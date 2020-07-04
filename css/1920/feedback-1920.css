@@ -1,11 +1,11 @@
-.feedback__bottom__wrapper{
+.feedback__bottom__wrapper {
     width: 100%;
     display: flex;
     justify-content: center;
     position: relative;
 }
 
-.feedback{
+.feedback {
 
     width: 1529px;
     height: 827px;
@@ -13,7 +13,7 @@
     padding-top: 181px;
 }
 
-.feedback__title{
+.feedback__title {
     width: 856px;
     height: 240px;
     font-family: GothamPro-Bold;
@@ -26,20 +26,20 @@
     color: #ffffff;
 }
 
-.feedback__dot{
+.feedback__dot {
     color: #01da00;
     margin-left: 10px;
     font-size: 95px;
     line-height: 0.7;
 }
 
-.feedback__form{
+.feedback__form {
     display: flex;
     flex-direction: row;
     padding-top: 63px;
 }
 
-.feedback__info{
+.feedback__info {
     width: 361px;
     height: 72px;
     font-family: GothamPro;
@@ -53,23 +53,21 @@
     margin-top: 2px;
 }
 
-.feedback__input{
+.feedback__input {
     margin-left: 140px;
 }
 
-.feedback__field input{
-    width:570px;
-    height:20px;
+.feedback__field input {
+    width: 570px;
+    height: 20px;
     border: none;
-    outline:none;
-    background-color:transparent;
+    outline: none;
+    background-color: transparent;
     border-bottom: 2px solid #01da00;
     color: #ffffff;
     font-family: GothamPro;
     font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
+    background: none;
     line-height: 1.5;
     letter-spacing: normal;
     padding-bottom: 23px;
@@ -77,18 +75,20 @@
     margin-top: 1px;
 }
 
-.feedback__field input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.feedback__field input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #ffffff;
-    opacity: 1; /* Firefox */
+    opacity: 1;
+    /* Firefox */
 }
 
-.feedback__button{
+.feedback__button {
     margin-top: 9px;
     width: 169px;
     height: 50px;
     background-color: #01da00;
     border: none;
-    padding-left:0px;
+    padding-left: 0px;
     font-family: GothamPro;
     font-size: 14px;
     font-weight: 500;
@@ -96,11 +96,10 @@
     font-style: normal;
     line-height: normal;
     letter-spacing: 1.01px;
-    color: #000000;                
+    color: #000000;
     text-align: center;
 }
 
-.feedback__button:hover{
+.feedback__button:hover {
     cursor: pointer;
 }
-

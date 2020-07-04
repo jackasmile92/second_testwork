@@ -36,15 +36,15 @@ function onLoad() {
 
 function updateScroller() {
 
-  var resized = scroller.resizeRequest > 0;
+  let resized = scroller.resizeRequest > 0;
 
   if (resized) {
-    var height = scroller.target.clientHeight;
+    let height = scroller.target.clientHeight;
     body.style.height = height + "px";
     scroller.resizeRequest = 0;
   }
 
-  var scrollY = window.pageYOffset || html.scrollTop || body.scrollTop || 0;
+  let scrollY = window.pageYOffset || html.scrollTop || body.scrollTop || 0;
   if (onloadd) {
     scrollY = 0;
     window.scroll(0, 0);

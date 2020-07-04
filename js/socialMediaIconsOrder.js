@@ -1,6 +1,6 @@
-var socialMediaIcons = ['vk', 'facebook', 'insta', 'ok', 'twitter', 'switch', 'youtube'];
-var socialMediaIconsMobile = ['switch', 'vk', 'youtube', 'facebook', 'insta', 'ok', 'twitter'];
-var socialMediaOrder = [];
+let socialMediaIcons = ['vk', 'facebook', 'insta', 'ok', 'twitter', 'switch', 'youtube'];
+let socialMediaIconsMobile = ['switch', 'vk', 'youtube', 'facebook', 'insta', 'ok', 'twitter'];
+let socialMediaOrder = [];
 
 function generateIcons() {
     let iconsCode = '';
@@ -37,7 +37,7 @@ function addFooterIcons(isMobile = false) {
 function pageIcons(){
     let width = $(window).width();
 
-    if(width > 600 ){
+    if(width > 768 ){
         addFooterIcons(false);
     }else{
         addFooterIcons(true);

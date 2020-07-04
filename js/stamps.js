@@ -1,4 +1,4 @@
-var duration = 1;
+let duration = 1;
 
 
 $(".servises__stamp.one").on('mouseenter',function(){
