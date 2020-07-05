@@ -24,10 +24,6 @@
         display: none;
     }
 
-    #curtain{
-        display:none;
-    }
-
     .header__button{
         background-image: url('../../src/img/png/telephon@3x.png') ;
         background-color: transparent;

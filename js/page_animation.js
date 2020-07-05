@@ -18,7 +18,7 @@
          props = 1024 / 1920;
      }
 
-     if (width > 850) {
+     if (width > 1023) {
 
          var tl = gsap.timeline({
              repeat: 1,
