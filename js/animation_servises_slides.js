@@ -75,13 +75,18 @@ tl3_2.from("#p_i_a", {
     y: 200
 }, "third_slide_two+=.1");
 
-//samp 1 animation
+//stamp 1 animation
 if (width > 1439) {
     tl3_2.from("#s_r_1", {
         duration: 2,
         rotation: 360
     }, "third_slide_two+=.1");
     tl3_2.from("#st_1", {
+        duration: .5,
+        y: 200
+    }, "third_slide_two+=.1");
+}else{
+    tl3_2.from("#green_1", {
         duration: .5,
         y: 200
     }, "third_slide_two+=.1");
@@ -149,6 +154,11 @@ if (width > 1439) {
         rotation: 360
     }, "third_slide_fourth+=.1");
     tl3_4.from("#st_2", {
+        duration: .5,
+        y: 200
+    }, "third_slide_fourth+=.1");
+}else{
+    tl3_4.from("#green_2", {
         duration: .5,
         y: 200
     }, "third_slide_fourth+=.1");
