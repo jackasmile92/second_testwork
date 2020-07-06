@@ -21,6 +21,13 @@ tl2.to(".header__text", {
     opacity: 0
 }, "second_slide");
 
+tl2.to(".header__text", {
+    duration: 0,
+    height:0,
+    opacity: 0
+}, "second_slide+=1");
+
+
 
 //fixed button logo animation
 tl2.to("#arrow_img", {
